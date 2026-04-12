@@ -11,7 +11,8 @@
           {
             "id": "merchant-class",
             "name": "Merchant Class",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fmerchant-class.bs"
           },
           {
             "id": "urban-growth",
@@ -29,14 +30,16 @@
           {
             "id": "trade-networks",
             "name": "Trade Networks",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Ftrade-networks.bs"
           },
           {
             "id": "banking-institutions",
             "name": "Banking Institutions",
             "deps": [
               "trade-networks"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fbanking-institutions.bs"
           }
         ]
       },
@@ -47,16 +50,19 @@
           {
             "id": "humanism",
             "name": "Humanism",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fhumanism.bs"
           },
           {
             "id": "art-patronage",
             "name": "Art Patronage",
             "deps": [
               "humanism"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fart-patronage.bs"
           }
-        ]
+        ],
+        "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcultural-shifts.bs"
       },
       {
         "id": "political-institutions",
@@ -65,7 +71,8 @@
           {
             "id": "city-states",
             "name": "City States",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcity-states.bs"
           },
           {
             "id": "absolutist-rulers",

@@ -13,14 +13,16 @@
             "name": "Absolutist Monarchy",
             "deps": [
               "centralized-state"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fabsolutist-monarchy.bs"
           },
           {
             "id": "centralized-state",
             "name": "Centralized State",
             "deps": [
               "merchant-class"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcentralized-state.bs"
           }
         ]
       },
@@ -32,14 +34,15 @@
             "id": "merchant-class",
             "name": "Merchant Class",
             "deps": [],
-            "external": "?load=merchant-class.bs"
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fmerchant-class.bs"
           },
           {
             "id": "trade-networks",
             "name": "Trade Networks",
             "deps": [
               "merchant-class"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Ftrade-networks.bs"
           }
         ]
       },
@@ -52,14 +55,16 @@
             "name": "Divine Right",
             "deps": [
               "absolutist-monarchy"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fdivine-right.bs"
           },
           {
             "id": "national-identity",
             "name": "National Identity",
             "deps": [
               "centralized-state"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fnational-identity.bs"
           }
         ]
       },
@@ -72,14 +77,16 @@
             "name": "Court Culture",
             "deps": [
               "absolutist-monarchy"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcourt-culture.bs"
           },
           {
             "id": "artistic-patronage",
             "name": "Artistic Patronage",
             "deps": [
               "merchant-class"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fartistic-patronage.bs"
           }
         ]
       },
@@ -92,14 +99,16 @@
             "name": "Nobility Decline",
             "deps": [
               "centralized-state"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fnobility-decline.bs"
           },
           {
             "id": "commoner-rise",
             "name": "Commoner Rise",
             "deps": [
               "merchant-class"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcommoner-rise.bs"
           }
         ]
       },
@@ -112,7 +121,8 @@
             "name": "Administrative Systems",
             "deps": [
               "centralized-state"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fadministrative-systems.bs"
           },
           {
             "id": "legal-frameworks",
@@ -120,7 +130,7 @@
             "deps": [
               "administrative-systems"
             ],
-            "external": "?load=legal-frameworks.bs"
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Flegal-frameworks.bs"
           }
         ]
       }

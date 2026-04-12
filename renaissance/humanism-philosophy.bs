@@ -40,7 +40,8 @@
             "name": "Empiricism",
             "deps": [
               "sensory-data"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fempiricism.bs"
           }
         ]
       },
@@ -106,7 +107,8 @@
           {
             "id": "sensory-data",
             "name": "Sensory Data",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fsensory-data.bs"
           }
         ]
       }

@@ -13,21 +13,24 @@
             "name": "Renaissance Tragedy",
             "deps": [
               "classical-texts"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Ftragedy-renaissance.bs"
           },
           {
             "id": "comedy-renaissance",
             "name": "Renaissance Comedy",
             "deps": [
               "classical-texts"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcomedy-renaissance.bs"
           },
           {
             "id": "tragedy-modern",
             "name": "Modern Tragedy",
             "deps": [
               "tragedy-renaissance"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Ftragedy-modern.bs"
           }
         ]
       },
@@ -38,16 +41,19 @@
           {
             "id": "greek-tragedy",
             "name": "Greek Tragedy",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fgreek-tragedy.bs"
           },
           {
             "id": "roman-comedy",
             "name": "Roman Comedy",
             "deps": [
               "greek-tragedy"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Froman-comedy.bs"
           }
-        ]
+        ],
+        "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fclassical-texts.bs"
       },
       {
         "id": "theatrical-practices",
@@ -58,14 +64,16 @@
             "name": "Renaissance Stage Design",
             "deps": [
               "tragedy-renaissance"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fstage-design-renaissance.bs"
           },
           {
             "id": "acting-methods",
             "name": "Acting Methods",
             "deps": [
               "theatrical-practices"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Facting-methods.bs"
           }
         ]
       },
@@ -76,14 +84,16 @@
           {
             "id": "renaissance-period",
             "name": "Renaissance Period",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Frenaissance-period.bs"
           },
           {
             "id": "political-influence",
             "name": "Political Influence",
             "deps": [
               "renaissance-period"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fpolitical-influence.bs"
           }
         ]
       }

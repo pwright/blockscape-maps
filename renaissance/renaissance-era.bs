@@ -18,7 +18,8 @@
             "name": "Chiaroscuro",
             "deps": [
               "linear-perspective"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fchiaroscuro.bs"
           },
           {
             "id": "anatomical-study",
@@ -36,7 +37,8 @@
           {
             "id": "humanism",
             "name": "Humanism",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fhumanism.bs"
           },
           {
             "id": "neoplatonism",

@@ -13,7 +13,8 @@
             "name": "Epic Poetry",
             "deps": [
               "mythology-studies"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fepic-poetry.bs"
           },
           {
             "id": "philosophy-works",
@@ -21,7 +22,8 @@
             "deps": [
               "logic-systems",
               "ethics-treatises"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fphilosophy-works.bs"
           }
         ]
       },
@@ -34,14 +36,16 @@
             "name": "Greek Myths",
             "deps": [
               "ancient-religion"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fgreek-myths.bs"
           },
           {
             "id": "roman-legends",
             "name": "Roman Legends",
             "deps": [
               "ancient-religion"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Froman-legends.bs"
           }
         ]
       },
@@ -54,14 +58,16 @@
             "name": "Syllogisms",
             "deps": [
               "mathematics-foundation"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fsyllogisms.bs"
           },
           {
             "id": "dialectics",
             "name": "Dialectics",
             "deps": [
               "philosophy-works"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fdialectics.bs"
           }
         ]
       },
@@ -74,14 +80,16 @@
             "name": "Virtue Moralities",
             "deps": [
               "philosophy-works"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fvirtue-moralities.bs"
           },
           {
             "id": "political-theory",
             "name": "Political Theory",
             "deps": [
               "ethics-treatises"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fpolitical-theory.bs"
           }
         ]
       },
@@ -94,14 +102,16 @@
             "name": "Greek Deities",
             "deps": [
               "mythology-studies"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fgreek-deities.bs"
           },
           {
             "id": "roman-paganism",
             "name": "Roman Paganism",
             "deps": [
               "ancient-religion"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Froman-paganism.bs"
           }
         ]
       },
@@ -112,12 +122,14 @@
           {
             "id": "geometry-principles",
             "name": "Geometry Principles",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fgeometry-principles.bs"
           },
           {
             "id": "arithmetic-basics",
             "name": "Arithmetic Basics",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Farithmetic-basics.bs"
           }
         ]
       }

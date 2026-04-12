@@ -13,14 +13,16 @@
             "name": "Field Notes",
             "deps": [
               "scientific-method"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Ffield-notes.bs"
           },
           {
             "id": "sensory-data",
             "name": "Sensory Data Collection",
             "deps": [
               "observation-practices"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fsensory-data.bs"
           }
         ]
       },
@@ -33,7 +35,8 @@
             "name": "Artifact Examination",
             "deps": [
               "sensory-data"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fartifact-examination.bs"
           },
           {
             "id": "historical-correlation",
@@ -41,7 +44,8 @@
             "deps": [
               "artifact-examination",
               "scientific-method"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fhistorical-correlation.bs"
           }
         ]
       },
@@ -54,7 +58,8 @@
             "name": "Inductive Reasoning",
             "deps": [
               "scientific-method"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Finductive-reasoning.bs"
           },
           {
             "id": "empirical-validation",
@@ -62,7 +67,8 @@
             "deps": [
               "inductive-reasoning",
               "artifact-examination"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fempirical-validation.bs"
           }
         ]
       },
@@ -74,7 +80,7 @@
             "id": "scientific-method",
             "name": "Scientific Method",
             "deps": [],
-            "external": "?load=scientific-method.bs"
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fscientific-method.bs"
           }
         ]
       }

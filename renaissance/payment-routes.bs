@@ -73,7 +73,8 @@
               "transaction-queue"
             ]
           }
-        ]
+        ],
+        "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fgateway-api.bs"
       },
       {
         "id": "transaction-queue",
@@ -84,7 +85,8 @@
             "name": "Queue Manager",
             "deps": []
           }
-        ]
+        ],
+        "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Ftransaction-queue.bs"
       }
     ],
     "meta": {

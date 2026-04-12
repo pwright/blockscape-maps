@@ -13,7 +13,8 @@
             "name": "Viewer Interpretation",
             "deps": [
               "spatial-reasoning"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fviewer-interpretation.bs"
           },
           {
             "id": "artistic-expression",
@@ -21,7 +22,8 @@
             "deps": [
               "spatial-reasoning",
               "historical-context"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fartistic-expression.bs"
           }
         ]
       },
@@ -34,7 +36,8 @@
             "name": "Geometric Logic",
             "deps": [
               "mathematical-foundations"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fgeometric-logic.bs"
           },
           {
             "id": "optical-theory",
@@ -42,9 +45,11 @@
             "deps": [
               "geometric-logic",
               "mathematical-foundations"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Foptical-theory.bs"
           }
-        ]
+        ],
+        "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fscientific-method.bs"
       },
       {
         "id": "historical-context",
@@ -53,14 +58,16 @@
           {
             "id": "renaissance-era",
             "name": "Renaissance Era",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Frenaissance-era.bs"
           },
           {
             "id": "cultural-shifts",
             "name": "Cultural Shifts",
             "deps": [
               "renaissance-era"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcultural-shifts.bs"
           }
         ]
       },
@@ -71,14 +78,16 @@
           {
             "id": "projective-geometry",
             "name": "Projective Geometry",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fprojective-geometry.bs"
           },
           {
             "id": "vanishing-point-concept",
             "name": "Vanishing Point Concept",
             "deps": [
               "projective-geometry"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fvanishing-point-concept.bs"
           }
         ]
       },
@@ -91,7 +100,8 @@
             "name": "Painting Technique",
             "deps": [
               "vanishing-point-concept"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fpainting-technique.bs"
           },
           {
             "id": "sculpture-application",
@@ -99,7 +109,8 @@
             "deps": [
               "vanishing-point-concept",
               "painting-technique"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fsculpture-application.bs"
           }
         ]
       }

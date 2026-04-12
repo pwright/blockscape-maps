@@ -11,14 +11,16 @@
           {
             "id": "inductive-reasoning",
             "name": "Inductive Reasoning",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Finductive-reasoning.bs"
           },
           {
             "id": "empirical-observation",
             "name": "Empirical Observation",
             "deps": [
               "inductive-reasoning"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fempirical-observation.bs"
           }
         ]
       },
@@ -31,7 +33,8 @@
             "name": "Artifact Examination",
             "deps": [
               "empirical-observation"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fartifact-examination.bs"
           },
           {
             "id": "historical-contextualization",

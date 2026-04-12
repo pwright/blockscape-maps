@@ -42,7 +42,8 @@
               "trend-analysis"
             ]
           }
-        ]
+        ],
+        "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fpattern-recognition.bs"
       },
       {
         "id": "generalization-formulation",
@@ -102,7 +103,8 @@
               "hypothesis-testing-framework"
             ]
           }
-        ]
+        ],
+        "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fscientific-method.bs"
       },
       {
         "id": "renaissance-empiricism",
@@ -146,7 +148,8 @@
           {
             "id": "empirical-data-collection",
             "name": "Empirical Data Collection",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fempirical-data-collection.bs"
           },
           {
             "id": "data-validation",
@@ -166,7 +169,8 @@
             "name": "Hypothesis Formulation",
             "deps": [
               "data-validation"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fhypothesis-formulation.bs"
           },
           {
             "id": "pattern-analysis",
@@ -175,7 +179,8 @@
               "hypothesis-formulation"
             ]
           }
-        ]
+        ],
+        "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fpattern-recognition.bs"
       },
       {
         "id": "generalization-and-conclusion",
@@ -206,7 +211,8 @@
             "name": "Root Science Framework",
             "deps": []
           }
-        ]
+        ],
+        "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fscientific-method.bs"
       }
     ],
     "meta": {

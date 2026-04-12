@@ -18,7 +18,8 @@
             "name": "Hypothesis Formulation",
             "deps": [
               "systematic-observation"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fhypothesis-formulation.bs"
           }
         ]
       },
@@ -60,7 +61,8 @@
               "statistical-validation"
             ]
           }
-        ]
+        ],
+        "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fdata-analysis.bs"
       },
       {
         "id": "controlled-experimentation",
@@ -71,14 +73,16 @@
             "name": "Empirical Data Collection",
             "deps": [
               "result-interpretation"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fempirical-data-collection.bs"
           },
           {
             "id": "peer-review-process",
             "name": "Peer Review Process",
             "deps": [
               "empirical-data-collection"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fpeer-review-process.bs"
           }
         ]
       }
@@ -90,6 +94,7 @@
       "lineage": "root/scientific-method/controlled-experimentation",
       "depth": 2,
       "promptPath": "data/prompts/root__scientific-method/controlled-experimentation.txt"
-    }
+    },
+    "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fscientific-method.bs"
   }
 ]

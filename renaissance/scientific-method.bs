@@ -11,14 +11,16 @@
           {
             "id": "empirical-data-collection",
             "name": "Empirical Data Collection",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fempirical-data-collection.bs"
           },
           {
             "id": "controlled-experimentation",
             "name": "Controlled Experimentation",
             "deps": [
               "empirical-data-collection"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcontrolled-experimentation.bs"
           }
         ]
       },
@@ -31,16 +33,19 @@
             "name": "Inductive Reasoning",
             "deps": [
               "empirical-data-collection"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Finductive-reasoning.bs"
           },
           {
             "id": "deductive-reasoning",
             "name": "Deductive Reasoning",
             "deps": [
               "inductive-reasoning"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fdeductive-reasoning.bs"
           }
-        ]
+        ],
+        "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fhypothesis-formulation.bs"
       },
       {
         "id": "analysis-interpretation",
@@ -51,14 +56,16 @@
             "name": "Data Analysis",
             "deps": [
               "controlled-experimentation"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fdata-analysis.bs"
           },
           {
             "id": "pattern-recognition",
             "name": "Pattern Recognition",
             "deps": [
               "data-analysis"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fpattern-recognition.bs"
           }
         ]
       },
@@ -71,14 +78,16 @@
             "name": "Peer Review Process",
             "deps": [
               "pattern-recognition"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fpeer-review-process.bs"
           },
           {
             "id": "replication-study",
             "name": "Replication Study",
             "deps": [
               "peer-review-process"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Freplication-study.bs"
           }
         ]
       },
@@ -89,14 +98,16 @@
           {
             "id": "rational-empiricism",
             "name": "Rational Empiricism",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Frational-empiricism.bs"
           },
           {
             "id": "critical-thinking",
             "name": "Critical Thinking",
             "deps": [
               "rational-empiricism"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcritical-thinking.bs"
           }
         ]
       }
@@ -122,14 +133,16 @@
           {
             "id": "empirical-data-collection",
             "name": "Empirical Data Collection",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fempirical-data-collection.bs"
           },
           {
             "id": "hypothesis-formulation",
             "name": "Hypothesis Formulation",
             "deps": [
               "empirical-data-collection"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fhypothesis-formulation.bs"
           }
         ]
       },
@@ -142,14 +155,16 @@
             "name": "Controlled Experimentation",
             "deps": [
               "hypothesis-formulation"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcontrolled-experimentation.bs"
           },
           {
             "id": "data-analysis",
             "name": "Data Analysis",
             "deps": [
               "controlled-experimentation"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fdata-analysis.bs"
           }
         ]
       },
@@ -169,7 +184,8 @@
             "name": "Replication Study",
             "deps": [
               "peer-review"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Freplication-study.bs"
           }
         ]
       },
@@ -220,14 +236,16 @@
           {
             "id": "inductive-reasoning",
             "name": "Inductive Reasoning",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Finductive-reasoning.bs"
           },
           {
             "id": "deductive-reasoning",
             "name": "Deductive Reasoning",
             "deps": [
               "inductive-reasoning"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fdeductive-reasoning.bs"
           }
         ]
       }

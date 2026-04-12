@@ -13,12 +13,14 @@
             "name": "City Legislature",
             "deps": [
               "city-magistrate"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcity-legislature.bs"
           },
           {
             "id": "city-magistrate",
             "name": "Magistrate Office",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcity-magistrate.bs"
           }
         ]
       },
@@ -31,12 +33,14 @@
             "name": "Trade Fairs",
             "deps": [
               "city-guilds"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Ftrade-fairs.bs"
           },
           {
             "id": "city-guilds",
             "name": "Merchant Guilds",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcity-guilds.bs"
           }
         ]
       },
@@ -49,12 +53,14 @@
             "name": "Art Patronage",
             "deps": [
               "city-guilds"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fart-patronage.bs"
           },
           {
             "id": "theater-troupes",
             "name": "Theater Troupes",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Ftheater-troupes.bs"
           }
         ]
       },
@@ -65,14 +71,16 @@
           {
             "id": "water-supply",
             "name": "Water Supply",
-            "deps": []
+            "deps": [],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fwater-supply.bs"
           },
           {
             "id": "road-networks",
             "name": "Road Networks",
             "deps": [
               "city-guilds"
-            ]
+            ],
+            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Froad-networks.bs"
           }
         ]
       }
