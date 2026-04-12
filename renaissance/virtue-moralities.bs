@@ -1,0 +1,93 @@
+[
+  {
+    "id": "virtue-moralities",
+    "title": "Virtue Moralities",
+    "abstract": "A collection of moral virtues and vices derived from classical philosophical texts.",
+    "categories": [
+      {
+        "id": "ethics-practice",
+        "title": "Ethical Practice",
+        "items": [
+          {
+            "id": "virtue-courage",
+            "name": "Courage",
+            "deps": [
+              "philosophy-works"
+            ]
+          },
+          {
+            "id": "virtue-honesty",
+            "name": "Honesty",
+            "deps": [
+              "philosophy-works"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ethics-theory",
+        "title": "Ethical Theory",
+        "items": [
+          {
+            "id": "virtue-wisdom",
+            "name": "Wisdom",
+            "deps": [
+              "philosophy-works"
+            ]
+          },
+          {
+            "id": "virtue-justice",
+            "name": "Justice",
+            "deps": [
+              "philosophy-works"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "philosophical-foundations",
+        "title": "Philosophical Foundations",
+        "items": [
+          {
+            "id": "virtue-integrity",
+            "name": "Integrity",
+            "deps": [
+              "philosophy-works"
+            ]
+          },
+          {
+            "id": "virtue-humility",
+            "name": "Humility",
+            "deps": [
+              "philosophy-works"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "classical-texts",
+        "title": "Classical Texts",
+        "items": [
+          {
+            "id": "text-aristotle-nicomachean",
+            "name": "Nicomachean Ethics",
+            "deps": []
+          },
+          {
+            "id": "text-philosophy-works",
+            "name": "Philosophy Works",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "virtue-moralities",
+      "specName": "root__classical-texts__virtue-moralities",
+      "parentSpecName": "root__classical-texts",
+      "lineage": "root/classical-texts/virtue-moralities",
+      "depth": 2,
+      "promptPath": "data/prompts/root__classical-texts/virtue-moralities.txt"
+    }
+  }
+]

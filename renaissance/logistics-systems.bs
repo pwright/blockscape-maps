@@ -1,0 +1,128 @@
+[
+  {
+    "id": "logistics-systems",
+    "title": "Logistics Systems",
+    "abstract": "End-to-end supply chain management and distribution infrastructure for merchant operations.",
+    "categories": [
+      {
+        "id": "order-fulfillment",
+        "title": "Order Fulfillment",
+        "items": [
+          {
+            "id": "order-processing",
+            "name": "Order Processing Engine",
+            "deps": [
+              "inventory-check"
+            ]
+          },
+          {
+            "id": "warehouse-automation",
+            "name": "Warehouse Automation",
+            "deps": [
+              "inventory-check",
+              "routing-system"
+            ]
+          },
+          {
+            "id": "delivery-tracking",
+            "name": "Delivery Tracking Service",
+            "deps": [
+              "routing-system",
+              "order-processing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "inventory-management",
+        "title": "Inventory Management",
+        "items": [
+          {
+            "id": "inventory-check",
+            "name": "Real-time Inventory Check",
+            "deps": [
+              "warehouse-automation"
+            ]
+          },
+          {
+            "id": "stock-prediction",
+            "name": "Stock Prediction Model",
+            "deps": [
+              "order-processing",
+              "sales-analytics"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "transportation-network",
+        "title": "Transportation Network",
+        "items": [
+          {
+            "id": "routing-system",
+            "name": "Route Optimization System",
+            "deps": [
+              "inventory-check"
+            ]
+          },
+          {
+            "id": "fleet-management",
+            "name": "Fleet Management Platform",
+            "deps": [
+              "routing-system",
+              "delivery-tracking"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-analytics",
+        "title": "Data Analytics",
+        "items": [
+          {
+            "id": "sales-analytics",
+            "name": "Sales Analytics Engine",
+            "deps": [
+              "order-processing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "merchant-integration",
+        "title": "Merchant Integration",
+        "items": [
+          {
+            "id": "api-gateway",
+            "name": "API Gateway Service",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "infrastructure-layer",
+        "title": "Infrastructure Layer",
+        "items": [
+          {
+            "id": "database-cluster",
+            "name": "Database Cluster",
+            "deps": []
+          },
+          {
+            "id": "cloud-hosting",
+            "name": "Cloud Hosting Service",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "logistics-systems",
+      "specName": "root__merchant-class__logistics-systems",
+      "parentSpecName": "root__merchant-class",
+      "lineage": "root/merchant-class/logistics-systems",
+      "depth": 2,
+      "promptPath": "data/prompts/root__merchant-class/logistics-systems.txt"
+    }
+  }
+]

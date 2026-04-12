@@ -1,0 +1,68 @@
+[
+  {
+    "id": "facial-expression",
+    "title": "Facial Expression Study",
+    "abstract": "Analysis of facial expressions through anatomical and muscular rendering.",
+    "categories": [
+      {
+        "id": "expression-analysis",
+        "title": "Expression Analysis",
+        "items": [
+          {
+            "id": "micro-expression-tracking",
+            "name": "Micro Expression Tracking",
+            "deps": [
+              "muscle-rendering"
+            ]
+          },
+          {
+            "id": "emotion-classification",
+            "name": "Emotion Classification",
+            "deps": [
+              "micro-expression-tracking"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "muscle-rendering",
+        "title": "Muscle Rendering",
+        "items": [
+          {
+            "id": "facial-muscle-map",
+            "name": "Facial Muscle Map",
+            "deps": [
+              "re-naissance-anatomy"
+            ]
+          },
+          {
+            "id": "tension-analysis",
+            "name": "Tension Analysis",
+            "deps": [
+              "facial-muscle-map"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "anatomical-reference",
+        "title": "Anatomical Reference",
+        "items": [
+          {
+            "id": "re-naissance-anatomy",
+            "name": "Renaissance Anatomy Study",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "facial-expression",
+      "specName": "root__anatomy-study__facial-expression",
+      "parentSpecName": "root__anatomy-study",
+      "lineage": "root/anatomy-study/facial-expression",
+      "depth": 2,
+      "promptPath": "data/prompts/root__anatomy-study/facial-expression.txt"
+    }
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "art-production",
+    "title": "Art Production",
+    "abstract": "The creation, distribution, and consumption of artistic works within a merchant-supported economy.",
+    "categories": [
+      {
+        "id": "commissioning-process",
+        "title": "Commissioning Process",
+        "items": [
+          {
+            "id": "patron-purchase-order",
+            "name": "Patron Purchase Order",
+            "deps": [
+              "artistic-concept"
+            ]
+          },
+          {
+            "id": "artist-agreement",
+            "name": "Artist Agreement",
+            "deps": [
+              "legal-framework",
+              "commissioning-process"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "material-supply",
+        "title": "Material Supply",
+        "items": [
+          {
+            "id": "raw-materials",
+            "name": "Raw Materials",
+            "deps": []
+          },
+          {
+            "id": "craftsmanship-tools",
+            "name": "Craftsmanship Tools",
+            "deps": [
+              "raw-materials"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "distribution-network",
+        "title": "Distribution Network",
+        "items": [
+          {
+            "id": "gallery-space",
+            "name": "Gallery Space",
+            "deps": [
+              "merchant-class"
+            ]
+          },
+          {
+            "id": "market-venue",
+            "name": "Market Venue",
+            "deps": [
+              "gallery-space"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "patronage-systems",
+        "title": "Patronage Systems",
+        "items": [
+          {
+            "id": "wealth-transfer",
+            "name": "Wealth Transfer",
+            "deps": [
+              "merchant-class"
+            ]
+          },
+          {
+            "id": "artistic-concept",
+            "name": "Artistic Concept",
+            "deps": [
+              "wealth-transfer"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "art-production",
+      "specName": "root__merchant-class__art-production",
+      "parentSpecName": "root__merchant-class",
+      "lineage": "root/merchant-class/art-production",
+      "depth": 2,
+      "promptPath": "data/prompts/root__merchant-class/art-production.txt"
+    }
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "contemporary-values",
+    "title": "Contemporary Values",
+    "abstract": "Modern ethical frameworks and social norms derived from historical individualist traditions.",
+    "categories": [
+      {
+        "id": "civic-ethics",
+        "title": "Civic Ethics",
+        "items": [
+          {
+            "id": "democratic-principles",
+            "name": "Democratic Principles",
+            "deps": [
+              "individual-rights"
+            ]
+          },
+          {
+            "id": "social-contracts",
+            "name": "Social Contracts",
+            "deps": [
+              "democratic-principles",
+              "human-dignity"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "personal-autonomy",
+        "title": "Personal Autonomy",
+        "items": [
+          {
+            "id": "individual-rights",
+            "name": "Individual Rights",
+            "deps": []
+          },
+          {
+            "id": "human-dignity",
+            "name": "Human Dignity",
+            "deps": [
+              "individual-rights"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-influence",
+        "title": "Historical Influence",
+        "items": [
+          {
+            "id": "renaissance-individualism",
+            "name": "Renaissance Individualism",
+            "deps": []
+          },
+          {
+            "id": "humanist-legacy",
+            "name": "Humanist Legacy",
+            "deps": [
+              "renaissance-individualism"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "philosophical-foundation",
+        "title": "Philosophical Foundation",
+        "items": [
+          {
+            "id": "liberal-theory",
+            "name": "Liberal Theory",
+            "deps": [
+              "human-dignity",
+              "individual-rights"
+            ]
+          },
+          {
+            "id": "modern-ethics",
+            "name": "Modern Ethics",
+            "deps": [
+              "liberal-theory",
+              "social-contracts"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "contemporary-values",
+      "specName": "root__individualism__contemporary-values",
+      "parentSpecName": "root__individualism",
+      "lineage": "root/individualism/contemporary-values",
+      "depth": 2,
+      "promptPath": "data/prompts/root__individualism/contemporary-values.txt"
+    }
+  }
+]

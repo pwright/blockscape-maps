@@ -1,0 +1,91 @@
+[
+  {
+    "id": "renaissance-empiricism",
+    "title": "Empiricism in the Renaissance",
+    "abstract": "The study of observation and evidence-based reasoning during the Renaissance period.",
+    "categories": [
+      {
+        "id": "observation-practices",
+        "title": "Observation Practices",
+        "items": [
+          {
+            "id": "field-notes",
+            "name": "Field Notes",
+            "deps": [
+              "scientific-method"
+            ]
+          },
+          {
+            "id": "sensory-data",
+            "name": "Sensory Data Collection",
+            "deps": [
+              "observation-practices"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "evidence-analysis",
+        "title": "Evidence Analysis",
+        "items": [
+          {
+            "id": "artifact-examination",
+            "name": "Artifact Examination",
+            "deps": [
+              "sensory-data"
+            ]
+          },
+          {
+            "id": "historical-correlation",
+            "name": "Historical Correlation",
+            "deps": [
+              "artifact-examination",
+              "scientific-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "theoretical-frameworks",
+        "title": "Theoretical Frameworks",
+        "items": [
+          {
+            "id": "inductive-reasoning",
+            "name": "Inductive Reasoning",
+            "deps": [
+              "scientific-method"
+            ]
+          },
+          {
+            "id": "empirical-validation",
+            "name": "Empirical Validation",
+            "deps": [
+              "inductive-reasoning",
+              "artifact-examination"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "methodological-bases",
+        "title": "Methodological Bases",
+        "items": [
+          {
+            "id": "scientific-method",
+            "name": "Scientific Method",
+            "deps": [],
+            "external": "?load=scientific-method.bs"
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "empiricism",
+      "specName": "root__empiricism",
+      "parentSpecName": "root",
+      "lineage": "root/empiricism",
+      "depth": 1,
+      "promptPath": "data/prompts/root/empiricism.txt"
+    }
+  }
+]

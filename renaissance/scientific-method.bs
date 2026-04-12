@@ -1,0 +1,244 @@
+[
+  {
+    "id": "root__scientific-method",
+    "title": "Scientific Method",
+    "abstract": "Systematic approach to acquiring knowledge through observation and experimentation.",
+    "categories": [
+      {
+        "id": "observation-experimentation",
+        "title": "Observation & Experimentation",
+        "items": [
+          {
+            "id": "empirical-data-collection",
+            "name": "Empirical Data Collection",
+            "deps": []
+          },
+          {
+            "id": "controlled-experimentation",
+            "name": "Controlled Experimentation",
+            "deps": [
+              "empirical-data-collection"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hypothesis-formulation",
+        "title": "Hypothesis Formulation",
+        "items": [
+          {
+            "id": "inductive-reasoning",
+            "name": "Inductive Reasoning",
+            "deps": [
+              "empirical-data-collection"
+            ]
+          },
+          {
+            "id": "deductive-reasoning",
+            "name": "Deductive Reasoning",
+            "deps": [
+              "inductive-reasoning"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "analysis-interpretation",
+        "title": "Analysis & Interpretation",
+        "items": [
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "deps": [
+              "controlled-experimentation"
+            ]
+          },
+          {
+            "id": "pattern-recognition",
+            "name": "Pattern Recognition",
+            "deps": [
+              "data-analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "validation-verification",
+        "title": "Validation & Verification",
+        "items": [
+          {
+            "id": "peer-review-process",
+            "name": "Peer Review Process",
+            "deps": [
+              "pattern-recognition"
+            ]
+          },
+          {
+            "id": "replication-study",
+            "name": "Replication Study",
+            "deps": [
+              "peer-review-process"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "humanism-foundation",
+        "title": "Humanism Foundation",
+        "items": [
+          {
+            "id": "rational-empiricism",
+            "name": "Rational Empiricism",
+            "deps": []
+          },
+          {
+            "id": "critical-thinking",
+            "name": "Critical Thinking",
+            "deps": [
+              "rational-empiricism"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "scientific-method",
+      "specName": "root__scientific-method",
+      "parentSpecName": "root",
+      "lineage": "root/scientific-method",
+      "depth": 1,
+      "promptPath": "data/prompts/root/scientific-method.txt"
+    }
+  },
+  {
+    "id": "root__empiricism__scientific-method",
+    "title": "Scientific Method",
+    "abstract": "Systematic approach to inquiry and discovery through observation, experimentation, and logical reasoning.",
+    "categories": [
+      {
+        "id": "observation-hypothesis",
+        "title": "Observation & Hypothesis",
+        "items": [
+          {
+            "id": "empirical-data-collection",
+            "name": "Empirical Data Collection",
+            "deps": []
+          },
+          {
+            "id": "hypothesis-formulation",
+            "name": "Hypothesis Formulation",
+            "deps": [
+              "empirical-data-collection"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "experimentation-analysis",
+        "title": "Experimentation & Analysis",
+        "items": [
+          {
+            "id": "controlled-experimentation",
+            "name": "Controlled Experimentation",
+            "deps": [
+              "hypothesis-formulation"
+            ]
+          },
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "deps": [
+              "controlled-experimentation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "conclusion-validation",
+        "title": "Conclusion & Validation",
+        "items": [
+          {
+            "id": "peer-review",
+            "name": "Peer Review",
+            "deps": [
+              "data-analysis"
+            ]
+          },
+          {
+            "id": "replication-study",
+            "name": "Replication Study",
+            "deps": [
+              "peer-review"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "theoretical-framework",
+        "title": "Theoretical Framework",
+        "items": [
+          {
+            "id": "logical-deduction",
+            "name": "Logical Deduction",
+            "deps": [
+              "replication-study"
+            ]
+          },
+          {
+            "id": "model-construction",
+            "name": "Model Construction",
+            "deps": [
+              "logical-deduction"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "knowledge-application",
+        "title": "Knowledge Application",
+        "items": [
+          {
+            "id": "theory-testing",
+            "name": "Theory Testing",
+            "deps": [
+              "model-construction"
+            ]
+          },
+          {
+            "id": "practical-implementation",
+            "name": "Practical Implementation",
+            "deps": [
+              "theory-testing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-principles",
+        "title": "Foundational Principles",
+        "items": [
+          {
+            "id": "inductive-reasoning",
+            "name": "Inductive Reasoning",
+            "deps": []
+          },
+          {
+            "id": "deductive-reasoning",
+            "name": "Deductive Reasoning",
+            "deps": [
+              "inductive-reasoning"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "scientific-method",
+      "specName": "root__empiricism__scientific-method",
+      "parentSpecName": "root__empiricism",
+      "lineage": "root/empiricism/scientific-method",
+      "depth": 2,
+      "promptPath": "data/prompts/root__empiricism/scientific-method.txt"
+    }
+  }
+]

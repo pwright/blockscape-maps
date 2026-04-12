@@ -1,0 +1,88 @@
+[
+  {
+    "id": "trade-fairs",
+    "title": "Trade Fairs",
+    "abstract": "Organized gatherings for commerce and networking within city-states.",
+    "categories": [
+      {
+        "id": "event-planning",
+        "title": "Event Planning",
+        "items": [
+          {
+            "id": "venue-selection",
+            "name": "Venue Selection",
+            "deps": [
+              "city-guilds"
+            ]
+          },
+          {
+            "id": "logistics-coordination",
+            "name": "Logistics Coordination",
+            "deps": [
+              "venue-selection"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "participant-management",
+        "title": "Participant Management",
+        "items": [
+          {
+            "id": "attendee-registration",
+            "name": "Attendee Registration",
+            "deps": [
+              "city-guilds"
+            ]
+          },
+          {
+            "id": "networking-facilitation",
+            "name": "Networking Facilitation",
+            "deps": [
+              "attendee-registration"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "commercial-exchange",
+        "title": "Commercial Exchange",
+        "items": [
+          {
+            "id": "trade-bargaining",
+            "name": "Trade Bargaining",
+            "deps": [
+              "networking-facilitation"
+            ]
+          },
+          {
+            "id": "market-analysis",
+            "name": "Market Analysis",
+            "deps": [
+              "trade-bargaining"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure-support",
+        "title": "Infrastructure Support",
+        "items": [
+          {
+            "id": "city-guilds",
+            "name": "City Guilds",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "trade-fairs",
+      "specName": "root__city-states__trade-fairs",
+      "parentSpecName": "root__city-states",
+      "lineage": "root/city-states/trade-fairs",
+      "depth": 2,
+      "promptPath": "data/prompts/root__city-states/trade-fairs.txt"
+    }
+  }
+]

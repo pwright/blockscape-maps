@@ -1,0 +1,99 @@
+[
+  {
+    "id": "transaction-queue",
+    "title": "Transaction Queue",
+    "abstract": "Manages the ordering and processing of financial transactions within a banking system.",
+    "categories": [
+      {
+        "id": "user-facing-services",
+        "title": "User-Facing Services",
+        "items": [
+          {
+            "id": "mobile-app-api",
+            "name": "Mobile Application API",
+            "deps": [
+              "transaction-queue"
+            ]
+          },
+          {
+            "id": "web-banking-interface",
+            "name": "Web Banking Interface",
+            "deps": [
+              "transaction-queue"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "core-processing",
+        "title": "Core Processing",
+        "items": [
+          {
+            "id": "transaction-validator",
+            "name": "Transaction Validator",
+            "deps": [
+              "ledger-storage"
+            ]
+          },
+          {
+            "id": "priority-ranker",
+            "name": "Priority Ranker",
+            "deps": [
+              "transaction-queue"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-persistence",
+        "title": "Data Persistence",
+        "items": [
+          {
+            "id": "ledger-storage",
+            "name": "Ledger Storage",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "monitoring-systems",
+        "title": "Monitoring Systems",
+        "items": [
+          {
+            "id": "transaction-monitor",
+            "name": "Transaction Monitor",
+            "deps": [
+              "ledger-storage"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "security-layer",
+        "title": "Security Layer",
+        "items": [
+          {
+            "id": "encryption-service",
+            "name": "Encryption Service",
+            "deps": []
+          },
+          {
+            "id": "access-control",
+            "name": "Access Control",
+            "deps": [
+              "encryption-service"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "transaction-queue",
+      "specName": "root__banking-systems__transaction-queue",
+      "parentSpecName": "root__banking-systems",
+      "lineage": "root/banking-systems/transaction-queue",
+      "depth": 2,
+      "promptPath": "data/prompts/root__banking-systems/transaction-queue.txt"
+    }
+  }
+]

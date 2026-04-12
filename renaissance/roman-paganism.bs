@@ -1,0 +1,140 @@
+[
+  {
+    "id": "roman-paganism",
+    "title": "Roman Paganism",
+    "abstract": "Study of pre-Christian religious practices in the Roman Empire, including deities, rituals, and philosophical schools.",
+    "categories": [
+      {
+        "id": "deities-and-mythology",
+        "title": "Deities and Mythology",
+        "items": [
+          {
+            "id": "major-gods",
+            "name": "Major Gods",
+            "deps": [
+              "pantheon-structure"
+            ]
+          },
+          {
+            "id": "minor-gods",
+            "name": "Minor Deities",
+            "deps": [
+              "pantheon-structure"
+            ]
+          },
+          {
+            "id": "mythological-narratives",
+            "name": "Mythological Narratives",
+            "deps": [
+              "major-gods",
+              "minor-gods"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rituals-and-practices",
+        "title": "Rituals and Practices",
+        "items": [
+          {
+            "id": "sacrificial-systems",
+            "name": "Sacrificial Systems",
+            "deps": [
+              "pantheon-structure"
+            ]
+          },
+          {
+            "id": "religious-festivals",
+            "name": "Religious Festivals",
+            "deps": [
+              "sacrificial-systems"
+            ]
+          },
+          {
+            "id": "temple-construction",
+            "name": "Temple Construction",
+            "deps": [
+              "pantheon-structure"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "philosophical-schools",
+        "title": "Philosophical Schools",
+        "items": [
+          {
+            "id": "stoicism",
+            "name": "Stoicism",
+            "deps": [
+              "pantheon-structure"
+            ]
+          },
+          {
+            "id": "epicureanism",
+            "name": "Epicureanism",
+            "deps": [
+              "pantheon-structure"
+            ]
+          },
+          {
+            "id": "neoplatonism",
+            "name": "Neoplatonism",
+            "deps": [
+              "pantheon-structure"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pantheon-structure",
+        "title": "Pantheon Structure",
+        "items": [
+          {
+            "id": "jupiter",
+            "name": "Jupiter",
+            "deps": []
+          },
+          {
+            "id": "neptune",
+            "name": "Neptune",
+            "deps": []
+          },
+          {
+            "id": "minerva",
+            "name": "Minerva",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "ancient-religion",
+        "title": "Ancient Religion",
+        "items": [
+          {
+            "id": "religious-philosophy",
+            "name": "Religious Philosophy",
+            "deps": [
+              "pantheon-structure"
+            ]
+          },
+          {
+            "id": "cultural-religion",
+            "name": "Cultural Religion",
+            "deps": [
+              "pantheon-structure"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "roman-paganism",
+      "specName": "root__classical-texts__roman-paganism",
+      "parentSpecName": "root__classical-texts",
+      "lineage": "root/classical-texts/roman-paganism",
+      "depth": 2,
+      "promptPath": "data/prompts/root__classical-texts/roman-paganism.txt"
+    }
+  }
+]

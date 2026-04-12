@@ -1,0 +1,91 @@
+[
+  {
+    "id": "deductive-reasoning",
+    "title": "Deductive Reasoning",
+    "abstract": "Logical inference from premises to conclusions",
+    "categories": [
+      {
+        "id": "logical-structure",
+        "title": "Logical Structure",
+        "items": [
+          {
+            "id": "syllogism-form",
+            "name": "Syllogism Form",
+            "deps": [
+              "validity-check"
+            ]
+          },
+          {
+            "id": "premise-analysis",
+            "name": "Premise Analysis",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "inference-mechanisms",
+        "title": "Inference Mechanisms",
+        "items": [
+          {
+            "id": "deduction-process",
+            "name": "Deduction Process",
+            "deps": [
+              "syllogism-form"
+            ]
+          },
+          {
+            "id": "validity-check",
+            "name": "Validity Check",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "application-domains",
+        "title": "Application Domains",
+        "items": [
+          {
+            "id": "mathematical-proof",
+            "name": "Mathematical Proof",
+            "deps": [
+              "deduction-process"
+            ]
+          },
+          {
+            "id": "legal-argumentation",
+            "name": "Legal Argumentation",
+            "deps": [
+              "validity-check"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-concepts",
+        "title": "Foundational Concepts",
+        "items": [
+          {
+            "id": "truth-value",
+            "name": "Truth Value",
+            "deps": []
+          },
+          {
+            "id": "logical-implication",
+            "name": "Logical Implication",
+            "deps": [
+              "truth-value"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "deductive-reasoning",
+      "specName": "root__scientific-method__deductive-reasoning",
+      "parentSpecName": "root__scientific-method",
+      "lineage": "root/scientific-method/deductive-reasoning",
+      "depth": 2,
+      "promptPath": "data/prompts/root__scientific-method/deductive-reasoning.txt"
+    }
+  }
+]

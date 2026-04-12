@@ -1,0 +1,95 @@
+[
+  {
+    "id": "greek-deities",
+    "title": "Greek Deities",
+    "abstract": "A domain exploring the pantheon of Greek gods and goddesses, their myths, and cultural impact.",
+    "categories": [
+      {
+        "id": "mythology-studies",
+        "title": "Mythological Studies",
+        "items": [
+          {
+            "id": "olympian-gods",
+            "name": "Olympian Gods",
+            "deps": [
+              "classical-texts"
+            ]
+          },
+          {
+            "id": "underworld-beings",
+            "name": "Underworld Beings",
+            "deps": [
+              "classical-texts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pantheon-structure",
+        "title": "Pantheon Structure",
+        "items": [
+          {
+            "id": "zodiac-signs",
+            "name": "Zodiac Signs",
+            "deps": [
+              "olympian-gods"
+            ]
+          },
+          {
+            "id": "greek-mythology",
+            "name": "Greek Mythology",
+            "deps": [
+              "classical-texts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cultural-impact",
+        "title": "Cultural Impact",
+        "items": [
+          {
+            "id": "artistic-influence",
+            "name": "Artistic Influence",
+            "deps": [
+              "greek-mythology"
+            ]
+          },
+          {
+            "id": "literary-works",
+            "name": "Literary Works",
+            "deps": [
+              "classical-texts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "classical-texts",
+        "title": "Classical Texts",
+        "items": [
+          {
+            "id": "epic-poems",
+            "name": "Epic Poems",
+            "deps": []
+          },
+          {
+            "id": "philosophy-works",
+            "name": "Philosophy Works",
+            "deps": [
+              "classical-texts"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "greek-deities",
+      "specName": "root__classical-texts__greek-deities",
+      "parentSpecName": "root__classical-texts",
+      "lineage": "root/classical-texts/greek-deities",
+      "depth": 2,
+      "promptPath": "data/prompts/root__classical-texts/greek-deities.txt"
+    }
+  }
+]

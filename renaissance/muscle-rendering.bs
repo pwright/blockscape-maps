@@ -1,0 +1,120 @@
+[
+  {
+    "id": "muscle-rendering",
+    "title": "Muscle Rendering",
+    "abstract": "Techniques for visualizing muscle structure and movement through artistic rendering.",
+    "categories": [
+      {
+        "id": "visual-output",
+        "title": "Visual Output",
+        "items": [
+          {
+            "id": "final-composite",
+            "name": "Final Composite",
+            "deps": [
+              "muscle-texture",
+              "anatomical-sketching"
+            ]
+          },
+          {
+            "id": "muscle-texture",
+            "name": "Muscle Texture",
+            "deps": [
+              "surface-shading"
+            ]
+          },
+          {
+            "id": "surface-shading",
+            "name": "Surface Shading",
+            "deps": [
+              "lighting-model"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "anatomical-sketching",
+        "title": "Anatomical Sketching",
+        "items": [
+          {
+            "id": "muscle-outline",
+            "name": "Muscle Outline",
+            "deps": [
+              "bone-structure"
+            ]
+          },
+          {
+            "id": "tendon-detail",
+            "name": "Tendon Detail",
+            "deps": [
+              "joint-analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lighting-model",
+        "title": "Lighting Model",
+        "items": [
+          {
+            "id": "ambient-light",
+            "name": "Ambient Light",
+            "deps": []
+          },
+          {
+            "id": "directional-light",
+            "name": "Directional Light",
+            "deps": [
+              "camera-angle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bone-structure",
+        "title": "Bone Structure",
+        "items": [
+          {
+            "id": "skeletal-map",
+            "name": "Skeletal Map",
+            "deps": [
+              "source-map"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "joint-analysis",
+        "title": "Joint Analysis",
+        "items": [
+          {
+            "id": "articulation-point",
+            "name": "Articulation Point",
+            "deps": [
+              "skeletal-map"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "source-map",
+        "title": "Source Map",
+        "items": [
+          {
+            "id": "renaissance-anatomy",
+            "name": "Renaissance Anatomy Study",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "muscle-rendering",
+      "specName": "root__anatomy-study__muscle-rendering",
+      "parentSpecName": "root__anatomy-study",
+      "lineage": "root/anatomy-study/muscle-rendering",
+      "depth": 2,
+      "promptPath": "data/prompts/root__anatomy-study/muscle-rendering.txt"
+    }
+  }
+]

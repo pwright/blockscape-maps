@@ -1,0 +1,118 @@
+[
+  {
+    "id": "theater-troupes",
+    "title": "Theater Troupes",
+    "abstract": "Organizations and groups dedicated to performing live theater, including professional companies, amateur troupes, and educational ensembles.",
+    "categories": [
+      {
+        "id": "performing-arts",
+        "title": "Performing Arts",
+        "items": [
+          {
+            "id": "theater-companies",
+            "name": "Theater Companies",
+            "deps": [
+              "venue-management",
+              "production-staff"
+            ]
+          },
+          {
+            "id": "acting-ensembles",
+            "name": "Acting Ensembles",
+            "deps": [
+              "training-programs",
+              "theater-companies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "production-services",
+        "title": "Production Services",
+        "items": [
+          {
+            "id": "venue-management",
+            "name": "Venue Management",
+            "deps": [
+              "building-availability"
+            ]
+          },
+          {
+            "id": "production-staff",
+            "name": "Production Staff",
+            "deps": [
+              "theater-companies",
+              "equipment-supply"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "technical-support",
+        "title": "Technical Support",
+        "items": [
+          {
+            "id": "equipment-supply",
+            "name": "Equipment Supply",
+            "deps": [
+              "inventory-systems"
+            ]
+          },
+          {
+            "id": "lighting-sound",
+            "name": "Lighting & Sound",
+            "deps": [
+              "equipment-supply",
+              "production-staff"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "funding-resources",
+        "title": "Funding Resources",
+        "items": [
+          {
+            "id": "grant-programs",
+            "name": "Grant Programs",
+            "deps": [
+              "theater-companies"
+            ]
+          },
+          {
+            "id": "sponsorship-networks",
+            "name": "Sponsorship Networks",
+            "deps": [
+              "grant-programs",
+              "production-services"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "items": [
+          {
+            "id": "building-availability",
+            "name": "Building Availability",
+            "deps": []
+          },
+          {
+            "id": "inventory-systems",
+            "name": "Inventory Systems",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "theater-troupes",
+      "specName": "root__city-states__theater-troupes",
+      "parentSpecName": "root__city-states",
+      "lineage": "root/city-states/theater-troupes",
+      "depth": 2,
+      "promptPath": "data/prompts/root__city-states/theater-troupes.txt"
+    }
+  }
+]

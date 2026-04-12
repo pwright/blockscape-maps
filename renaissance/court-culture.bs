@@ -1,0 +1,128 @@
+[
+  {
+    "id": "court-culture",
+    "title": "Court Culture",
+    "abstract": "The social and political dynamics of royal courts during the Renaissance, characterized by absolutist power structures.",
+    "categories": [
+      {
+        "id": "court-protocol",
+        "title": "Court Protocol",
+        "items": [
+          {
+            "id": "ceremonial-dance",
+            "name": "Ceremonial Dance",
+            "deps": [
+              "ritual-music"
+            ]
+          },
+          {
+            "id": "court-entourage",
+            "name": "Court Entourage",
+            "deps": [
+              "protocol-grooming",
+              "court-dress"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "political-theater",
+        "title": "Political Theater",
+        "items": [
+          {
+            "id": "absolutist-display",
+            "name": "Absolutist Display",
+            "deps": [
+              "court-protocol"
+            ]
+          },
+          {
+            "id": "royal-propaganda",
+            "name": "Royal Propaganda",
+            "deps": [
+              "absolutist-display",
+              "ritual-music"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "social-hierarchy",
+        "title": "Social Hierarchy",
+        "items": [
+          {
+            "id": "court-rankings",
+            "name": "Court Rankings",
+            "deps": [
+              "absolutist-monarchy"
+            ]
+          },
+          {
+            "id": "nobility-roles",
+            "name": "Nobility Roles",
+            "deps": [
+              "court-rankings"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ritual-music",
+        "title": "Ritual Music",
+        "items": [
+          {
+            "id": "orchestral-ensemble",
+            "name": "Orchestral Ensemble",
+            "deps": []
+          },
+          {
+            "id": "court-composer",
+            "name": "Court Composer",
+            "deps": [
+              "orchestral-ensemble"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ritual-music",
+        "title": "Ritual Music",
+        "items": [
+          {
+            "id": "court-composer",
+            "name": "Court Composer",
+            "deps": [
+              "orchestral-ensemble"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "absolutist-monarchy",
+        "title": "Absolutist Monarchy",
+        "items": [
+          {
+            "id": "royal-legitimacy",
+            "name": "Royal Legitimacy",
+            "deps": []
+          },
+          {
+            "id": "centralized-power",
+            "name": "Centralized Power",
+            "deps": [
+              "royal-legitimacy"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "court-culture",
+      "specName": "root__absolutism__court-culture",
+      "parentSpecName": "root__absolutism",
+      "lineage": "root/absolutism/court-culture",
+      "depth": 2,
+      "promptPath": "data/prompts/root__absolutism/court-culture.txt"
+    }
+  }
+]

@@ -1,0 +1,141 @@
+[
+  {
+    "id": "root__artistic-revival",
+    "title": "Artistic Revival",
+    "abstract": "A movement emphasizing humanist principles in art and culture.",
+    "categories": [
+      {
+        "id": "humanism",
+        "title": "Humanism",
+        "items": [
+          {
+            "id": "humanism-philosophy",
+            "name": "Philosophical Foundations",
+            "deps": []
+          },
+          {
+            "id": "humanism-values",
+            "name": "Core Values",
+            "deps": [
+              "humanism-philosophy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "renaissance-art",
+        "title": "Renaissance Art",
+        "items": [
+          {
+            "id": "renaissance-painting",
+            "name": "Painting Techniques",
+            "deps": [
+              "humanism-values"
+            ]
+          },
+          {
+            "id": "renaissance-sculpture",
+            "name": "Sculptural Forms",
+            "deps": [
+              "humanism-values"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "artistic-revival",
+        "title": "Artistic Revival",
+        "items": [
+          {
+            "id": "revival-movement",
+            "name": "Movement Origins",
+            "deps": [
+              "renaissance-painting"
+            ]
+          },
+          {
+            "id": "revival-culture",
+            "name": "Cultural Impact",
+            "deps": [
+              "revival-movement"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "artistic-revival",
+      "specName": "root__artistic-revival",
+      "parentSpecName": "root",
+      "lineage": "root/artistic-revival",
+      "depth": 1,
+      "promptPath": "data/prompts/root/artistic-revival.txt"
+    }
+  },
+  {
+    "id": "root__chiaroscuro__artistic-revival",
+    "title": "Artistic Revival",
+    "abstract": "A movement characterized by the resurgence of classical artistic styles and techniques.",
+    "categories": [
+      {
+        "id": "movement-styles",
+        "title": "Movement Styles",
+        "items": [
+          {
+            "id": "baroque-influence",
+            "name": "Baroque Influence",
+            "deps": [
+              "renaissance-arts"
+            ]
+          },
+          {
+            "id": "neoclassical-revival",
+            "name": "Neoclassical Revival",
+            "deps": [
+              "baroque-influence"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "techniques",
+        "title": "Artistic Techniques",
+        "items": [
+          {
+            "id": "chiaroscuro-lighting",
+            "name": "Chiaroscuro Lighting",
+            "deps": [
+              "renaissance-arts"
+            ]
+          },
+          {
+            "id": "perspective-drawing",
+            "name": "Perspective Drawing",
+            "deps": [
+              "chiaroscuro-lighting"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-elements",
+        "title": "Foundational Elements",
+        "items": [
+          {
+            "id": "renaissance-arts",
+            "name": "Renaissance Arts",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "artistic-revival",
+      "specName": "root__chiaroscuro__artistic-revival",
+      "parentSpecName": "root__chiaroscuro",
+      "lineage": "root/chiaroscuro/artistic-revival",
+      "depth": 2,
+      "promptPath": "data/prompts/root__chiaroscuro/artistic-revival.txt"
+    }
+  }
+]

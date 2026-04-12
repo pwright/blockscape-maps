@@ -1,0 +1,137 @@
+[
+  {
+    "id": "renaissance-absolutism",
+    "title": "Absolutism in the Renaissance",
+    "abstract": "The rise of absolute monarchy and centralized power during the Renaissance period, characterized by strong monarchs asserting authority over nobility.",
+    "categories": [
+      {
+        "id": "political-structure",
+        "title": "Political Structure",
+        "items": [
+          {
+            "id": "absolutist-monarchy",
+            "name": "Absolutist Monarchy",
+            "deps": [
+              "centralized-state"
+            ]
+          },
+          {
+            "id": "centralized-state",
+            "name": "Centralized State",
+            "deps": [
+              "merchant-class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "economic-factors",
+        "title": "Economic Factors",
+        "items": [
+          {
+            "id": "merchant-class",
+            "name": "Merchant Class",
+            "deps": [],
+            "external": "?load=merchant-class.bs"
+          },
+          {
+            "id": "trade-networks",
+            "name": "Trade Networks",
+            "deps": [
+              "merchant-class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ideological-shifts",
+        "title": "Ideological Shifts",
+        "items": [
+          {
+            "id": "divine-right",
+            "name": "Divine Right",
+            "deps": [
+              "absolutist-monarchy"
+            ]
+          },
+          {
+            "id": "national-identity",
+            "name": "National Identity",
+            "deps": [
+              "centralized-state"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cultural-expressions",
+        "title": "Cultural Expressions",
+        "items": [
+          {
+            "id": "court-culture",
+            "name": "Court Culture",
+            "deps": [
+              "absolutist-monarchy"
+            ]
+          },
+          {
+            "id": "artistic-patronage",
+            "name": "Artistic Patronage",
+            "deps": [
+              "merchant-class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "social-hierarchy",
+        "title": "Social Hierarchy",
+        "items": [
+          {
+            "id": "nobility-decline",
+            "name": "Nobility Decline",
+            "deps": [
+              "centralized-state"
+            ]
+          },
+          {
+            "id": "commoner-rise",
+            "name": "Commoner Rise",
+            "deps": [
+              "merchant-class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "items": [
+          {
+            "id": "administrative-systems",
+            "name": "Administrative Systems",
+            "deps": [
+              "centralized-state"
+            ]
+          },
+          {
+            "id": "legal-frameworks",
+            "name": "Legal Frameworks",
+            "deps": [
+              "administrative-systems"
+            ],
+            "external": "?load=legal-frameworks.bs"
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "absolutism",
+      "specName": "root__absolutism",
+      "parentSpecName": "root",
+      "lineage": "root/absolutism",
+      "depth": 1,
+      "promptPath": "data/prompts/root/absolutism.txt"
+    }
+  }
+]

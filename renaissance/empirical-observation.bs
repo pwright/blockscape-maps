@@ -1,0 +1,95 @@
+[
+  {
+    "id": "empirical-observation",
+    "title": "Empirical Observation",
+    "abstract": "Systematic collection and analysis of data through direct experience or experimentation.",
+    "categories": [
+      {
+        "id": "data-collection",
+        "title": "Data Collection",
+        "items": [
+          {
+            "id": "field-notes",
+            "name": "Field Notes",
+            "deps": [
+              "observation-logs"
+            ]
+          },
+          {
+            "id": "observation-logs",
+            "name": "Observation Logs",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "analysis-methods",
+        "title": "Analysis Methods",
+        "items": [
+          {
+            "id": "pattern-recognition",
+            "name": "Pattern Recognition",
+            "deps": [
+              "observation-logs"
+            ]
+          },
+          {
+            "id": "statistical-analysis",
+            "name": "Statistical Analysis",
+            "deps": [
+              "data-collection"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "validation-frameworks",
+        "title": "Validation Frameworks",
+        "items": [
+          {
+            "id": "peer-review",
+            "name": "Peer Review",
+            "deps": [
+              "pattern-recognition"
+            ]
+          },
+          {
+            "id": "reproducibility-checks",
+            "name": "Reproducibility Checks",
+            "deps": [
+              "statistical-analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "documentation",
+        "title": "Documentation",
+        "items": [
+          {
+            "id": "case-studies",
+            "name": "Case Studies",
+            "deps": [
+              "peer-review"
+            ]
+          },
+          {
+            "id": "methodology-records",
+            "name": "Methodology Records",
+            "deps": [
+              "documentation"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "empirical-observation",
+      "specName": "root__anatomy-study__empirical-observation",
+      "parentSpecName": "root__anatomy-study",
+      "lineage": "root/anatomy-study/empirical-observation",
+      "depth": 2,
+      "promptPath": "data/prompts/root__anatomy-study/empirical-observation.txt"
+    }
+  }
+]

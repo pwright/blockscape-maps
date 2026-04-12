@@ -1,0 +1,95 @@
+[
+  {
+    "id": "renaissance-arts",
+    "title": "Renaissance Arts",
+    "abstract": "The Renaissance period in European art, characterized by a revival of classical ideals and the development of new artistic techniques.",
+    "categories": [
+      {
+        "id": "artistic-movement",
+        "title": "Artistic Movement",
+        "items": [
+          {
+            "id": "humanism",
+            "name": "Humanism",
+            "deps": [
+              "renaissance-revival"
+            ]
+          },
+          {
+            "id": "perspective",
+            "name": "Linear Perspective",
+            "deps": [
+              "chiaroscuro"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "techniques",
+        "title": "Artistic Techniques",
+        "items": [
+          {
+            "id": "oil-painting",
+            "name": "Oil Painting",
+            "deps": [
+              "chiaroscuro"
+            ]
+          },
+          {
+            "id": "chiaroscuro-technique",
+            "name": "Chiaroscuro Technique",
+            "deps": [
+              "humanism"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "key-artists",
+        "title": "Key Artists",
+        "items": [
+          {
+            "id": "leonardo-da-vinci",
+            "name": "Leonardo da Vinci",
+            "deps": [
+              "humanism"
+            ]
+          },
+          {
+            "id": "michelangelo",
+            "name": "Michelangelo",
+            "deps": [
+              "chiaroscuro-technique"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-concepts",
+        "title": "Foundational Concepts",
+        "items": [
+          {
+            "id": "renaissance-revival",
+            "name": "Renaissance Revival",
+            "deps": []
+          },
+          {
+            "id": "classical-ideals",
+            "name": "Classical Ideals",
+            "deps": [
+              "renaissance-revival"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "renaissance-arts",
+      "specName": "root__chiaroscuro__renaissance-arts",
+      "parentSpecName": "root__chiaroscuro",
+      "lineage": "root/chiaroscuro/renaissance-arts",
+      "depth": 2,
+      "promptPath": "data/prompts/root__chiaroscuro/renaissance-arts.txt"
+    }
+  }
+]

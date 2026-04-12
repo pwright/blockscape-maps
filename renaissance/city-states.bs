@@ -1,0 +1,89 @@
+[
+  {
+    "id": "city-states",
+    "title": "City States",
+    "abstract": "A collection of independent city-state entities within the Renaissance domain, characterized by unique governance structures and cultural identities.",
+    "categories": [
+      {
+        "id": "city-governance",
+        "title": "Governance & Politics",
+        "items": [
+          {
+            "id": "city-legislature",
+            "name": "City Legislature",
+            "deps": [
+              "city-magistrate"
+            ]
+          },
+          {
+            "id": "city-magistrate",
+            "name": "Magistrate Office",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "city-economy",
+        "title": "Economic Systems",
+        "items": [
+          {
+            "id": "trade-fairs",
+            "name": "Trade Fairs",
+            "deps": [
+              "city-guilds"
+            ]
+          },
+          {
+            "id": "city-guilds",
+            "name": "Merchant Guilds",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "city-culture",
+        "title": "Cultural Identity",
+        "items": [
+          {
+            "id": "art-patronage",
+            "name": "Art Patronage",
+            "deps": [
+              "city-guilds"
+            ]
+          },
+          {
+            "id": "theater-troupes",
+            "name": "Theater Troupes",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "city-infrastructure",
+        "title": "Infrastructure & Utilities",
+        "items": [
+          {
+            "id": "water-supply",
+            "name": "Water Supply",
+            "deps": []
+          },
+          {
+            "id": "road-networks",
+            "name": "Road Networks",
+            "deps": [
+              "city-guilds"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "city-states",
+      "specName": "root__city-states",
+      "parentSpecName": "root",
+      "lineage": "root/city-states",
+      "depth": 1,
+      "promptPath": "data/prompts/root/city-states.txt"
+    }
+  }
+]

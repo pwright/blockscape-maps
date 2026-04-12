@@ -1,0 +1,37 @@
+[
+  {
+    "id": "merchant-onboarding",
+    "title": "Merchant Onboarding",
+    "abstract": "Process for integrating new merchants into the banking ecosystem, covering identity verification, account setup, and compliance checks.",
+    "categories": [
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "items": [
+          {
+            "id": "merchant-account",
+            "name": "Merchant Account",
+            "deps": [
+              "user-auth"
+            ]
+          },
+          {
+            "id": "identity-verification",
+            "name": "Identity Verification",
+            "deps": [
+              "user-auth"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "merchant-onboarding",
+      "specName": "root__banking-systems__merchant-onboarding",
+      "parentSpecName": "root__banking-systems",
+      "lineage": "root/banking-systems/merchant-onboarding",
+      "depth": 2,
+      "promptPath": "data/prompts/root__banking-systems/merchant-onboarding.txt"
+    }
+  }
+]

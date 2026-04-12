@@ -1,0 +1,62 @@
+[
+  {
+    "id": "dialect-analysis",
+    "title": "Dialect Analysis",
+    "abstract": "Analysis of regional linguistic variations and their impact on communication.",
+    "categories": [
+      {
+        "id": "linguistic-structure",
+        "title": "Linguistic Structure",
+        "items": [
+          {
+            "id": "phonology",
+            "name": "Phonological Patterns",
+            "deps": [
+              "morphology"
+            ]
+          },
+          {
+            "id": "syntax",
+            "name": "Syntactic Variation",
+            "deps": [
+              "semantics"
+            ]
+          },
+          {
+            "id": "morphology",
+            "name": "Morphological Rules",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "historical-context",
+        "title": "Historical Context",
+        "items": [
+          {
+            "id": "renaissance-writing",
+            "name": "Renaissance Vernacular Writing",
+            "deps": [
+              "dialect-analysis"
+            ]
+          },
+          {
+            "id": "cultural-influence",
+            "name": "Cultural Influences",
+            "deps": [
+              "historical-context"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "dialect-analysis",
+      "specName": "root__vernacular-writing__dialect-analysis",
+      "parentSpecName": "root__vernacular-writing",
+      "lineage": "root/vernacular-writing/dialect-analysis",
+      "depth": 2,
+      "promptPath": "data/prompts/root__vernacular-writing/dialect-analysis.txt"
+    }
+  }
+]

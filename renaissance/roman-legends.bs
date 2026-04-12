@@ -1,0 +1,95 @@
+[
+  {
+    "id": "roman-legends",
+    "title": "Roman Legends",
+    "abstract": "A collection of mythological narratives and historical accounts from ancient Rome.",
+    "categories": [
+      {
+        "id": "narrative-structure",
+        "title": "Narrative Structure",
+        "items": [
+          {
+            "id": "epic-poetry",
+            "name": "Epic Poetry",
+            "deps": [
+              "mythological-lore"
+            ]
+          },
+          {
+            "id": "historical-chronicle",
+            "name": "Historical Chronicle",
+            "deps": [
+              "mythological-lore"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mythological-lore",
+        "title": "Mythological Lore",
+        "items": [
+          {
+            "id": "gods-and-goddesses",
+            "name": "Gods and Goddesses",
+            "deps": [
+              "ancient-religion"
+            ]
+          },
+          {
+            "id": "heroes-and-heroines",
+            "name": "Heroes and Heroines",
+            "deps": [
+              "gods-and-goddesses"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ancient-religion",
+        "title": "Ancient Religion",
+        "items": [
+          {
+            "id": "pantheon",
+            "name": "Pantheon",
+            "deps": []
+          },
+          {
+            "id": "rituals-and-ceremonies",
+            "name": "Rituals and Ceremonies",
+            "deps": [
+              "pantheon"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "classical-texts",
+        "title": "Classical Texts",
+        "items": [
+          {
+            "id": "virgil-aeneid",
+            "name": "Virgil's Aeneid",
+            "deps": [
+              "epic-poetry"
+            ]
+          },
+          {
+            "id": "livy-history",
+            "name": "Livy's History",
+            "deps": [
+              "historical-chronicle"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "roman-legends",
+      "specName": "root__classical-texts__roman-legends",
+      "parentSpecName": "root__classical-texts",
+      "lineage": "root/classical-texts/roman-legends",
+      "depth": 2,
+      "promptPath": "data/prompts/root__classical-texts/roman-legends.txt"
+    }
+  }
+]

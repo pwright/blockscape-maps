@@ -1,0 +1,134 @@
+[
+  {
+    "id": "data-analysis",
+    "title": "Data Analysis",
+    "abstract": "Systematic examination of data to extract meaningful insights through statistical and computational methods.",
+    "categories": [
+      {
+        "id": "exploratory-data-analysis",
+        "title": "Exploratory Data Analysis",
+        "items": [
+          {
+            "id": "data-cleaning",
+            "name": "Data Cleaning",
+            "deps": [
+              "data-preparation"
+            ]
+          },
+          {
+            "id": "descriptive-statistics",
+            "name": "Descriptive Statistics",
+            "deps": [
+              "data-cleaning"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "inferential-analysis",
+        "title": "Inferential Analysis",
+        "items": [
+          {
+            "id": "hypothesis-testing",
+            "name": "Hypothesis Testing",
+            "deps": [
+              "descriptive-statistics"
+            ]
+          },
+          {
+            "id": "regression-modeling",
+            "name": "Regression Modeling",
+            "deps": [
+              "data-cleaning",
+              "hypothesis-testing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "visualization",
+        "title": "Data Visualization",
+        "items": [
+          {
+            "id": "chart-generation",
+            "name": "Chart Generation",
+            "deps": [
+              "descriptive-statistics"
+            ]
+          },
+          {
+            "id": "interactive-dashboards",
+            "name": "Interactive Dashboards",
+            "deps": [
+              "chart-generation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-preparation",
+        "title": "Data Preparation",
+        "items": [
+          {
+            "id": "data-extraction",
+            "name": "Data Extraction",
+            "deps": []
+          },
+          {
+            "id": "data-validation",
+            "name": "Data Validation",
+            "deps": [
+              "data-extraction"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "controlled-experimentation",
+        "title": "Controlled Experimentation",
+        "items": [
+          {
+            "id": "experimental-design",
+            "name": "Experimental Design",
+            "deps": [
+              "data-preparation"
+            ]
+          },
+          {
+            "id": "variable-control",
+            "name": "Variable Control",
+            "deps": [
+              "experimental-design"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "scientific-method",
+        "title": "Scientific Method",
+        "items": [
+          {
+            "id": "observation-collection",
+            "name": "Observation Collection",
+            "deps": []
+          },
+          {
+            "id": "hypothesis-formulation",
+            "name": "Hypothesis Formulation",
+            "deps": [
+              "observation-collection"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "data-analysis",
+      "specName": "root__scientific-method__data-analysis",
+      "parentSpecName": "root__scientific-method",
+      "lineage": "root/scientific-method/data-analysis",
+      "depth": 2,
+      "promptPath": "data/prompts/root__scientific-method/data-analysis.txt"
+    }
+  }
+]

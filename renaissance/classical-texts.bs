@@ -1,0 +1,134 @@
+[
+  {
+    "id": "classical-texts",
+    "title": "Classical Texts",
+    "abstract": "A domain exploring ancient literary and philosophical works from Greek, Roman, and other classical civilizations.",
+    "categories": [
+      {
+        "id": "literature-analysis",
+        "title": "Literature Analysis",
+        "items": [
+          {
+            "id": "epic-poetry",
+            "name": "Epic Poetry",
+            "deps": [
+              "mythology-studies"
+            ]
+          },
+          {
+            "id": "philosophy-works",
+            "name": "Philosophy Works",
+            "deps": [
+              "logic-systems",
+              "ethics-treatises"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mythology-studies",
+        "title": "Mythology Studies",
+        "items": [
+          {
+            "id": "greek-myths",
+            "name": "Greek Myths",
+            "deps": [
+              "ancient-religion"
+            ]
+          },
+          {
+            "id": "roman-legends",
+            "name": "Roman Legends",
+            "deps": [
+              "ancient-religion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "logic-systems",
+        "title": "Logic Systems",
+        "items": [
+          {
+            "id": "syllogisms",
+            "name": "Syllogisms",
+            "deps": [
+              "mathematics-foundation"
+            ]
+          },
+          {
+            "id": "dialectics",
+            "name": "Dialectics",
+            "deps": [
+              "philosophy-works"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ethics-treatises",
+        "title": "Ethics Treatises",
+        "items": [
+          {
+            "id": "virtue-moralities",
+            "name": "Virtue Moralities",
+            "deps": [
+              "philosophy-works"
+            ]
+          },
+          {
+            "id": "political-theory",
+            "name": "Political Theory",
+            "deps": [
+              "ethics-treatises"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ancient-religion",
+        "title": "Ancient Religion",
+        "items": [
+          {
+            "id": "greek-deities",
+            "name": "Greek Deities",
+            "deps": [
+              "mythology-studies"
+            ]
+          },
+          {
+            "id": "roman-paganism",
+            "name": "Roman Paganism",
+            "deps": [
+              "ancient-religion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mathematics-foundation",
+        "title": "Mathematics Foundation",
+        "items": [
+          {
+            "id": "geometry-principles",
+            "name": "Geometry Principles",
+            "deps": []
+          },
+          {
+            "id": "arithmetic-basics",
+            "name": "Arithmetic Basics",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "classical-texts",
+      "specName": "root__classical-texts",
+      "parentSpecName": "root",
+      "lineage": "root/classical-texts",
+      "depth": 1,
+      "promptPath": "data/prompts/root/classical-texts.txt"
+    }
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "renaissance-sculpture",
+    "title": "Sculptural Forms",
+    "abstract": "Exploration of Renaissance sculptural techniques and aesthetic principles rooted in humanism.",
+    "categories": [
+      {
+        "id": "humanism-values",
+        "title": "Humanistic Principles",
+        "items": [
+          {
+            "id": "anatomy-study",
+            "name": "Anatomical Accuracy",
+            "deps": [
+              "proportion-rules"
+            ]
+          },
+          {
+            "id": "proportion-rules",
+            "name": "Golden Ratio Application",
+            "deps": []
+          },
+          {
+            "id": "naturalism",
+            "name": "Naturalistic Representation",
+            "deps": [
+              "anatomy-study"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "technique-mastery",
+        "title": "Technical Mastery",
+        "items": [
+          {
+            "id": "marble-carving",
+            "name": "Marble Carving",
+            "deps": [
+              "chiseling-precision"
+            ]
+          },
+          {
+            "id": "bronze-casting",
+            "name": "Bronze Casting",
+            "deps": [
+              "mold-making"
+            ]
+          },
+          {
+            "id": "chiseling-precision",
+            "name": "Chisel Precision",
+            "deps": []
+          },
+          {
+            "id": "mold-making",
+            "name": "Mold Making",
+            "deps": [
+              "material-selection"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "artistic-revival",
+        "title": "Artistic Revival",
+        "items": [
+          {
+            "id": "classical-influence",
+            "name": "Classical Influence",
+            "deps": [
+              "humanism-values"
+            ]
+          },
+          {
+            "id": "renaissance-style",
+            "name": "Renaissance Style",
+            "deps": [
+              "classical-influence"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "renaissance-sculpture",
+      "specName": "root__artistic-revival__renaissance-sculpture",
+      "parentSpecName": "root__artistic-revival",
+      "lineage": "root/artistic-revival/renaissance-sculpture",
+      "depth": 2,
+      "promptPath": "data/prompts/root__artistic-revival/renaissance-sculpture.txt"
+    }
+  }
+]

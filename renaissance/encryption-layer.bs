@@ -1,0 +1,94 @@
+[
+  {
+    "id": "banking-encryption-layer",
+    "title": "Encryption Layer",
+    "abstract": "Security mechanisms for protecting banking data at rest and in transit.",
+    "categories": [
+      {
+        "id": "user-facing-security",
+        "title": "User-Facing Security",
+        "items": [
+          {
+            "id": "customer-data-encryption",
+            "name": "Customer Data Encryption",
+            "deps": [
+              "transaction-integrity"
+            ]
+          },
+          {
+            "id": "session-token-protection",
+            "name": "Session Token Protection",
+            "deps": [
+              "transport-layer"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "application-security",
+        "title": "Application Security",
+        "items": [
+          {
+            "id": "payment-encryption",
+            "name": "Payment Encryption",
+            "deps": [
+              "customer-data-encryption",
+              "transaction-integrity"
+            ]
+          },
+          {
+            "id": "audit-log-security",
+            "name": "Audit Log Security",
+            "deps": [
+              "transaction-integrity"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure-security",
+        "title": "Infrastructure Security",
+        "items": [
+          {
+            "id": "transport-layer",
+            "name": "Transport Layer Encryption",
+            "deps": [
+              "network-protocol"
+            ]
+          },
+          {
+            "id": "database-encryption",
+            "name": "Database Encryption",
+            "deps": [
+              "storage-layer"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundation-services",
+        "title": "Foundation Services",
+        "items": [
+          {
+            "id": "network-protocol",
+            "name": "Network Protocol Security",
+            "deps": []
+          },
+          {
+            "id": "storage-layer",
+            "name": "Storage Layer Encryption",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "encryption-layer",
+      "specName": "root__banking-systems__encryption-layer",
+      "parentSpecName": "root__banking-systems",
+      "lineage": "root/banking-systems/encryption-layer",
+      "depth": 2,
+      "promptPath": "data/prompts/root__banking-systems/encryption-layer.txt"
+    }
+  }
+]

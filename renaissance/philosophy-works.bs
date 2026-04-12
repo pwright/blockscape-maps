@@ -1,0 +1,76 @@
+[
+  {
+    "id": "philosophy-works",
+    "title": "Philosophy Works",
+    "abstract": "A collection of foundational philosophical texts and their logical frameworks.",
+    "categories": [
+      {
+        "id": "user-facing-content",
+        "title": "User-Facing Content",
+        "items": [
+          {
+            "id": "philosophy-works-overview",
+            "name": "Philosophy Works Overview",
+            "deps": [
+              "classical-texts-intro"
+            ]
+          },
+          {
+            "id": "ethics-treatises",
+            "name": "Ethics Treatises",
+            "deps": [
+              "logic-systems",
+              "philosophy-works-overview"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "logical-frameworks",
+        "title": "Logical Frameworks",
+        "items": [
+          {
+            "id": "logic-systems",
+            "name": "Logic Systems",
+            "deps": [
+              "classical-texts-intro"
+            ]
+          },
+          {
+            "id": "deductive-reasoning",
+            "name": "Deductive Reasoning",
+            "deps": [
+              "logic-systems"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "source-materials",
+        "title": "Source Materials",
+        "items": [
+          {
+            "id": "classical-texts-intro",
+            "name": "Classical Texts Introduction",
+            "deps": []
+          },
+          {
+            "id": "ancient-philosophy",
+            "name": "Ancient Philosophy",
+            "deps": [
+              "classical-texts-intro"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "philosophy-works",
+      "specName": "root__classical-texts__philosophy-works",
+      "parentSpecName": "root__classical-texts",
+      "lineage": "root/classical-texts/philosophy-works",
+      "depth": 2,
+      "promptPath": "data/prompts/root__classical-texts/philosophy-works.txt"
+    }
+  }
+]

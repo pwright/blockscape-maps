@@ -1,0 +1,97 @@
+[
+  {
+    "id": "field-notes",
+    "title": "Field Notes",
+    "abstract": "Documenting empirical observations and data collection practices rooted in Renaissance scientific methodology.",
+    "categories": [
+      {
+        "id": "observation-collection",
+        "title": "Observation Collection",
+        "items": [
+          {
+            "id": "field-sketches",
+            "name": "Field Sketches",
+            "deps": [
+              "data-logging"
+            ]
+          },
+          {
+            "id": "sample-catalogs",
+            "name": "Sample Catalogs",
+            "deps": [
+              "observation-collection"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-analysis",
+        "title": "Data Analysis",
+        "items": [
+          {
+            "id": "pattern-recognition",
+            "name": "Pattern Recognition",
+            "deps": [
+              "field-sketches"
+            ]
+          },
+          {
+            "id": "statistical-methods",
+            "name": "Statistical Methods",
+            "deps": [
+              "data-logging"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "documentation",
+        "title": "Documentation",
+        "items": [
+          {
+            "id": "field-reports",
+            "name": "Field Reports",
+            "deps": [
+              "pattern-recognition"
+            ]
+          },
+          {
+            "id": "archive-records",
+            "name": "Archive Records",
+            "deps": [
+              "field-reports"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "methodology",
+        "title": "Methodology",
+        "items": [
+          {
+            "id": "empirical-frameworks",
+            "name": "Empirical Frameworks",
+            "deps": [
+              "scientific-method"
+            ]
+          },
+          {
+            "id": "validation-protocols",
+            "name": "Validation Protocols",
+            "deps": [
+              "empirical-frameworks"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "field-notes",
+      "specName": "root__empiricism__field-notes",
+      "parentSpecName": "root__empiricism",
+      "lineage": "root/empiricism/field-notes",
+      "depth": 2,
+      "promptPath": "data/prompts/root__empiricism/field-notes.txt"
+    }
+  }
+]

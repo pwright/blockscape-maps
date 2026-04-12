@@ -1,0 +1,81 @@
+[
+  {
+    "id": "banking-institutions",
+    "title": "Banking Institutions",
+    "abstract": "Financial organizations providing credit, payment, and investment services.",
+    "categories": [
+      {
+        "id": "customer-segmentation",
+        "title": "Customer Segmentation",
+        "items": [
+          {
+            "id": "retail-banking",
+            "name": "Retail Banking",
+            "deps": [
+              "consumer-credit"
+            ]
+          },
+          {
+            "id": "corporate-banking",
+            "name": "Corporate Banking",
+            "deps": [
+              "business-lending"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "product-offering",
+        "title": "Product Offering",
+        "items": [
+          {
+            "id": "consumer-credit",
+            "name": "Consumer Credit",
+            "deps": [
+              "legal-frameworks"
+            ]
+          },
+          {
+            "id": "business-lending",
+            "name": "Business Lending",
+            "deps": [
+              "corporate-banking"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "regulatory-compliance",
+        "title": "Regulatory Compliance",
+        "items": [
+          {
+            "id": "legal-frameworks",
+            "name": "Legal Frameworks",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "items": [
+          {
+            "id": "payment-processing",
+            "name": "Payment Processing",
+            "deps": [
+              "legal-frameworks"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "banking-institutions",
+      "specName": "root__merchant-class__banking-institutions",
+      "parentSpecName": "root__merchant-class",
+      "lineage": "root/merchant-class/banking-institutions",
+      "depth": 2,
+      "promptPath": "data/prompts/root__merchant-class/banking-institutions.txt"
+    }
+  }
+]

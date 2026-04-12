@@ -1,0 +1,93 @@
+[
+  {
+    "id": "light-dark-contrast",
+    "title": "Light-Dark Contrast",
+    "abstract": "Analysis of luminance relationships and visual hierarchy in design.",
+    "categories": [
+      {
+        "id": "visual-perception",
+        "title": "Visual Perception",
+        "items": [
+          {
+            "id": "luminance-measurement",
+            "name": "Luminance Measurement",
+            "deps": []
+          },
+          {
+            "id": "perceived-brightness",
+            "name": "Perceived Brightness",
+            "deps": [
+              "luminance-measurement"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "design-application",
+        "title": "Design Application",
+        "items": [
+          {
+            "id": "hierarchy-establishment",
+            "name": "Hierarchy Establishment",
+            "deps": [
+              "perceived-brightness"
+            ]
+          },
+          {
+            "id": "attention-directing",
+            "name": "Attention Directing",
+            "deps": [
+              "hierarchy-establishment"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chiaroscuro-principles",
+        "title": "Chiaroscuro Principles",
+        "items": [
+          {
+            "id": "light-source-analysis",
+            "name": "Light Source Analysis",
+            "deps": []
+          },
+          {
+            "id": "shadow-depth-calculation",
+            "name": "Shadow Depth Calculation",
+            "deps": [
+              "light-source-analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "technical-implementation",
+        "title": "Technical Implementation",
+        "items": [
+          {
+            "id": "color-space-mapping",
+            "name": "Color Space Mapping",
+            "deps": [
+              "shadow-depth-calculation"
+            ]
+          },
+          {
+            "id": "rendering-optimization",
+            "name": "Rendering Optimization",
+            "deps": [
+              "color-space-mapping"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "light-dark-contrast",
+      "specName": "root__chiaroscuro__light-dark-contrast",
+      "parentSpecName": "root__chiaroscuro",
+      "lineage": "root/chiaroscuro/light-dark-contrast",
+      "depth": 2,
+      "promptPath": "data/prompts/root__chiaroscuro/light-dark-contrast.txt"
+    }
+  }
+]

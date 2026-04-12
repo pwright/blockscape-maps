@@ -1,0 +1,131 @@
+[
+  {
+    "id": "artistic-patronage",
+    "title": "Artistic Patronage",
+    "abstract": "The role of wealthy individuals and institutions in funding and influencing artistic production during the Renaissance.",
+    "categories": [
+      {
+        "id": "patron-networks",
+        "title": "Patron Networks",
+        "items": [
+          {
+            "id": "merchant-families",
+            "name": "Merchant Families",
+            "deps": [
+              "banking-systems"
+            ]
+          },
+          {
+            "id": "church-endowments",
+            "name": "Church Endowments",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "artistic-production",
+        "title": "Artistic Production",
+        "items": [
+          {
+            "id": "commission-workshops",
+            "name": "Commission Workshops",
+            "deps": [
+              "artist-studios"
+            ]
+          },
+          {
+            "id": "public-galleries",
+            "name": "Public Galleries",
+            "deps": [
+              "commission-workshops"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "financial-mechanisms",
+        "title": "Financial Mechanisms",
+        "items": [
+          {
+            "id": "banking-systems",
+            "name": "Banking Systems",
+            "deps": []
+          },
+          {
+            "id": "insurance-funds",
+            "name": "Insurance Funds",
+            "deps": [
+              "banking-systems"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cultural-institutions",
+        "title": "Cultural Institutions",
+        "items": [
+          {
+            "id": "academies",
+            "name": "Academies",
+            "deps": [
+              "artist-studios"
+            ]
+          },
+          {
+            "id": "museums",
+            "name": "Museums",
+            "deps": [
+              "academies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "artistic-techniques",
+        "title": "Artistic Techniques",
+        "items": [
+          {
+            "id": "painting-methods",
+            "name": "Painting Methods",
+            "deps": [
+              "artist-studios"
+            ]
+          },
+          {
+            "id": "sculpture-techniques",
+            "name": "Sculpture Techniques",
+            "deps": [
+              "painting-methods"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundation-elements",
+        "title": "Foundation Elements",
+        "items": [
+          {
+            "id": "artist-studios",
+            "name": "Artist Studios",
+            "deps": []
+          },
+          {
+            "id": "material-supplies",
+            "name": "Material Supplies",
+            "deps": [
+              "artist-studios"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "artistic-patronage",
+      "specName": "root__absolutism__artistic-patronage",
+      "parentSpecName": "root__absolutism",
+      "lineage": "root/absolutism/artistic-patronage",
+      "depth": 2,
+      "promptPath": "data/prompts/root__absolutism/artistic-patronage.txt"
+    }
+  }
+]

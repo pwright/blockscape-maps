@@ -1,0 +1,108 @@
+[
+  {
+    "id": "comedy-renaissance",
+    "title": "Renaissance Comedy",
+    "abstract": "A domain exploring the evolution of comedic forms during the Renaissance period, from classical influences to theatrical innovations.",
+    "categories": [
+      {
+        "id": "performance-practices",
+        "title": "Performance Practices",
+        "items": [
+          {
+            "id": "improvisation-techniques",
+            "name": "Improvisation Techniques",
+            "deps": [
+              "classical-texts"
+            ]
+          },
+          {
+            "id": "stage-mechanics",
+            "name": "Stage Mechanics",
+            "deps": [
+              "improvisation-techniques"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "literary-analysis",
+        "title": "Literary Analysis",
+        "items": [
+          {
+            "id": "comedy-structures",
+            "name": "Comedy Structures",
+            "deps": [
+              "classical-texts"
+            ]
+          },
+          {
+            "id": "character-development",
+            "name": "Character Development",
+            "deps": [
+              "comedy-structures"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-context",
+        "title": "Historical Context",
+        "items": [
+          {
+            "id": "social-dynamics",
+            "name": "Social Dynamics",
+            "deps": [
+              "classical-texts"
+            ]
+          },
+          {
+            "id": "political-satire",
+            "name": "Political Satire",
+            "deps": [
+              "social-dynamics"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "theoretical-frameworks",
+        "title": "Theoretical Frameworks",
+        "items": [
+          {
+            "id": "comedy-theory",
+            "name": "Comedy Theory",
+            "deps": [
+              "classical-texts"
+            ]
+          },
+          {
+            "id": "genre-evolution",
+            "name": "Genre Evolution",
+            "deps": [
+              "comedy-theory"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-texts",
+        "title": "Foundational Texts",
+        "items": [
+          {
+            "id": "classical-texts",
+            "name": "Classical Texts",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "comedy-renaissance",
+      "specName": "root__dramatic-form__comedy-renaissance",
+      "parentSpecName": "root__dramatic-form",
+      "lineage": "root/dramatic-form/comedy-renaissance",
+      "depth": 2,
+      "promptPath": "data/prompts/root__dramatic-form/comedy-renaissance.txt"
+    }
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "political-influence",
+    "title": "Political Influence",
+    "abstract": "Analysis of political power dynamics and their historical manifestations.",
+    "categories": [
+      {
+        "id": "power-dynamics",
+        "title": "Power Dynamics",
+        "items": [
+          {
+            "id": "elite-control",
+            "name": "Elite Control",
+            "deps": [
+              "institutional-framework"
+            ]
+          },
+          {
+            "id": "public-opinion",
+            "name": "Public Opinion",
+            "deps": [
+              "media-influence"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "institutional-framework",
+        "title": "Institutional Framework",
+        "items": [
+          {
+            "id": "parliamentary-system",
+            "name": "Parliamentary System",
+            "deps": [
+              "legal-structure"
+            ]
+          },
+          {
+            "id": "executive-power",
+            "name": "Executive Power",
+            "deps": [
+              "constitutional-law"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "media-influence",
+        "title": "Media Influence",
+        "items": [
+          {
+            "id": "press-corruption",
+            "name": "Press Corruption",
+            "deps": [
+              "legal-structure"
+            ]
+          },
+          {
+            "id": "propaganda-mechanisms",
+            "name": "Propaganda Mechanisms",
+            "deps": [
+              "cultural-narratives"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "legal-structure",
+        "title": "Legal Structure",
+        "items": [
+          {
+            "id": "constitutional-law",
+            "name": "Constitutional Law",
+            "deps": []
+          },
+          {
+            "id": "judicial-review",
+            "name": "Judicial Review",
+            "deps": [
+              "constitutional-law"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cultural-narratives",
+        "title": "Cultural Narratives",
+        "items": [
+          {
+            "id": "renaissance-ideals",
+            "name": "Renaissance Ideals",
+            "deps": []
+          },
+          {
+            "id": "political-myths",
+            "name": "Political Myths",
+            "deps": [
+              "renaissance-ideals"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "political-influence",
+      "specName": "root__dramatic-form__political-influence",
+      "parentSpecName": "root__dramatic-form",
+      "lineage": "root/dramatic-form/political-influence",
+      "depth": 2,
+      "promptPath": "data/prompts/root__dramatic-form/political-influence.txt"
+    }
+  }
+]

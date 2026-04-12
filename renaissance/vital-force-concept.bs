@@ -1,0 +1,93 @@
+[
+  {
+    "id": "vital-force-concept",
+    "title": "Vital Force Concept",
+    "abstract": "A framework for understanding life energy through historical and scientific lenses.",
+    "categories": [
+      {
+        "id": "philosophical-frameworks",
+        "title": "Philosophical Frameworks",
+        "items": [
+          {
+            "id": "vitalism-theory",
+            "name": "Vitalism Theory",
+            "deps": [
+              "scientific-method"
+            ]
+          },
+          {
+            "id": "animating-principle",
+            "name": "Animating Principle",
+            "deps": [
+              "vitalism-theory"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-contexts",
+        "title": "Historical Contexts",
+        "items": [
+          {
+            "id": "renaissance-anatomy",
+            "name": "Renaissance Anatomy Study",
+            "deps": []
+          },
+          {
+            "id": "galen-legacy",
+            "name": "Galen Legacy",
+            "deps": [
+              "renaissance-anatomy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "scientific-methods",
+        "title": "Scientific Methods",
+        "items": [
+          {
+            "id": "scientific-method",
+            "name": "Scientific Method",
+            "deps": []
+          },
+          {
+            "id": "empirical-observation",
+            "name": "Empirical Observation",
+            "deps": [
+              "scientific-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "application-domains",
+        "title": "Application Domains",
+        "items": [
+          {
+            "id": "medical-practice",
+            "name": "Medical Practice",
+            "deps": [
+              "animating-principle"
+            ]
+          },
+          {
+            "id": "biological-research",
+            "name": "Biological Research",
+            "deps": [
+              "empirical-observation"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "vital-force-concept",
+      "specName": "root__anatomy-study__vital-force-concept",
+      "parentSpecName": "root__anatomy-study",
+      "lineage": "root/anatomy-study/vital-force-concept",
+      "depth": 2,
+      "promptPath": "data/prompts/root__anatomy-study/vital-force-concept.txt"
+    }
+  }
+]

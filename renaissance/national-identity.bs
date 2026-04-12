@@ -1,0 +1,108 @@
+[
+  {
+    "id": "national-identity",
+    "title": "National Identity",
+    "abstract": "The formation and maintenance of national identity through centralized state power during the Renaissance.",
+    "categories": [
+      {
+        "id": "ideology",
+        "title": "Ideological Foundations",
+        "items": [
+          {
+            "id": "absolutist-philosophy",
+            "name": "Absolutist Philosophy",
+            "deps": [
+              "centralized-state"
+            ]
+          },
+          {
+            "id": "civic-nationalism",
+            "name": "Civic Nationalism",
+            "deps": [
+              "absolutist-philosophy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "political-structure",
+        "title": "Political Structure",
+        "items": [
+          {
+            "id": "monarchical-legitimacy",
+            "name": "Monarchical Legitimacy",
+            "deps": [
+              "civic-nationalism"
+            ]
+          },
+          {
+            "id": "bureaucratic-centralization",
+            "name": "Bureaucratic Centralization",
+            "deps": [
+              "monarchical-legitimacy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cultural-symbolism",
+        "title": "Cultural Symbolism",
+        "items": [
+          {
+            "id": "national-rituals",
+            "name": "National Rituals",
+            "deps": [
+              "bureaucratic-centralization"
+            ]
+          },
+          {
+            "id": "artistic-propaganda",
+            "name": "Artistic Propaganda",
+            "deps": [
+              "national-rituals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "social-mechanisms",
+        "title": "Social Mechanisms",
+        "items": [
+          {
+            "id": "education-systems",
+            "name": "Education Systems",
+            "deps": [
+              "artistic-propaganda"
+            ]
+          },
+          {
+            "id": "military-service",
+            "name": "Military Service",
+            "deps": [
+              "education-systems"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "items": [
+          {
+            "id": "centralized-state",
+            "name": "Centralized State",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "national-identity",
+      "specName": "root__absolutism__national-identity",
+      "parentSpecName": "root__absolutism",
+      "lineage": "root/absolutism/national-identity",
+      "depth": 2,
+      "promptPath": "data/prompts/root__absolutism/national-identity.txt"
+    }
+  }
+]

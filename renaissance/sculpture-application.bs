@@ -1,0 +1,76 @@
+[
+  {
+    "id": "sculpture-application",
+    "title": "Sculpture Application",
+    "abstract": "Application of linear perspective principles to three-dimensional sculptural forms.",
+    "categories": [
+      {
+        "id": "visual-output",
+        "title": "Visual Output",
+        "items": [
+          {
+            "id": "sculpture-rendering",
+            "name": "Sculpture Rendering",
+            "deps": [
+              "vanishing-point-concept"
+            ]
+          },
+          {
+            "id": "spatial-depth",
+            "name": "Spatial Depth",
+            "deps": [
+              "painting-technique",
+              "sculpture-rendering"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "perspective-theory",
+        "title": "Perspective Theory",
+        "items": [
+          {
+            "id": "vanishing-point-concept",
+            "name": "Vanishing Point Concept",
+            "deps": []
+          },
+          {
+            "id": "painting-technique",
+            "name": "Painting Technique",
+            "deps": [
+              "vanishing-point-concept"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "material-foundation",
+        "title": "Material Foundation",
+        "items": [
+          {
+            "id": "stone-carving",
+            "name": "Stone Carving",
+            "deps": [
+              "spatial-depth"
+            ]
+          },
+          {
+            "id": "bronze-casting",
+            "name": "Bronze Casting",
+            "deps": [
+              "spatial-depth"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "sculpture-application",
+      "specName": "root__perspective__sculpture-application",
+      "parentSpecName": "root__perspective",
+      "lineage": "root/perspective/sculpture-application",
+      "depth": 2,
+      "promptPath": "data/prompts/root__perspective/sculpture-application.txt"
+    }
+  }
+]

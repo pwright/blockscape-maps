@@ -1,0 +1,35 @@
+[
+  {
+    "id": "cultural-shifts",
+    "title": "Cultural Shifts",
+    "abstract": "Evolution of artistic and intellectual paradigms across historical periods.",
+    "categories": [
+      {
+        "id": "foundation-concepts",
+        "title": "Foundation Concepts",
+        "items": [
+          {
+            "id": "renaissance-era",
+            "name": "Renaissance Era",
+            "deps": []
+          },
+          {
+            "id": "linear-perspective",
+            "name": "Linear Perspective",
+            "deps": [
+              "renaissance-era"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "cultural-shifts",
+      "specName": "root__perspective__cultural-shifts",
+      "parentSpecName": "root__perspective",
+      "lineage": "root/perspective/cultural-shifts",
+      "depth": 2,
+      "promptPath": "data/prompts/root__perspective/cultural-shifts.txt"
+    }
+  }
+]

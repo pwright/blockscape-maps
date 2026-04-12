@@ -1,0 +1,98 @@
+[
+  {
+    "id": "chiaroscuro",
+    "title": "Chiaroscuro",
+    "abstract": "The use of strong contrasts between light and dark to achieve a sense of three-dimensional form and dramatic effect in art.",
+    "categories": [
+      {
+        "id": "lighting-techniques",
+        "title": "Lighting Techniques",
+        "items": [
+          {
+            "id": "caravaggio-style",
+            "name": "Caravaggism",
+            "deps": [
+              "chiaroscuro"
+            ]
+          },
+          {
+            "id": "tenebrism",
+            "name": "Tenebrism",
+            "deps": [
+              "caravaggio-style"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "artistic-movements",
+        "title": "Artistic Movements",
+        "items": [
+          {
+            "id": "baroque-period",
+            "name": "Baroque Period",
+            "deps": [
+              "tenebrism"
+            ]
+          },
+          {
+            "id": "renaissance-revival",
+            "name": "Renaissance Revival",
+            "deps": [
+              "baroque-period"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-context",
+        "title": "Historical Context",
+        "items": [
+          {
+            "id": "renaissance-arts",
+            "name": "Renaissance Arts",
+            "deps": [
+              "renaissance-revival"
+            ]
+          },
+          {
+            "id": "artistic-revival",
+            "name": "Artistic Revival",
+            "deps": [
+              "renaissance-arts"
+            ],
+            "external": "?load=artistic-revival.bs"
+          }
+        ]
+      },
+      {
+        "id": "foundational-concepts",
+        "title": "Foundational Concepts",
+        "items": [
+          {
+            "id": "chiaroscuro-principles",
+            "name": "Chiaroscuro Principles",
+            "deps": [
+              "artistic-revival"
+            ]
+          },
+          {
+            "id": "light-dark-contrast",
+            "name": "Light-Dark Contrast",
+            "deps": [
+              "chiaroscuro-principles"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "chiaroscuro",
+      "specName": "root__chiaroscuro",
+      "parentSpecName": "root",
+      "lineage": "root/chiaroscuro",
+      "depth": 1,
+      "promptPath": "data/prompts/root/chiaroscuro.txt"
+    }
+  }
+]

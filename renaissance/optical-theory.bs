@@ -1,0 +1,100 @@
+[
+  {
+    "id": "optical-theory",
+    "title": "Optical Theory",
+    "abstract": "Study of light behavior and visual perception principles",
+    "categories": [
+      {
+        "id": "visual-perception",
+        "title": "Visual Perception",
+        "items": [
+          {
+            "id": "human-eye-model",
+            "name": "Human Eye Model",
+            "deps": [
+              "geometric-logic"
+            ]
+          },
+          {
+            "id": "color-theory",
+            "name": "Color Theory",
+            "deps": [
+              "mathematical-foundations"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "light-behavior",
+        "title": "Light Behavior",
+        "items": [
+          {
+            "id": "refraction-principles",
+            "name": "Refraction Principles",
+            "deps": [
+              "geometric-logic"
+            ]
+          },
+          {
+            "id": "reflection-laws",
+            "name": "Reflection Laws",
+            "deps": [
+              "mathematical-foundations"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "perspective-math",
+        "title": "Perspective Mathematics",
+        "items": [
+          {
+            "id": "vanishing-point",
+            "name": "Vanishing Point",
+            "deps": [
+              "geometric-logic"
+            ]
+          },
+          {
+            "id": "projection-formulas",
+            "name": "Projection Formulas",
+            "deps": [
+              "mathematical-foundations",
+              "vanishing-point"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "geometric-logic",
+        "title": "Geometric Logic",
+        "items": [
+          {
+            "id": "spatial-reasoning",
+            "name": "Spatial Reasoning",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "mathematical-foundations",
+        "title": "Mathematical Foundations",
+        "items": [
+          {
+            "id": "linear-algebra",
+            "name": "Linear Algebra",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "optical-theory",
+      "specName": "root__perspective__optical-theory",
+      "parentSpecName": "root__perspective",
+      "lineage": "root/perspective/optical-theory",
+      "depth": 2,
+      "promptPath": "data/prompts/root__perspective/optical-theory.txt"
+    }
+  }
+]

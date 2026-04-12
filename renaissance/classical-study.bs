@@ -1,0 +1,95 @@
+[
+  {
+    "id": "classical-study",
+    "title": "Classical Study",
+    "abstract": "A systematic approach to analyzing classical art and literature through historical context.",
+    "categories": [
+      {
+        "id": "methodology",
+        "title": "Methodology",
+        "items": [
+          {
+            "id": "textual-analysis",
+            "name": "Textual Analysis",
+            "deps": [
+              "iconography-decoding"
+            ]
+          },
+          {
+            "id": "iconography-decoding",
+            "name": "Iconography Decoding",
+            "deps": [
+              "art-historical-context"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "art-historical-context",
+        "title": "Art Historical Context",
+        "items": [
+          {
+            "id": "renaissance-art",
+            "name": "Renaissance Art",
+            "deps": [
+              "humanism-principles"
+            ]
+          },
+          {
+            "id": "baroque-period",
+            "name": "Baroque Period",
+            "deps": [
+              "renaissance-art"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "humanism-principles",
+        "title": "Humanism Principles",
+        "items": [
+          {
+            "id": "philosophy-foundations",
+            "name": "Philosophy Foundations",
+            "deps": []
+          },
+          {
+            "id": "cultural-values",
+            "name": "Cultural Values",
+            "deps": [
+              "philosophy-foundations"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "literature-study",
+        "title": "Literature Study",
+        "items": [
+          {
+            "id": "poetry-analysis",
+            "name": "Poetry Analysis",
+            "deps": [
+              "textual-analysis"
+            ]
+          },
+          {
+            "id": "narrative-structure",
+            "name": "Narrative Structure",
+            "deps": [
+              "poetry-analysis"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "classical-study",
+      "specName": "root__humanism__classical-study",
+      "parentSpecName": "root__humanism",
+      "lineage": "root/humanism/classical-study",
+      "depth": 2,
+      "promptPath": "data/prompts/root__humanism/classical-study.txt"
+    }
+  }
+]

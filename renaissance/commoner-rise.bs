@@ -1,0 +1,107 @@
+[
+  {
+    "id": "commoner-rise",
+    "title": "Commoner Rise",
+    "abstract": "The emergence of a merchant class and social mobility during the Renaissance period.",
+    "categories": [
+      {
+        "id": "social-structure",
+        "title": "Social Structure",
+        "items": [
+          {
+            "id": "merchant-class",
+            "name": "Merchant Class",
+            "deps": []
+          },
+          {
+            "id": "urban-growth",
+            "name": "Urban Growth",
+            "deps": [
+              "merchant-class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "economic-systems",
+        "title": "Economic Systems",
+        "items": [
+          {
+            "id": "trade-networks",
+            "name": "Trade Networks",
+            "deps": []
+          },
+          {
+            "id": "banking-institutions",
+            "name": "Banking Institutions",
+            "deps": [
+              "trade-networks"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cultural-shifts",
+        "title": "Cultural Shifts",
+        "items": [
+          {
+            "id": "humanism",
+            "name": "Humanism",
+            "deps": []
+          },
+          {
+            "id": "art-patronage",
+            "name": "Art Patronage",
+            "deps": [
+              "humanism"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "political-institutions",
+        "title": "Political Institutions",
+        "items": [
+          {
+            "id": "city-states",
+            "name": "City States",
+            "deps": []
+          },
+          {
+            "id": "absolutist-rulers",
+            "name": "Absolutist Rulers",
+            "deps": [
+              "city-states"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "items": [
+          {
+            "id": "transportation",
+            "name": "Transportation",
+            "deps": []
+          },
+          {
+            "id": "communication",
+            "name": "Communication",
+            "deps": [
+              "transportation"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "commoner-rise",
+      "specName": "root__absolutism__commoner-rise",
+      "parentSpecName": "root__absolutism",
+      "lineage": "root/absolutism/commoner-rise",
+      "depth": 2,
+      "promptPath": "data/prompts/root__absolutism/commoner-rise.txt"
+    }
+  }
+]

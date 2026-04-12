@@ -1,0 +1,133 @@
+[
+  {
+    "id": "renaissance-individualism",
+    "title": "Individualism in the Renaissance",
+    "abstract": "Exploration of individual rights through the lens of Renaissance humanism and personal identity.",
+    "categories": [
+      {
+        "id": "humanistic-values",
+        "title": "Humanistic Values",
+        "items": [
+          {
+            "id": "personal-identity",
+            "name": "Personal Identity",
+            "deps": []
+          },
+          {
+            "id": "self-worth",
+            "name": "Self-Worth",
+            "deps": [
+              "personal-identity"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "political-frameworks",
+        "title": "Political Frameworks",
+        "items": [
+          {
+            "id": "individual-rights",
+            "name": "Individual Rights",
+            "deps": [
+              "self-worth"
+            ]
+          },
+          {
+            "id": "civil-liberties",
+            "name": "Civil Liberties",
+            "deps": [
+              "individual-rights"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "legal-institutions",
+        "title": "Legal Institutions",
+        "items": [
+          {
+            "id": "courts-of-justice",
+            "name": "Courts of Justice",
+            "deps": [
+              "civil-liberties"
+            ]
+          },
+          {
+            "id": "legislative-bodies",
+            "name": "Legislative Bodies",
+            "deps": [
+              "courts-of-justice"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "social-mechanisms",
+        "title": "Social Mechanisms",
+        "items": [
+          {
+            "id": "public-discourse",
+            "name": "Public Discourse",
+            "deps": [
+              "legislative-bodies"
+            ]
+          },
+          {
+            "id": "community-organizations",
+            "name": "Community Organizations",
+            "deps": [
+              "public-discourse"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cultural-artifacts",
+        "title": "Cultural Artifacts",
+        "items": [
+          {
+            "id": "philosophical-works",
+            "name": "Philosophical Works",
+            "deps": [
+              "community-organizations"
+            ]
+          },
+          {
+            "id": "literary-canons",
+            "name": "Literary Canons",
+            "deps": [
+              "philosophical-works"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-concepts",
+        "title": "Foundational Concepts",
+        "items": [
+          {
+            "id": "human-nature",
+            "name": "Human Nature",
+            "deps": []
+          },
+          {
+            "id": "social-contract",
+            "name": "Social Contract",
+            "deps": [
+              "human-nature"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "individual-rights",
+      "specName": "root__individualism__individual-rights",
+      "parentSpecName": "root__individualism",
+      "lineage": "root/individualism/individual-rights",
+      "depth": 2,
+      "promptPath": "data/prompts/root__individualism/individual-rights.txt"
+    }
+  }
+]

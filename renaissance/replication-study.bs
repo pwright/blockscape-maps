@@ -1,0 +1,97 @@
+[
+  {
+    "id": "replication-study",
+    "title": "Replication Study",
+    "abstract": "A systematic investigation to verify the results of a previous study through independent observation and experimentation.",
+    "categories": [
+      {
+        "id": "research-design",
+        "title": "Research Design",
+        "items": [
+          {
+            "id": "protocol-definition",
+            "name": "Protocol Definition",
+            "deps": [
+              "peer-review-process"
+            ]
+          },
+          {
+            "id": "sample-selection",
+            "name": "Sample Selection",
+            "deps": [
+              "protocol-definition"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-collection",
+        "title": "Data Collection",
+        "items": [
+          {
+            "id": "measurement-standards",
+            "name": "Measurement Standards",
+            "deps": [
+              "protocol-definition"
+            ]
+          },
+          {
+            "id": "observation-log",
+            "name": "Observation Log",
+            "deps": [
+              "measurement-standards"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "analysis-framework",
+        "title": "Analysis Framework",
+        "items": [
+          {
+            "id": "statistical-methods",
+            "name": "Statistical Methods",
+            "deps": [
+              "observation-log"
+            ]
+          },
+          {
+            "id": "result-interpretation",
+            "name": "Result Interpretation",
+            "deps": [
+              "statistical-methods"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "publication-process",
+        "title": "Publication Process",
+        "items": [
+          {
+            "id": "peer-review-process",
+            "name": "Peer Review Process",
+            "deps": [
+              "result-interpretation"
+            ]
+          },
+          {
+            "id": "journal-submission",
+            "name": "Journal Submission",
+            "deps": [
+              "peer-review-process"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "replication-study",
+      "specName": "root__scientific-method__replication-study",
+      "parentSpecName": "root__scientific-method",
+      "lineage": "root/scientific-method/replication-study",
+      "depth": 2,
+      "promptPath": "data/prompts/root__scientific-method/replication-study.txt"
+    }
+  }
+]

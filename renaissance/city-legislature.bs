@@ -1,0 +1,121 @@
+[
+  {
+    "id": "city-legislature",
+    "title": "City Legislature",
+    "abstract": "The governing body responsible for making laws and managing civic affairs within a city.",
+    "categories": [
+      {
+        "id": "legislative-process",
+        "title": "Legislative Process",
+        "items": [
+          {
+            "id": "bill-introduction",
+            "name": "Bill Introduction",
+            "deps": [
+              "city-magistrate"
+            ]
+          },
+          {
+            "id": "committee-review",
+            "name": "Committee Review",
+            "deps": [
+              "bill-introduction"
+            ]
+          },
+          {
+            "id": "voting-session",
+            "name": "Voting Session",
+            "deps": [
+              "committee-review"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "legislative-roles",
+        "title": "Legislative Roles",
+        "items": [
+          {
+            "id": "city-magistrate",
+            "name": "City Magistrate",
+            "deps": []
+          },
+          {
+            "id": "legislator",
+            "name": "Legislator",
+            "deps": [
+              "city-magistrate"
+            ]
+          },
+          {
+            "id": "constituency-representative",
+            "name": "Constituency Representative",
+            "deps": [
+              "legislator"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "legislative-facilities",
+        "title": "Legislative Facilities",
+        "items": [
+          {
+            "id": "city-hall",
+            "name": "City Hall",
+            "deps": []
+          },
+          {
+            "id": "meeting-room",
+            "name": "Meeting Room",
+            "deps": [
+              "city-hall"
+            ]
+          },
+          {
+            "id": "record-keeping",
+            "name": "Record Keeping",
+            "deps": [
+              "meeting-room"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "legislative-regulations",
+        "title": "Legislative Regulations",
+        "items": [
+          {
+            "id": "voting-rules",
+            "name": "Voting Rules",
+            "deps": [
+              "city-magistrate"
+            ]
+          },
+          {
+            "id": "quorum-requirement",
+            "name": "Quorum Requirement",
+            "deps": [
+              "voting-rules"
+            ]
+          },
+          {
+            "id": "legislative-budget",
+            "name": "Legislative Budget",
+            "deps": [
+              "quorum-requirement"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "city-legislature",
+      "specName": "root__city-states__city-legislature",
+      "parentSpecName": "root__city-states",
+      "lineage": "root/city-states/city-legislature",
+      "depth": 2,
+      "promptPath": "data/prompts/root__city-states/city-legislature.txt"
+    }
+  }
+]

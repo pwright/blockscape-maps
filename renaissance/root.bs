@@ -1,0 +1,155 @@
+{
+  "id": "renaissance-domain",
+  "title": "Renaissance History & Arts",
+  "abstract": "A structured domain exploring the cultural, artistic, and historical shifts of the Renaissance period.",
+  "categories": [
+    {
+      "id": "cultural-impact",
+      "title": "Cultural Impact",
+      "items": [
+        {
+          "id": "humanism",
+          "name": "Humanism",
+          "deps": [],
+          "external": "?load=humanism.bs"
+        },
+        {
+          "id": "artistic-revival",
+          "name": "Artistic Revival",
+          "deps": [
+            "humanism"
+          ],
+          "external": "?load=artistic-revival.bs"
+        },
+        {
+          "id": "scientific-method",
+          "name": "Scientific Method",
+          "deps": [
+            "humanism"
+          ],
+          "external": "?load=scientific-method.bs"
+        }
+      ]
+    },
+    {
+      "id": "artistic-movement",
+      "title": "Artistic Movement",
+      "items": [
+        {
+          "id": "perspective",
+          "name": "Linear Perspective",
+          "deps": [
+            "scientific-method"
+          ],
+          "external": "?load=perspective.bs"
+        },
+        {
+          "id": "chiaroscuro",
+          "name": "Chiaroscuro",
+          "deps": [
+            "artistic-revival"
+          ],
+          "external": "?load=chiaroscuro.bs"
+        },
+        {
+          "id": "anatomy-study",
+          "name": "Anatomy Study",
+          "deps": [
+            "scientific-method"
+          ],
+          "external": "?load=anatomy-study.bs"
+        }
+      ]
+    },
+    {
+      "id": "literary-renaissance",
+      "title": "Literary Renaissance",
+      "items": [
+        {
+          "id": "classical-texts",
+          "name": "Classical Texts",
+          "deps": [],
+          "external": "?load=classical-texts.bs"
+        },
+        {
+          "id": "vernacular-writing",
+          "name": "Vernacular Writing",
+          "deps": [
+            "humanism"
+          ],
+          "external": "?load=vernacular-writing.bs"
+        },
+        {
+          "id": "dramatic-form",
+          "name": "Dramatic Form",
+          "deps": [
+            "classical-texts"
+          ],
+          "external": "?load=dramatic-form.bs"
+        }
+      ]
+    },
+    {
+      "id": "philosophical-shift",
+      "title": "Philosophical Shift",
+      "items": [
+        {
+          "id": "empiricism",
+          "name": "Empiricism",
+          "deps": [
+            "scientific-method"
+          ],
+          "external": "?load=empiricism.bs"
+        },
+        {
+          "id": "individualism",
+          "name": "Individualism",
+          "deps": [
+            "humanism"
+          ],
+          "external": "?load=individualism.bs"
+        }
+      ]
+    },
+    {
+      "id": "economic-foundation",
+      "title": "Economic Foundation",
+      "items": [
+        {
+          "id": "merchant-class",
+          "name": "Merchant Class",
+          "deps": [],
+          "external": "?load=merchant-class.bs"
+        },
+        {
+          "id": "banking-systems",
+          "name": "Banking Systems",
+          "deps": [
+            "merchant-class"
+          ],
+          "external": "?load=banking-systems.bs"
+        }
+      ]
+    },
+    {
+      "id": "political-structure",
+      "title": "Political Structure",
+      "items": [
+        {
+          "id": "city-states",
+          "name": "City States",
+          "deps": [],
+          "external": "?load=city-states.bs"
+        },
+        {
+          "id": "absolutism",
+          "name": "Absolutism",
+          "deps": [
+            "merchant-class"
+          ],
+          "external": "?load=absolutism.bs"
+        }
+      ]
+    }
+  ]
+}

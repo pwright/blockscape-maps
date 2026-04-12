@@ -1,0 +1,99 @@
+[
+  {
+    "id": "payment-routes",
+    "title": "Payment Routes",
+    "abstract": "End-to-end payment processing flow from user request to final settlement.",
+    "categories": [
+      {
+        "id": "user-facing-payments",
+        "title": "User-Facing Payments",
+        "items": [
+          {
+            "id": "payment-initiation",
+            "name": "Payment Initiation",
+            "deps": [
+              "gateway-api"
+            ]
+          },
+          {
+            "id": "payment-confirmation",
+            "name": "Payment Confirmation",
+            "deps": [
+              "transaction-queue"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "routing-engine",
+        "title": "Routing Engine",
+        "items": [
+          {
+            "id": "route-selection",
+            "name": "Route Selection",
+            "deps": [
+              "gateway-api"
+            ]
+          },
+          {
+            "id": "payment-validation",
+            "name": "Payment Validation",
+            "deps": [
+              "transaction-queue"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "settlement-system",
+        "title": "Settlement System",
+        "items": [
+          {
+            "id": "fund-transfer",
+            "name": "Fund Transfer",
+            "deps": [
+              "transaction-queue"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gateway-api",
+        "title": "Gateway API",
+        "items": [
+          {
+            "id": "api-gateway",
+            "name": "API Gateway",
+            "deps": []
+          },
+          {
+            "id": "payment-processing",
+            "name": "Payment Processing",
+            "deps": [
+              "transaction-queue"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "transaction-queue",
+        "title": "Transaction Queue",
+        "items": [
+          {
+            "id": "queue-manager",
+            "name": "Queue Manager",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "payment-routes",
+      "specName": "root__banking-systems__payment-routes",
+      "parentSpecName": "root__banking-systems",
+      "lineage": "root/banking-systems/payment-routes",
+      "depth": 2,
+      "promptPath": "data/prompts/root__banking-systems/payment-routes.txt"
+    }
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "id": "db-cluster",
+    "title": "Database Cluster",
+    "abstract": "A distributed database cluster for high-throughput transactional workloads.",
+    "categories": [
+      {
+        "id": "user-facing-services",
+        "title": "User-Facing Services",
+        "items": [
+          {
+            "id": "api-gateway",
+            "name": "API Gateway",
+            "deps": [
+              "auth-service"
+            ]
+          },
+          {
+            "id": "transaction-manager",
+            "name": "Transaction Manager",
+            "deps": [
+              "db-cluster"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "core-services",
+        "title": "Core Services",
+        "items": [
+          {
+            "id": "auth-service",
+            "name": "Authentication Service",
+            "deps": [
+              "user-db"
+            ]
+          },
+          {
+            "id": "cache-layer",
+            "name": "Cache Layer",
+            "deps": [
+              "db-cluster"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "storage-layer",
+        "title": "Storage Layer",
+        "items": [
+          {
+            "id": "db-cluster",
+            "name": "Database Cluster",
+            "deps": [
+              "primary-node"
+            ]
+          },
+          {
+            "id": "replication-service",
+            "name": "Replication Service",
+            "deps": [
+              "db-cluster"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "items": [
+          {
+            "id": "primary-node",
+            "name": "Primary Node",
+            "deps": []
+          },
+          {
+            "id": "backup-service",
+            "name": "Backup Service",
+            "deps": [
+              "storage-layer"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "db-cluster",
+      "specName": "root__banking-systems__db-cluster",
+      "parentSpecName": "root__banking-systems",
+      "lineage": "root/banking-systems/db-cluster",
+      "depth": 2,
+      "promptPath": "data/prompts/root__banking-systems/db-cluster.txt"
+    }
+  }
+]

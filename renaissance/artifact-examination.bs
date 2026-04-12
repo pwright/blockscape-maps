@@ -1,0 +1,109 @@
+[
+  {
+    "id": "artifact-examination",
+    "title": "Artifact Examination",
+    "abstract": "Systematic analysis of physical and digital objects through observation, measurement, and documentation.",
+    "categories": [
+      {
+        "id": "observation-methods",
+        "title": "Observation Methods",
+        "items": [
+          {
+            "id": "visual-inspection",
+            "name": "Visual Inspection",
+            "deps": [
+              "sensory-data"
+            ]
+          },
+          {
+            "id": "measurement-techniques",
+            "name": "Measurement Techniques",
+            "deps": [
+              "visual-inspection",
+              "sensory-data"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-collection",
+        "title": "Data Collection",
+        "items": [
+          {
+            "id": "sensory-data",
+            "name": "Sensory Data",
+            "deps": []
+          },
+          {
+            "id": "artifact-cataloging",
+            "name": "Artifact Cataloging",
+            "deps": [
+              "sensory-data"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "analysis-frameworks",
+        "title": "Analysis Frameworks",
+        "items": [
+          {
+            "id": "artifact-examination",
+            "name": "Artifact Examination",
+            "deps": [
+              "measurement-techniques",
+              "artifact-cataloging"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "documentation-systems",
+        "title": "Documentation Systems",
+        "items": [
+          {
+            "id": "report-generation",
+            "name": "Report Generation",
+            "deps": [
+              "artifact-examination"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "empirical-validation",
+        "title": "Empirical Validation",
+        "items": [
+          {
+            "id": "peer-review-process",
+            "name": "Peer Review Process",
+            "deps": [
+              "report-generation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "knowledge-integration",
+        "title": "Knowledge Integration",
+        "items": [
+          {
+            "id": "empirical-knowledge-base",
+            "name": "Empirical Knowledge Base",
+            "deps": [
+              "peer-review-process"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "artifact-examination",
+      "specName": "root__empiricism__artifact-examination",
+      "parentSpecName": "root__empiricism",
+      "lineage": "root/empiricism/artifact-examination",
+      "depth": 2,
+      "promptPath": "data/prompts/root__empiricism/artifact-examination.txt"
+    }
+  }
+]

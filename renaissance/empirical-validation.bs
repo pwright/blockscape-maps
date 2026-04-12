@@ -1,0 +1,69 @@
+[
+  {
+    "id": "renaissance-empiricism",
+    "title": "Empiricism in the Renaissance",
+    "abstract": "A structured domain exploring empirical validation methods within Renaissance intellectual traditions, tracing lineage from foundational reasoning to artifact-based verification.",
+    "categories": [
+      {
+        "id": "philosophical-frameworks",
+        "title": "Philosophical Frameworks",
+        "items": [
+          {
+            "id": "inductive-reasoning",
+            "name": "Inductive Reasoning",
+            "deps": []
+          },
+          {
+            "id": "empirical-observation",
+            "name": "Empirical Observation",
+            "deps": [
+              "inductive-reasoning"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "methodological-tools",
+        "title": "Methodological Tools",
+        "items": [
+          {
+            "id": "artifact-examination",
+            "name": "Artifact Examination",
+            "deps": [
+              "empirical-observation"
+            ]
+          },
+          {
+            "id": "historical-contextualization",
+            "name": "Historical Contextualization",
+            "deps": [
+              "artifact-examination"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "validation-practices",
+        "title": "Validation Practices",
+        "items": [
+          {
+            "id": "empirical-validation",
+            "name": "Empirical Validation",
+            "deps": [
+              "artifact-examination",
+              "historical-contextualization"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "empirical-validation",
+      "specName": "root__empiricism__empirical-validation",
+      "parentSpecName": "root__empiricism",
+      "lineage": "root/empiricism/empirical-validation",
+      "depth": 2,
+      "promptPath": "data/prompts/root__empiricism/empirical-validation.txt"
+    }
+  }
+]

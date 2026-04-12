@@ -1,0 +1,108 @@
+[
+  {
+    "id": "renaissance-vernacular",
+    "title": "Vernacular Writing in the Renaissance",
+    "abstract": "The study of vernacular writing practices, literary forms, and linguistic shifts during the Renaissance period.",
+    "categories": [
+      {
+        "id": "literary-forms",
+        "title": "Literary Forms & Genres",
+        "items": [
+          {
+            "id": "humanist-poetry",
+            "name": "Humanist Poetry",
+            "deps": [
+              "vernacular-translation"
+            ]
+          },
+          {
+            "id": "prose-writing",
+            "name": "Prose Writing",
+            "deps": [
+              "vernacular-translation"
+            ]
+          },
+          {
+            "id": "dramatic-literature",
+            "name": "Dramatic Literature",
+            "deps": [
+              "humanist-poetry",
+              "vernacular-translation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "linguistic-shifts",
+        "title": "Linguistic Shifts & Dialects",
+        "items": [
+          {
+            "id": "vernacular-translation",
+            "name": "Vernacular Translation",
+            "deps": [
+              "humanism"
+            ]
+          },
+          {
+            "id": "dialect-analysis",
+            "name": "Dialect Analysis",
+            "deps": [
+              "vernacular-translation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "philosophical-frameworks",
+        "title": "Philosophical Frameworks",
+        "items": [
+          {
+            "id": "humanism",
+            "name": "Humanism",
+            "deps": [],
+            "external": "?load=humanism.bs"
+          }
+        ]
+      },
+      {
+        "id": "historical-context",
+        "title": "Historical Context & Sources",
+        "items": [
+          {
+            "id": "renaissance-history",
+            "name": "Renaissance History",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "methodological-tools",
+        "title": "Methodological Tools & Approaches",
+        "items": [
+          {
+            "id": "textual-analysis",
+            "name": "Textual Analysis",
+            "deps": [
+              "dialect-analysis"
+            ]
+          },
+          {
+            "id": "historical-methods",
+            "name": "Historical Methods",
+            "deps": [
+              "renaissance-history"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "vernacular-writing",
+      "specName": "root__vernacular-writing",
+      "parentSpecName": "root",
+      "lineage": "root/vernacular-writing",
+      "depth": 1,
+      "promptPath": "data/prompts/root/vernacular-writing.txt"
+    }
+  }
+]

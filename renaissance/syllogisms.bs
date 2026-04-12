@@ -1,0 +1,125 @@
+[
+  {
+    "id": "syllogisms",
+    "title": "Syllogisms",
+    "abstract": "Classical logical reasoning structures derived from ancient philosophical texts.",
+    "categories": [
+      {
+        "id": "syllogism-types",
+        "title": "Syllogism Types",
+        "items": [
+          {
+            "id": "categorical-syllogisms",
+            "name": "Categorical Syllogisms",
+            "deps": [
+              "mathematics-foundation"
+            ]
+          },
+          {
+            "id": "sorites",
+            "name": "Sorites",
+            "deps": [
+              "categorical-syllogisms"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "syllogism-structure",
+        "title": "Syllogism Structure",
+        "items": [
+          {
+            "id": "major-premise",
+            "name": "Major Premise",
+            "deps": [
+              "mathematics-foundation"
+            ]
+          },
+          {
+            "id": "minor-premise",
+            "name": "Minor Premise",
+            "deps": [
+              "mathematics-foundation"
+            ]
+          },
+          {
+            "id": "conclusion",
+            "name": "Conclusion",
+            "deps": [
+              "major-premise",
+              "minor-premise"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "syllogism-logic",
+        "title": "Syllogism Logic",
+        "items": [
+          {
+            "id": "validity-rules",
+            "name": "Validity Rules",
+            "deps": [
+              "categorical-syllogisms"
+            ]
+          },
+          {
+            "id": "soundness-requirements",
+            "name": "Soundness Requirements",
+            "deps": [
+              "validity-rules"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "syllogism-applications",
+        "title": "Syllogism Applications",
+        "items": [
+          {
+            "id": "dialectical-methods",
+            "name": "Dialectical Methods",
+            "deps": [
+              "validity-rules"
+            ]
+          },
+          {
+            "id": "rhetorical-uses",
+            "name": "Rhetorical Uses",
+            "deps": [
+              "dialectical-methods"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "syllogism-history",
+        "title": "Syllogism History",
+        "items": [
+          {
+            "id": "aristotelian-logic",
+            "name": "Aristotelian Logic",
+            "deps": [
+              "mathematics-foundation"
+            ]
+          },
+          {
+            "id": "medieval-developments",
+            "name": "Medieval Developments",
+            "deps": [
+              "aristotelian-logic"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "syllogisms",
+      "specName": "root__classical-texts__syllogisms",
+      "parentSpecName": "root__classical-texts",
+      "lineage": "root/classical-texts/syllogisms",
+      "depth": 2,
+      "promptPath": "data/prompts/root__classical-texts/syllogisms.txt"
+    }
+  }
+]

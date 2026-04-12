@@ -1,0 +1,115 @@
+[
+  {
+    "id": "human-dignity",
+    "title": "Human Dignity",
+    "abstract": "The inherent worth and deserving of rights that is owed to all humans.",
+    "categories": [
+      {
+        "id": "core-values",
+        "title": "Core Values",
+        "items": [
+          {
+            "id": "intrinsic-worth",
+            "name": "Intrinsic Worth",
+            "deps": []
+          },
+          {
+            "id": "moral-agency",
+            "name": "Moral Agency",
+            "deps": [
+              "intrinsic-worth"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ethical-frameworks",
+        "title": "Ethical Frameworks",
+        "items": [
+          {
+            "id": "humanism",
+            "name": "Humanism",
+            "deps": [
+              "moral-agency"
+            ]
+          },
+          {
+            "id": "dignity-based-ethics",
+            "name": "Dignity-Based Ethics",
+            "deps": [
+              "humanism"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "philosophical-foundations",
+        "title": "Philosophical Foundations",
+        "items": [
+          {
+            "id": "anthropocentrism",
+            "name": "Anthropocentrism",
+            "deps": [
+              "dignity-based-ethics"
+            ]
+          },
+          {
+            "id": "human-nature",
+            "name": "Human Nature",
+            "deps": [
+              "anthropocentrism"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "societal-implications",
+        "title": "Societal Implications",
+        "items": [
+          {
+            "id": "human-rights",
+            "name": "Human Rights",
+            "deps": [
+              "dignity-based-ethics"
+            ]
+          },
+          {
+            "id": "social-equity",
+            "name": "Social Equity",
+            "deps": [
+              "human-rights"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "practical-applications",
+        "title": "Practical Applications",
+        "items": [
+          {
+            "id": "legal-protection",
+            "name": "Legal Protection",
+            "deps": [
+              "social-equity"
+            ]
+          },
+          {
+            "id": "policy-making",
+            "name": "Policy Making",
+            "deps": [
+              "legal-protection"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "human-dignity",
+      "specName": "root__humanism__human-dignity",
+      "parentSpecName": "root__humanism",
+      "lineage": "root/humanism/human-dignity",
+      "depth": 2,
+      "promptPath": "data/prompts/root__humanism/human-dignity.txt"
+    }
+  }
+]

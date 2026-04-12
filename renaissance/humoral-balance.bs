@@ -1,0 +1,89 @@
+[
+  {
+    "id": "humoral-balance",
+    "title": "Humoral Balance",
+    "abstract": "Study of the four humors and their equilibrium in Renaissance anatomy.",
+    "categories": [
+      {
+        "id": "clinical-observation",
+        "title": "Clinical Observation",
+        "items": [
+          {
+            "id": "symptom-tracking",
+            "name": "Symptom Tracking",
+            "deps": [
+              "vital-force-concept"
+            ]
+          },
+          {
+            "id": "case-study",
+            "name": "Case Study",
+            "deps": [
+              "symptom-tracking"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "theoretical-framework",
+        "title": "Theoretical Framework",
+        "items": [
+          {
+            "id": "humor-classification",
+            "name": "Humor Classification",
+            "deps": [
+              "vital-force-concept"
+            ]
+          },
+          {
+            "id": "balance-mechanism",
+            "name": "Balance Mechanism",
+            "deps": [
+              "humor-classification"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "methodology",
+        "title": "Methodology",
+        "items": [
+          {
+            "id": "observation-protocol",
+            "name": "Observation Protocol",
+            "deps": [
+              "humor-classification"
+            ]
+          },
+          {
+            "id": "data-analysis",
+            "name": "Data Analysis",
+            "deps": [
+              "symptom-tracking",
+              "balance-mechanism"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-concepts",
+        "title": "Foundational Concepts",
+        "items": [
+          {
+            "id": "vital-force-concept",
+            "name": "Vital Force Concept",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "humoral-balance",
+      "specName": "root__anatomy-study__humoral-balance",
+      "parentSpecName": "root__anatomy-study",
+      "lineage": "root/anatomy-study/humoral-balance",
+      "depth": 2,
+      "promptPath": "data/prompts/root__anatomy-study/humoral-balance.txt"
+    }
+  }
+]

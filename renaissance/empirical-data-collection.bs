@@ -1,0 +1,113 @@
+[
+  {
+    "id": "empirical-data-collection",
+    "title": "Empirical Data Collection",
+    "abstract": "Systematic gathering of observations and measurements to test hypotheses.",
+    "categories": [
+      {
+        "id": "observation-gathering",
+        "title": "Observation Gathering",
+        "items": [
+          {
+            "id": "direct-sensing",
+            "name": "Direct Sensing",
+            "deps": []
+          },
+          {
+            "id": "indirect-measurement",
+            "name": "Indirect Measurement",
+            "deps": [
+              "direct-sensing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-validation",
+        "title": "Data Validation",
+        "items": [
+          {
+            "id": "reliability-check",
+            "name": "Reliability Check",
+            "deps": [
+              "direct-sensing"
+            ]
+          },
+          {
+            "id": "consistency-analysis",
+            "name": "Consistency Analysis",
+            "deps": [
+              "reliability-check"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hypothesis-testing",
+        "title": "Hypothesis Testing",
+        "items": [
+          {
+            "id": "experiment-design",
+            "name": "Experiment Design",
+            "deps": [
+              "consistency-analysis"
+            ]
+          },
+          {
+            "id": "variable-control",
+            "name": "Variable Control",
+            "deps": [
+              "experiment-design"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "analysis-framework",
+        "title": "Analysis Framework",
+        "items": [
+          {
+            "id": "statistical-methods",
+            "name": "Statistical Methods",
+            "deps": [
+              "variable-control"
+            ]
+          },
+          {
+            "id": "pattern-recognition",
+            "name": "Pattern Recognition",
+            "deps": [
+              "statistical-methods"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure-tools",
+        "title": "Infrastructure Tools",
+        "items": [
+          {
+            "id": "data-storage",
+            "name": "Data Storage",
+            "deps": []
+          },
+          {
+            "id": "processing-engine",
+            "name": "Processing Engine",
+            "deps": [
+              "data-storage"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "empirical-data-collection",
+      "specName": "root__scientific-method__empirical-data-collection",
+      "parentSpecName": "root__scientific-method",
+      "lineage": "root/scientific-method/empirical-data-collection",
+      "depth": 2,
+      "promptPath": "data/prompts/root__scientific-method/empirical-data-collection.txt"
+    }
+  }
+]

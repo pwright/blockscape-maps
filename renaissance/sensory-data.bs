@@ -1,0 +1,118 @@
+[
+  {
+    "id": "sensory-data",
+    "title": "Sensory Data Collection",
+    "abstract": "Systematic gathering of perceptual information through observation and measurement.",
+    "categories": [
+      {
+        "id": "data-acquisition",
+        "title": "Data Acquisition",
+        "items": [
+          {
+            "id": "visual-capture",
+            "name": "Visual Capture",
+            "deps": [
+              "observation-practices"
+            ]
+          },
+          {
+            "id": "auditory-recording",
+            "name": "Auditory Recording",
+            "deps": [
+              "observation-practices"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "measurement-standards",
+        "title": "Measurement Standards",
+        "items": [
+          {
+            "id": "calibration-tools",
+            "name": "Calibration Tools",
+            "deps": [
+              "observation-practices"
+            ]
+          },
+          {
+            "id": "unit-definitions",
+            "name": "Unit Definitions",
+            "deps": [
+              "calibration-tools"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "processing-pipelines",
+        "title": "Processing Pipelines",
+        "items": [
+          {
+            "id": "signal-filtering",
+            "name": "Signal Filtering",
+            "deps": [
+              "calibration-tools"
+            ]
+          },
+          {
+            "id": "data-aggregation",
+            "name": "Data Aggregation",
+            "deps": [
+              "signal-filtering",
+              "unit-definitions"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "storage-systems",
+        "title": "Storage Systems",
+        "items": [
+          {
+            "id": "database-schemas",
+            "name": "Database Schemas",
+            "deps": [
+              "data-aggregation"
+            ]
+          },
+          {
+            "id": "backup-procedures",
+            "name": "Backup Procedures",
+            "deps": [
+              "database-schemas"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "analysis-frameworks",
+        "title": "Analysis Frameworks",
+        "items": [
+          {
+            "id": "statistical-methods",
+            "name": "Statistical Methods",
+            "deps": [
+              "data-aggregation"
+            ]
+          },
+          {
+            "id": "pattern-recognition",
+            "name": "Pattern Recognition",
+            "deps": [
+              "statistical-methods"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "sensory-data",
+      "specName": "root__empiricism__sensory-data",
+      "parentSpecName": "root__empiricism",
+      "lineage": "root/empiricism/sensory-data",
+      "depth": 2,
+      "promptPath": "data/prompts/root__empiricism/sensory-data.txt"
+    }
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "id": "root__humanism",
+    "title": "Humanism",
+    "abstract": "A philosophical and cultural movement emphasizing human agency, reason, and dignity.",
+    "categories": [
+      {
+        "id": "philosophy-humanism",
+        "title": "Philosophical Foundations",
+        "items": [
+          {
+            "id": "anthropocentrism",
+            "name": "Anthropocentrism",
+            "deps": [
+              "reasoning"
+            ]
+          },
+          {
+            "id": "human-dignity",
+            "name": "Human Dignity",
+            "deps": [
+              "anthropocentrism"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "artistic-humanism",
+        "title": "Artistic Expression",
+        "items": [
+          {
+            "id": "renaissance-art",
+            "name": "Renaissance Art",
+            "deps": [
+              "human-dignity"
+            ]
+          },
+          {
+            "id": "classical-study",
+            "name": "Classical Study",
+            "deps": [
+              "renaissance-art"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "literary-humanism",
+        "title": "Literary Works",
+        "items": [
+          {
+            "id": "humanist-poetry",
+            "name": "Humanist Poetry",
+            "deps": [
+              "classical-study"
+            ]
+          },
+          {
+            "id": "dramatic-writing",
+            "name": "Dramatic Writing",
+            "deps": [
+              "humanist-poetry"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "intellectual-tools",
+        "title": "Intellectual Tools",
+        "items": [
+          {
+            "id": "reasoning",
+            "name": "Reasoning",
+            "deps": []
+          },
+          {
+            "id": "critical-thinking",
+            "name": "Critical Thinking",
+            "deps": [
+              "reasoning"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "humanism",
+      "specName": "root__humanism",
+      "parentSpecName": "root",
+      "lineage": "root/humanism",
+      "depth": 1,
+      "promptPath": "data/prompts/root/humanism.txt"
+    }
+  },
+  {
+    "id": "root__individualism__humanism",
+    "title": "Humanism",
+    "abstract": "A philosophical movement emphasizing human agency, reason, and dignity.",
+    "categories": [
+      {
+        "id": "core-values",
+        "title": "Core Values",
+        "items": [
+          {
+            "id": "human-dignity",
+            "name": "Human Dignity",
+            "deps": []
+          },
+          {
+            "id": "reason-agency",
+            "name": "Reason and Agency",
+            "deps": [
+              "human-dignity"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-context",
+        "title": "Historical Context",
+        "items": [
+          {
+            "id": "renaissance-era",
+            "name": "Renaissance Era",
+            "deps": []
+          },
+          {
+            "id": "individualism-rise",
+            "name": "Rise of Individualism",
+            "deps": [
+              "renaissance-era"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "philosophical-influence",
+        "title": "Philosophical Influence",
+        "items": [
+          {
+            "id": "human-nature",
+            "name": "Human Nature",
+            "deps": [
+              "reason-agency"
+            ]
+          },
+          {
+            "id": "social-contract",
+            "name": "Social Contract Theory",
+            "deps": [
+              "human-nature"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "modern-legacy",
+        "title": "Modern Legacy",
+        "items": [
+          {
+            "id": "liberal-democracy",
+            "name": "Liberal Democracy",
+            "deps": [
+              "social-contract"
+            ]
+          },
+          {
+            "id": "human-rights",
+            "name": "Human Rights Framework",
+            "deps": [
+              "liberal-democracy"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "humanism",
+      "specName": "root__individualism__humanism",
+      "parentSpecName": "root__individualism",
+      "lineage": "root/individualism/humanism",
+      "depth": 2,
+      "promptPath": "data/prompts/root__individualism/humanism.txt"
+    }
+  },
+  {
+    "id": "root__vernacular-writing__humanism",
+    "title": "Humanism",
+    "abstract": "A philosophical and cultural movement emphasizing human agency, reason, and individual worth.",
+    "categories": [
+      {
+        "id": "philosophy-humanism",
+        "title": "Philosophical Foundations",
+        "items": [
+          {
+            "id": "anthropocentrism",
+            "name": "Anthropocentrism",
+            "deps": [
+              "reasoning"
+            ]
+          },
+          {
+            "id": "human-dignity",
+            "name": "Human Dignity",
+            "deps": [
+              "anthropocentrism"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "literature-humanism",
+        "title": "Literary Expression",
+        "items": [
+          {
+            "id": "vernacular-writing",
+            "name": "Vernacular Writing",
+            "deps": [
+              "human-dignity"
+            ]
+          },
+          {
+            "id": "renaissance-vernacular",
+            "name": "Renaissance Vernacular",
+            "deps": [
+              "vernacular-writing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "art-humanism",
+        "title": "Artistic Practice",
+        "items": [
+          {
+            "id": "human-portrait",
+            "name": "Human Portrait",
+            "deps": [
+              "vernacular-writing"
+            ]
+          },
+          {
+            "id": "classical-revival",
+            "name": "Classical Revival",
+            "deps": [
+              "human-portrait"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ethics-humanism",
+        "title": "Ethical Frameworks",
+        "items": [
+          {
+            "id": "reasoning",
+            "name": "Reasoning",
+            "deps": []
+          },
+          {
+            "id": "moral-agency",
+            "name": "Moral Agency",
+            "deps": [
+              "reasoning"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "society-humanism",
+        "title": "Social Structures",
+        "items": [
+          {
+            "id": "citizen-rights",
+            "name": "Citizen Rights",
+            "deps": [
+              "moral-agency"
+            ]
+          },
+          {
+            "id": "human-welfare",
+            "name": "Human Welfare",
+            "deps": [
+              "citizen-rights"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "humanism",
+      "specName": "root__vernacular-writing__humanism",
+      "parentSpecName": "root__vernacular-writing",
+      "lineage": "root/vernacular-writing/humanism",
+      "depth": 2,
+      "promptPath": "data/prompts/root__vernacular-writing/humanism.txt"
+    }
+  }
+]

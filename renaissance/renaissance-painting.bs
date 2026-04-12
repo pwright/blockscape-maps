@@ -1,0 +1,116 @@
+[
+  {
+    "id": "renaissance-painting",
+    "title": "Painting Techniques",
+    "abstract": "Exploration of Renaissance-era artistic methods and humanist influences on visual representation.",
+    "categories": [
+      {
+        "id": "technique-examples",
+        "title": "Technique Examples",
+        "items": [
+          {
+            "id": "chiaroscuro-method",
+            "name": "Chiaroscuro",
+            "deps": [
+              "lighting-control"
+            ]
+          },
+          {
+            "id": "sfumato-technique",
+            "name": "Sfumato",
+            "deps": [
+              "atmospheric-perspective"
+            ]
+          },
+          {
+            "id": "linear-perspective",
+            "name": "Linear Perspective",
+            "deps": [
+              "geometric-rules"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "material-knowledge",
+        "title": "Material Knowledge",
+        "items": [
+          {
+            "id": "oil-painting",
+            "name": "Oil Painting",
+            "deps": [
+              "pigment-preparation"
+            ]
+          },
+          {
+            "id": "tempera-methods",
+            "name": "Tempera Methods",
+            "deps": [
+              "egg-binding"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "humanism-values",
+        "title": "Humanism Values",
+        "items": [
+          {
+            "id": "anatomical-study",
+            "name": "Anatomical Study",
+            "deps": [
+              "artistic-revival"
+            ]
+          },
+          {
+            "id": "classical-proportions",
+            "name": "Classical Proportions",
+            "deps": [
+              "anatomical-study"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "artistic-revival",
+        "title": "Artistic Revival",
+        "items": [
+          {
+            "id": "humanism-values",
+            "name": "Humanism Values",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "foundation-knowledge",
+        "title": "Foundation Knowledge",
+        "items": [
+          {
+            "id": "geometric-rules",
+            "name": "Geometric Rules",
+            "deps": []
+          },
+          {
+            "id": "pigment-preparation",
+            "name": "Pigment Preparation",
+            "deps": []
+          },
+          {
+            "id": "lighting-control",
+            "name": "Lighting Control",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "renaissance-painting",
+      "specName": "root__artistic-revival__renaissance-painting",
+      "parentSpecName": "root__artistic-revival",
+      "lineage": "root/artistic-revival/renaissance-painting",
+      "depth": 2,
+      "promptPath": "data/prompts/root__artistic-revival/renaissance-painting.txt"
+    }
+  }
+]

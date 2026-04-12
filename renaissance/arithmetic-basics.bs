@@ -1,0 +1,117 @@
+[
+  {
+    "id": "arithmetic-basics",
+    "title": "Arithmetic Basics",
+    "abstract": "Foundational arithmetic concepts and operations derived from classical mathematical texts.",
+    "categories": [
+      {
+        "id": "addition-subtraction",
+        "title": "Addition and Subtraction",
+        "items": [
+          {
+            "id": "basic-addition",
+            "name": "Basic Addition",
+            "deps": [
+              "multiplication-tables"
+            ]
+          },
+          {
+            "id": "subtraction-strategies",
+            "name": "Subtraction Strategies",
+            "deps": [
+              "addition-subtraction"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "multiplication-division",
+        "title": "Multiplication and Division",
+        "items": [
+          {
+            "id": "multiplication-tables",
+            "name": "Multiplication Tables",
+            "deps": [
+              "addition-subtraction"
+            ]
+          },
+          {
+            "id": "division-algorithms",
+            "name": "Division Algorithms",
+            "deps": [
+              "multiplication-tables"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fractions-decimals",
+        "title": "Fractions and Decimals",
+        "items": [
+          {
+            "id": "fraction-conversion",
+            "name": "Fraction Conversion",
+            "deps": [
+              "multiplication-tables"
+            ]
+          },
+          {
+            "id": "decimal-operations",
+            "name": "Decimal Operations",
+            "deps": [
+              "fractions-decimals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "geometry-applications",
+        "title": "Geometry Applications",
+        "items": [
+          {
+            "id": "area-calculations",
+            "name": "Area Calculations",
+            "deps": [
+              "multiplication-tables"
+            ]
+          },
+          {
+            "id": "volume-formulas",
+            "name": "Volume Formulas",
+            "deps": [
+              "area-calculations"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "algebraic-foundation",
+        "title": "Algebraic Foundation",
+        "items": [
+          {
+            "id": "linear-equations",
+            "name": "Linear Equations",
+            "deps": [
+              "multiplication-tables"
+            ]
+          },
+          {
+            "id": "polynomial-basics",
+            "name": "Polynomial Basics",
+            "deps": [
+              "linear-equations"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "arithmetic-basics",
+      "specName": "root__classical-texts__arithmetic-basics",
+      "parentSpecName": "root__classical-texts",
+      "lineage": "root/classical-texts/arithmetic-basics",
+      "depth": 2,
+      "promptPath": "data/prompts/root__classical-texts/arithmetic-basics.txt"
+    }
+  }
+]

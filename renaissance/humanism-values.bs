@@ -1,0 +1,93 @@
+[
+  {
+    "id": "humanism-values",
+    "title": "Core Values",
+    "abstract": "Fundamental principles guiding human behavior and societal structures.",
+    "categories": [
+      {
+        "id": "humanism-ethics",
+        "title": "Ethical Frameworks",
+        "items": [
+          {
+            "id": "humanism-respect",
+            "name": "Respect for Autonomy",
+            "deps": [
+              "humanism-dignity"
+            ]
+          },
+          {
+            "id": "humanism-empathy",
+            "name": "Empathetic Understanding",
+            "deps": [
+              "humanism-compassion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "humanism-dignity",
+        "title": "Dignity and Worth",
+        "items": [
+          {
+            "id": "humanism-intrinsic-value",
+            "name": "Intrinsic Human Value",
+            "deps": []
+          },
+          {
+            "id": "humanism-autonomy",
+            "name": "Personal Autonomy",
+            "deps": [
+              "humanism-respect"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "humanism-compassion",
+        "title": "Compassionate Action",
+        "items": [
+          {
+            "id": "humanism-altruism",
+            "name": "Altruistic Behavior",
+            "deps": [
+              "humanism-empathy"
+            ]
+          },
+          {
+            "id": "humanism-kindness",
+            "name": "Kindness Practice",
+            "deps": [
+              "humanism-compassion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "humanism-philosophy",
+        "title": "Philosophical Foundations",
+        "items": [
+          {
+            "id": "humanism-rationality",
+            "name": "Rational Thought",
+            "deps": []
+          },
+          {
+            "id": "humanism-logic",
+            "name": "Logical Reasoning",
+            "deps": [
+              "humanism-rationality"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "humanism-values",
+      "specName": "root__artistic-revival__humanism-values",
+      "parentSpecName": "root__artistic-revival",
+      "lineage": "root/artistic-revival/humanism-values",
+      "depth": 2,
+      "promptPath": "data/prompts/root__artistic-revival/humanism-values.txt"
+    }
+  }
+]

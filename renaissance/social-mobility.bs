@@ -1,0 +1,76 @@
+[
+  {
+    "id": "social-mobility",
+    "title": "Social Mobility",
+    "abstract": "Analysis of social mobility patterns within merchant class structures and their legal and trade dependencies.",
+    "categories": [
+      {
+        "id": "mobility-outcomes",
+        "title": "Mobility Outcomes",
+        "items": [
+          {
+            "id": "wealth-accumulation",
+            "name": "Wealth Accumulation",
+            "deps": [
+              "legal-frameworks"
+            ]
+          },
+          {
+            "id": "social-ladders",
+            "name": "Social Ladders",
+            "deps": [
+              "trade-networks"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "merchant-structures",
+        "title": "Merchant Structures",
+        "items": [
+          {
+            "id": "capital-flows",
+            "name": "Capital Flows",
+            "deps": [
+              "wealth-accumulation"
+            ]
+          },
+          {
+            "id": "network-dynamics",
+            "name": "Network Dynamics",
+            "deps": [
+              "trade-networks",
+              "social-ladders"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "legal-trade-frameworks",
+        "title": "Legal and Trade Frameworks",
+        "items": [
+          {
+            "id": "legal-frameworks",
+            "name": "Legal Frameworks",
+            "deps": []
+          },
+          {
+            "id": "trade-networks",
+            "name": "Trade Networks",
+            "deps": [
+              "legal-frameworks"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "social-mobility",
+      "specName": "root__merchant-class__social-mobility",
+      "parentSpecName": "root__merchant-class",
+      "lineage": "root/merchant-class/social-mobility",
+      "depth": 2,
+      "promptPath": "data/prompts/root__merchant-class/social-mobility.txt"
+    }
+  }
+]

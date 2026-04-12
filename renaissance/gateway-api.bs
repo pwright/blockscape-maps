@@ -1,0 +1,95 @@
+[
+  {
+    "id": "gateway-api",
+    "title": "Gateway API",
+    "abstract": "Standardized interface for financial transaction routing and validation across banking systems.",
+    "categories": [
+      {
+        "id": "user-facing-services",
+        "title": "User-Facing Services",
+        "items": [
+          {
+            "id": "merchant-class",
+            "name": "Merchant Class",
+            "deps": [
+              "gateway-api"
+            ]
+          },
+          {
+            "id": "transaction-queue",
+            "name": "Transaction Queue",
+            "deps": [
+              "gateway-api"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "core-infrastructure",
+        "title": "Core Infrastructure",
+        "items": [
+          {
+            "id": "routing-engine",
+            "name": "Routing Engine",
+            "deps": [
+              "transaction-queue"
+            ]
+          },
+          {
+            "id": "validation-service",
+            "name": "Validation Service",
+            "deps": [
+              "merchant-class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-layer",
+        "title": "Data Layer",
+        "items": [
+          {
+            "id": "ledger-storage",
+            "name": "Ledger Storage",
+            "deps": [
+              "routing-engine"
+            ]
+          },
+          {
+            "id": "audit-logs",
+            "name": "Audit Logs",
+            "deps": [
+              "validation-service"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundation-services",
+        "title": "Foundation Services",
+        "items": [
+          {
+            "id": "identity-provider",
+            "name": "Identity Provider",
+            "deps": []
+          },
+          {
+            "id": "encryption-service",
+            "name": "Encryption Service",
+            "deps": [
+              "identity-provider"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "gateway-api",
+      "specName": "root__banking-systems__gateway-api",
+      "parentSpecName": "root__banking-systems",
+      "lineage": "root/banking-systems/gateway-api",
+      "depth": 2,
+      "promptPath": "data/prompts/root__banking-systems/gateway-api.txt"
+    }
+  }
+]

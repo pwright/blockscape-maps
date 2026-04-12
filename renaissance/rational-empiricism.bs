@@ -1,0 +1,94 @@
+[
+  {
+    "id": "rational-empiricism",
+    "title": "Rational Empiricism",
+    "abstract": "A philosophical approach combining rationalism and empiricism, emphasizing the role of reason in interpreting sensory experience.",
+    "categories": [
+      {
+        "id": "epistemological-foundations",
+        "title": "Epistemological Foundations",
+        "items": [
+          {
+            "id": "sensory-data-collection",
+            "name": "Sensory Data Collection",
+            "deps": []
+          },
+          {
+            "id": "logical-deduction",
+            "name": "Logical Deduction",
+            "deps": [
+              "sensory-data-collection"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "methodological-frameworks",
+        "title": "Methodological Frameworks",
+        "items": [
+          {
+            "id": "inductive-reasoning",
+            "name": "Inductive Reasoning",
+            "deps": [
+              "sensory-data-collection"
+            ]
+          },
+          {
+            "id": "deductive-reasoning",
+            "name": "Deductive Reasoning",
+            "deps": [
+              "logical-deduction"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "application-domains",
+        "title": "Application Domains",
+        "items": [
+          {
+            "id": "scientific-inquiry",
+            "name": "Scientific Inquiry",
+            "deps": [
+              "inductive-reasoning",
+              "deductive-reasoning"
+            ]
+          },
+          {
+            "id": "philosophical-analysis",
+            "name": "Philosophical Analysis",
+            "deps": [
+              "logical-deduction"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-concepts",
+        "title": "Foundational Concepts",
+        "items": [
+          {
+            "id": "empirical-evidence",
+            "name": "Empirical Evidence",
+            "deps": []
+          },
+          {
+            "id": "rational-principles",
+            "name": "Rational Principles",
+            "deps": [
+              "empirical-evidence"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "rational-empiricism",
+      "specName": "root__scientific-method__rational-empiricism",
+      "parentSpecName": "root__scientific-method",
+      "lineage": "root/scientific-method/rational-empiricism",
+      "depth": 2,
+      "promptPath": "data/prompts/root__scientific-method/rational-empiricism.txt"
+    }
+  }
+]

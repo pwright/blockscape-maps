@@ -1,0 +1,75 @@
+[
+  {
+    "id": "vanishing-point-concept",
+    "title": "Vanishing Point Concept",
+    "abstract": "The theoretical framework defining where parallel lines appear to converge in two-dimensional space.",
+    "categories": [
+      {
+        "id": "visual-perception",
+        "title": "Visual Perception",
+        "items": [
+          {
+            "id": "retinal-projection",
+            "name": "Retinal Projection",
+            "deps": [
+              "projective-geometry"
+            ]
+          },
+          {
+            "id": "perspective-lines",
+            "name": "Perspective Lines",
+            "deps": [
+              "retinal-projection"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "geometric-foundation",
+        "title": "Geometric Foundation",
+        "items": [
+          {
+            "id": "parallel-lines",
+            "name": "Parallel Lines",
+            "deps": []
+          },
+          {
+            "id": "projective-geometry",
+            "name": "Projective Geometry",
+            "deps": [
+              "parallel-lines"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "artistic-application",
+        "title": "Artistic Application",
+        "items": [
+          {
+            "id": "linear-perspective",
+            "name": "Linear Perspective",
+            "deps": [
+              "projective-geometry"
+            ]
+          },
+          {
+            "id": "vanishing-point-concept",
+            "name": "Vanishing Point Concept",
+            "deps": [
+              "linear-perspective"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "vanishing-point-concept",
+      "specName": "root__perspective__vanishing-point-concept",
+      "parentSpecName": "root__perspective",
+      "lineage": "root/perspective/vanishing-point-concept",
+      "depth": 2,
+      "promptPath": "data/prompts/root__perspective/vanishing-point-concept.txt"
+    }
+  }
+]

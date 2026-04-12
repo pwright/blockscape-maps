@@ -1,0 +1,87 @@
+[
+  {
+    "id": "political-theory",
+    "title": "Political Theory",
+    "abstract": "Analysis of foundational political philosophies and ethical frameworks.",
+    "categories": [
+      {
+        "id": "philosophical-approaches",
+        "title": "Philosophical Approaches",
+        "items": [
+          {
+            "id": "normative-theory",
+            "name": "Normative Theory",
+            "deps": [
+              "ethical-principles"
+            ]
+          },
+          {
+            "id": "descriptive-analysis",
+            "name": "Descriptive Analysis",
+            "deps": [
+              "historical-contexts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ethical-foundations",
+        "title": "Ethical Foundations",
+        "items": [
+          {
+            "id": "ethical-principles",
+            "name": "Ethical Principles",
+            "deps": [
+              "classical-ethics"
+            ]
+          },
+          {
+            "id": "moral-politics",
+            "name": "Moral Politics",
+            "deps": [
+              "ethical-principles",
+              "justice-frameworks"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-contexts",
+        "title": "Historical Contexts",
+        "items": [
+          {
+            "id": "classical-ethics",
+            "name": "Classical Ethics",
+            "deps": []
+          },
+          {
+            "id": "justice-frameworks",
+            "name": "Justice Frameworks",
+            "deps": [
+              "classical-ethics"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "source-materials",
+        "title": "Source Materials",
+        "items": [
+          {
+            "id": "classical-texts",
+            "name": "Classical Texts",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "political-theory",
+      "specName": "root__classical-texts__political-theory",
+      "parentSpecName": "root__classical-texts",
+      "lineage": "root/classical-texts/political-theory",
+      "depth": 2,
+      "promptPath": "data/prompts/root__classical-texts/political-theory.txt"
+    }
+  }
+]

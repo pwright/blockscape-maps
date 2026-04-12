@@ -1,0 +1,96 @@
+[
+  {
+    "id": "geometry-principles",
+    "title": "Geometry Principles",
+    "abstract": "Foundational concepts of geometric theory derived from classical sources.",
+    "categories": [
+      {
+        "id": "foundations-of-geometry",
+        "title": "Foundations of Geometry",
+        "items": [
+          {
+            "id": "axioms-and-postulates",
+            "name": "Axioms and Postulates",
+            "deps": []
+          },
+          {
+            "id": "definitions-of-shapes",
+            "name": "Definitions of Shapes",
+            "deps": [
+              "axioms-and-postulates"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "classical-approaches",
+        "title": "Classical Approaches",
+        "items": [
+          {
+            "id": "euclidean-methods",
+            "name": "Euclidean Methods",
+            "deps": [
+              "definitions-of-shapes"
+            ]
+          },
+          {
+            "id": "non-euclidean-explorations",
+            "name": "Non-Euclidean Explorations",
+            "deps": [
+              "euclidean-methods"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "application-frameworks",
+        "title": "Application Frameworks",
+        "items": [
+          {
+            "id": "construction-techniques",
+            "name": "Construction Techniques",
+            "deps": [
+              "euclidean-methods"
+            ]
+          },
+          {
+            "id": "proof-strategies",
+            "name": "Proof Strategies",
+            "deps": [
+              "axioms-and-postulates",
+              "definitions-of-shapes"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-contexts",
+        "title": "Historical Contexts",
+        "items": [
+          {
+            "id": "ancient-greek-geometry",
+            "name": "Ancient Greek Geometry",
+            "deps": [
+              "axioms-and-postulates"
+            ]
+          },
+          {
+            "id": "medieval-scholarship",
+            "name": "Medieval Scholarship",
+            "deps": [
+              "ancient-greek-geometry"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "geometry-principles",
+      "specName": "root__classical-texts__geometry-principles",
+      "parentSpecName": "root__classical-texts",
+      "lineage": "root/classical-texts/geometry-principles",
+      "depth": 2,
+      "promptPath": "data/prompts/root__classical-texts/geometry-principles.txt"
+    }
+  }
+]

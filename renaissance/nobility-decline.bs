@@ -1,0 +1,93 @@
+[
+  {
+    "id": "nobility-decline",
+    "title": "Nobility Decline",
+    "abstract": "The erosion of aristocratic power and social standing during the transition from feudal to modern states.",
+    "categories": [
+      {
+        "id": "social-structure",
+        "title": "Social Structure",
+        "items": [
+          {
+            "id": "feudal-hierarchy",
+            "name": "Feudal Hierarchy",
+            "deps": []
+          },
+          {
+            "id": "aristocratic-privilege",
+            "name": "Aristocratic Privilege",
+            "deps": [
+              "feudal-hierarchy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "political-power",
+        "title": "Political Power",
+        "items": [
+          {
+            "id": "centralized-state",
+            "name": "Centralized State",
+            "deps": []
+          },
+          {
+            "id": "absolutist-monarchy",
+            "name": "Absolutist Monarchy",
+            "deps": [
+              "centralized-state"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "economic-factors",
+        "title": "Economic Factors",
+        "items": [
+          {
+            "id": "mercantile-capitalism",
+            "name": "Mercantile Capitalism",
+            "deps": [
+              "centralized-state"
+            ]
+          },
+          {
+            "id": "land-ownership-shift",
+            "name": "Land Ownership Shift",
+            "deps": [
+              "mercantile-capitalism"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cultural-impact",
+        "title": "Cultural Impact",
+        "items": [
+          {
+            "id": "renaissance-absolutism",
+            "name": "Absolutism in the Renaissance",
+            "deps": [
+              "centralized-state"
+            ]
+          },
+          {
+            "id": "social-mobility",
+            "name": "Social Mobility",
+            "deps": [
+              "mercantile-capitalism"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "nobility-decline",
+      "specName": "root__absolutism__nobility-decline",
+      "parentSpecName": "root__absolutism",
+      "lineage": "root/absolutism/nobility-decline",
+      "depth": 2,
+      "promptPath": "data/prompts/root__absolutism/nobility-decline.txt"
+    }
+  }
+]

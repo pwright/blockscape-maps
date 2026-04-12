@@ -1,0 +1,96 @@
+[
+  {
+    "id": "user-auth",
+    "title": "User Authentication",
+    "abstract": "Secure identity verification and access control mechanisms for banking applications.",
+    "categories": [
+      {
+        "id": "identity-management",
+        "title": "Identity Management",
+        "items": [
+          {
+            "id": "user-profiles",
+            "name": "User Profiles",
+            "deps": [
+              "security-framework"
+            ]
+          },
+          {
+            "id": "credential-storage",
+            "name": "Credential Storage",
+            "deps": [
+              "security-framework"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "authentication-flow",
+        "title": "Authentication Flow",
+        "items": [
+          {
+            "id": "login-gateway",
+            "name": "Login Gateway",
+            "deps": [
+              "user-profiles",
+              "credential-storage"
+            ]
+          },
+          {
+            "id": "session-manager",
+            "name": "Session Manager",
+            "deps": [
+              "login-gateway"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "authorization-system",
+        "title": "Authorization System",
+        "items": [
+          {
+            "id": "role-based-access",
+            "name": "Role-Based Access Control",
+            "deps": [
+              "session-manager"
+            ]
+          },
+          {
+            "id": "permission-registry",
+            "name": "Permission Registry",
+            "deps": [
+              "role-based-access"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "security-framework",
+        "title": "Security Framework",
+        "items": [
+          {
+            "id": "encryption-layer",
+            "name": "Encryption Layer",
+            "deps": []
+          },
+          {
+            "id": "audit-logging",
+            "name": "Audit Logging",
+            "deps": [
+              "encryption-layer"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "user-auth",
+      "specName": "root__banking-systems__user-auth",
+      "parentSpecName": "root__banking-systems",
+      "lineage": "root/banking-systems/user-auth",
+      "depth": 2,
+      "promptPath": "data/prompts/root__banking-systems/user-auth.txt"
+    }
+  }
+]

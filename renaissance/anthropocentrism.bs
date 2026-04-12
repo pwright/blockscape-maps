@@ -1,0 +1,68 @@
+[
+  {
+    "id": "humanism-ant-hum",
+    "title": "Anthropocentrism",
+    "abstract": "The philosophical stance that human beings are the most significant species and should be the central focus of moral consideration.",
+    "categories": [
+      {
+        "id": "anthropocentric-values",
+        "title": "Core Values",
+        "items": [
+          {
+            "id": "human-priority",
+            "name": "Human Priority",
+            "deps": [
+              "reasoning-capability"
+            ]
+          },
+          {
+            "id": "anthropocentric-moral",
+            "name": "Anthropocentric Morality",
+            "deps": [
+              "human-priority"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "anthropocentric-implications",
+        "title": "Implications",
+        "items": [
+          {
+            "id": "speciesism-critique",
+            "name": "Speciesism Critique",
+            "deps": [
+              "anthropocentric-moral"
+            ]
+          },
+          {
+            "id": "ecological-ethics",
+            "name": "Ecological Ethics",
+            "deps": [
+              "human-priority"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "anthropocentric-foundation",
+        "title": "Foundation",
+        "items": [
+          {
+            "id": "reasoning-capability",
+            "name": "Reasoning Capability",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "anthropocentrism",
+      "specName": "root__humanism__anthropocentrism",
+      "parentSpecName": "root__humanism",
+      "lineage": "root/humanism/anthropocentrism",
+      "depth": 2,
+      "promptPath": "data/prompts/root__humanism/anthropocentrism.txt"
+    }
+  }
+]

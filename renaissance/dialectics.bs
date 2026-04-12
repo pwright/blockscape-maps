@@ -1,0 +1,95 @@
+[
+  {
+    "id": "dialectics",
+    "title": "Dialectics",
+    "abstract": "The study of dialectical reasoning and its application across philosophical traditions.",
+    "categories": [
+      {
+        "id": "dialectical-methods",
+        "title": "Dialectical Methods",
+        "items": [
+          {
+            "id": "thesis-antithesis-synthesis",
+            "name": "Thesis-Antithesis-Synthesis",
+            "deps": [
+              "philosophy-works"
+            ]
+          },
+          {
+            "id": "contradiction-analysis",
+            "name": "Contradiction Analysis",
+            "deps": [
+              "thesis-antithesis-synthesis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "philosophical-traditions",
+        "title": "Philosophical Traditions",
+        "items": [
+          {
+            "id": "german-idealist",
+            "name": "German Idealism",
+            "deps": [
+              "dialectical-methods"
+            ]
+          },
+          {
+            "id": "french-materialist",
+            "name": "French Materialism",
+            "deps": [
+              "german-idealist"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "classical-texts",
+        "title": "Classical Texts",
+        "items": [
+          {
+            "id": "hegel-phenomenology",
+            "name": "Hegel's Phenomenology",
+            "deps": [
+              "dialectical-methods"
+            ]
+          },
+          {
+            "id": "marx-capital",
+            "name": "Marx's Capital",
+            "deps": [
+              "french-materialist"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "philosophy-works",
+        "title": "Philosophy Works",
+        "items": [
+          {
+            "id": "logic-foundations",
+            "name": "Logic Foundations",
+            "deps": []
+          },
+          {
+            "id": "epistemology-basis",
+            "name": "Epistemology Basis",
+            "deps": [
+              "logic-foundations"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "dialectics",
+      "specName": "root__classical-texts__dialectics",
+      "parentSpecName": "root__classical-texts",
+      "lineage": "root/classical-texts/dialectics",
+      "depth": 2,
+      "promptPath": "data/prompts/root__classical-texts/dialectics.txt"
+    }
+  }
+]

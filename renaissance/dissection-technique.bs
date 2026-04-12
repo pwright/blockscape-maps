@@ -1,0 +1,93 @@
+[
+  {
+    "id": "dissection-technique",
+    "title": "Dissection Technique",
+    "abstract": "Methods for anatomical analysis and dissection procedures.",
+    "categories": [
+      {
+        "id": "user-interface",
+        "title": "User Interface",
+        "items": [
+          {
+            "id": "dissection-technique",
+            "name": "Dissection Technique",
+            "deps": [
+              "scientific-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "methodology",
+        "title": "Methodology",
+        "items": [
+          {
+            "id": "scientific-method",
+            "name": "Scientific Method",
+            "deps": [
+              "observation-technique"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tools",
+        "title": "Tools",
+        "items": [
+          {
+            "id": "anatomical-tools",
+            "name": "Anatomical Tools",
+            "deps": [
+              "material-sourcing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "materials",
+        "title": "Materials",
+        "items": [
+          {
+            "id": "material-sourcing",
+            "name": "Material Sourcing",
+            "deps": [
+              "preservation-technique"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "preservation",
+        "title": "Preservation",
+        "items": [
+          {
+            "id": "preservation-technique",
+            "name": "Preservation Technique",
+            "deps": [
+              "anatomical-tools"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundation",
+        "title": "Foundation",
+        "items": [
+          {
+            "id": "observation-technique",
+            "name": "Observation Technique",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "dissection-technique",
+      "specName": "root__anatomy-study__dissection-technique",
+      "parentSpecName": "root__anatomy-study",
+      "lineage": "root/anatomy-study/dissection-technique",
+      "depth": 2,
+      "promptPath": "data/prompts/root__anatomy-study/dissection-technique.txt"
+    }
+  }
+]

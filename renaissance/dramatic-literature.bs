@@ -1,0 +1,113 @@
+[
+  {
+    "id": "dramatic-literature",
+    "title": "Dramatic Literature",
+    "abstract": "Study of dramatic works from the Renaissance period, focusing on vernacular translations and humanist influences.",
+    "categories": [
+      {
+        "id": "playwrights-and-works",
+        "title": "Playwrights and Works",
+        "items": [
+          {
+            "id": "shakespeare-comedy",
+            "name": "Shakespearean Comedy",
+            "deps": [
+              "humanist-poetry"
+            ]
+          },
+          {
+            "id": "marlowe-tragedy",
+            "name": "Marlowe Tragedy",
+            "deps": [
+              "vernacular-translation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "themes-and-motifs",
+        "title": "Themes and Motifs",
+        "items": [
+          {
+            "id": "humanism-in-drama",
+            "name": "Humanism in Drama",
+            "deps": [
+              "shakespeare-comedy"
+            ]
+          },
+          {
+            "id": "vernacular-identity",
+            "name": "Vernacular Identity",
+            "deps": [
+              "marlowe-tragedy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "translation-methods",
+        "title": "Translation Methods",
+        "items": [
+          {
+            "id": "rhetoric-translation",
+            "name": "Rhetorical Translation",
+            "deps": [
+              "humanist-poetry"
+            ]
+          },
+          {
+            "id": "linguistic-adaptation",
+            "name": "Linguistic Adaptation",
+            "deps": [
+              "vernacular-translation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "humanist-poetry",
+        "title": "Humanist Poetry",
+        "items": [
+          {
+            "id": "classical-influence",
+            "name": "Classical Influence",
+            "deps": []
+          },
+          {
+            "id": "rhetoric-principles",
+            "name": "Rhetoric Principles",
+            "deps": [
+              "classical-influence"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vernacular-translation",
+        "title": "Vernacular Translation",
+        "items": [
+          {
+            "id": "language-evolution",
+            "name": "Language Evolution",
+            "deps": []
+          },
+          {
+            "id": "cultural-context",
+            "name": "Cultural Context",
+            "deps": [
+              "language-evolution"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "dramatic-literature",
+      "specName": "root__vernacular-writing__dramatic-literature",
+      "parentSpecName": "root__vernacular-writing",
+      "lineage": "root/vernacular-writing/dramatic-literature",
+      "depth": 2,
+      "promptPath": "data/prompts/root__vernacular-writing/dramatic-literature.txt"
+    }
+  }
+]

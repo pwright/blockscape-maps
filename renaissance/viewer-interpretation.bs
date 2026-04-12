@@ -1,0 +1,87 @@
+[
+  {
+    "id": "viewer-interpretation",
+    "title": "Viewer Interpretation",
+    "abstract": "The process by which a viewer decodes spatial and temporal information from visual input.",
+    "categories": [
+      {
+        "id": "perception-processing",
+        "title": "Perception Processing",
+        "items": [
+          {
+            "id": "visual-input-capture",
+            "name": "Visual Input Capture",
+            "deps": []
+          },
+          {
+            "id": "attention-selection",
+            "name": "Attention Selection",
+            "deps": [
+              "visual-input-capture"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "spatial-reasoning",
+        "title": "Spatial Reasoning",
+        "items": [
+          {
+            "id": "depth-perception",
+            "name": "Depth Perception",
+            "deps": [
+              "visual-input-capture"
+            ]
+          },
+          {
+            "id": "perspective-decoding",
+            "name": "Perspective Decoding",
+            "deps": [
+              "depth-perception"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cognitive-integration",
+        "title": "Cognitive Integration",
+        "items": [
+          {
+            "id": "memory-retrieval",
+            "name": "Memory Retrieval",
+            "deps": [
+              "perspective-decoding"
+            ]
+          },
+          {
+            "id": "interpretation-generation",
+            "name": "Interpretation Generation",
+            "deps": [
+              "memory-retrieval",
+              "perspective-decoding"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-models",
+        "title": "Foundational Models",
+        "items": [
+          {
+            "id": "renaissance-perspective",
+            "name": "Linear Perspective",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "viewer-interpretation",
+      "specName": "root__perspective__viewer-interpretation",
+      "parentSpecName": "root__perspective",
+      "lineage": "root/perspective/viewer-interpretation",
+      "depth": 2,
+      "promptPath": "data/prompts/root__perspective/viewer-interpretation.txt"
+    }
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "pattern-recognition",
+    "title": "Pattern Recognition",
+    "abstract": "Identifying and classifying patterns within data to extract meaningful insights.",
+    "categories": [
+      {
+        "id": "user-facing-patterns",
+        "title": "User-Facing Patterns",
+        "items": [
+          {
+            "id": "anomaly-detection",
+            "name": "Anomaly Detection",
+            "deps": [
+              "data-analysis"
+            ]
+          },
+          {
+            "id": "trend-extraction",
+            "name": "Trend Extraction",
+            "deps": [
+              "data-analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "feature-engineering",
+        "title": "Feature Engineering",
+        "items": [
+          {
+            "id": "dimensionality-reduction",
+            "name": "Dimensionality Reduction",
+            "deps": [
+              "data-analysis"
+            ]
+          },
+          {
+            "id": "feature-selection",
+            "name": "Feature Selection",
+            "deps": [
+              "data-analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "algorithmic-patterns",
+        "title": "Algorithmic Patterns",
+        "items": [
+          {
+            "id": "clustering-algorithms",
+            "name": "Clustering Algorithms",
+            "deps": [
+              "feature-engineering"
+            ]
+          },
+          {
+            "id": "classification-models",
+            "name": "Classification Models",
+            "deps": [
+              "feature-engineering"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-preparation",
+        "title": "Data Preparation",
+        "items": [
+          {
+            "id": "data-cleaning",
+            "name": "Data Cleaning",
+            "deps": []
+          },
+          {
+            "id": "data-visualization",
+            "name": "Data Visualization",
+            "deps": [
+              "data-analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "scientific-method",
+        "title": "Scientific Method",
+        "items": [
+          {
+            "id": "hypothesis-formulation",
+            "name": "Hypothesis Formulation",
+            "deps": []
+          },
+          {
+            "id": "experiment-design",
+            "name": "Experiment Design",
+            "deps": [
+              "data-preparation"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "pattern-recognition",
+      "specName": "root__scientific-method__pattern-recognition",
+      "parentSpecName": "root__scientific-method",
+      "lineage": "root/scientific-method/pattern-recognition",
+      "depth": 2,
+      "promptPath": "data/prompts/root__scientific-method/pattern-recognition.txt"
+    }
+  }
+]

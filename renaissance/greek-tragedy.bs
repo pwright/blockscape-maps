@@ -1,0 +1,93 @@
+[
+  {
+    "id": "greek-tragedy",
+    "title": "Greek Tragedy",
+    "abstract": "Ancient Greek dramatic works focusing on mythological themes, moral dilemmas, and the human condition.",
+    "categories": [
+      {
+        "id": "dramatic-forms",
+        "title": "Dramatic Forms",
+        "items": [
+          {
+            "id": "tragic-plot",
+            "name": "Tragic Plot Structure",
+            "deps": [
+              "character-archetype"
+            ]
+          },
+          {
+            "id": "character-archetype",
+            "name": "Character Archetypes",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "thematic-elements",
+        "title": "Thematic Elements",
+        "items": [
+          {
+            "id": "hubris-theme",
+            "name": "Hubris and Fate",
+            "deps": [
+              "character-archetype"
+            ]
+          },
+          {
+            "id": "catharsis-effect",
+            "name": "Catharsis Effect",
+            "deps": [
+              "tragic-plot"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "performance-context",
+        "title": "Performance Context",
+        "items": [
+          {
+            "id": "dionysian-festival",
+            "name": "Dionysian Festival",
+            "deps": []
+          },
+          {
+            "id": "theater-architecture",
+            "name": "Theater Architecture",
+            "deps": [
+              "dionysian-festival"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "literary-influence",
+        "title": "Literary Influence",
+        "items": [
+          {
+            "id": "renaissance-plays",
+            "name": "Renaissance Plays",
+            "deps": [
+              "tragic-plot"
+            ]
+          },
+          {
+            "id": "modern-adaptations",
+            "name": "Modern Adaptations",
+            "deps": [
+              "renaissance-plays"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "greek-tragedy",
+      "specName": "root__dramatic-form__greek-tragedy",
+      "parentSpecName": "root__dramatic-form",
+      "lineage": "root/dramatic-form/greek-tragedy",
+      "depth": 2,
+      "promptPath": "data/prompts/root__dramatic-form/greek-tragedy.txt"
+    }
+  }
+]

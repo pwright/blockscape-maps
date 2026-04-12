@@ -1,0 +1,82 @@
+[
+  {
+    "id": "balance-calc",
+    "title": "Balance Calculator",
+    "abstract": "A system for calculating and tracking financial balances across multiple accounts.",
+    "categories": [
+      {
+        "id": "user-interface",
+        "title": "User Interface",
+        "items": [
+          {
+            "id": "balance-viewer",
+            "name": "Balance Viewer",
+            "deps": [
+              "transaction-queue"
+            ]
+          },
+          {
+            "id": "account-selector",
+            "name": "Account Selector",
+            "deps": [
+              "ledger-storage"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "calculation-engine",
+        "title": "Calculation Engine",
+        "items": [
+          {
+            "id": "balance-calculator",
+            "name": "Balance Calculator",
+            "deps": [
+              "ledger-storage",
+              "transaction-queue"
+            ]
+          },
+          {
+            "id": "transaction-validator",
+            "name": "Transaction Validator",
+            "deps": [
+              "ledger-storage"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-persistence",
+        "title": "Data Persistence",
+        "items": [
+          {
+            "id": "ledger-storage",
+            "name": "Ledger Storage",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "transaction-processing",
+        "title": "Transaction Processing",
+        "items": [
+          {
+            "id": "transaction-queue",
+            "name": "Transaction Queue",
+            "deps": [
+              "ledger-storage"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "balance-calc",
+      "specName": "root__banking-systems__balance-calc",
+      "parentSpecName": "root__banking-systems",
+      "lineage": "root/banking-systems/balance-calc",
+      "depth": 2,
+      "promptPath": "data/prompts/root__banking-systems/balance-calc.txt"
+    }
+  }
+]

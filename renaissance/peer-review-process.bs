@@ -1,0 +1,122 @@
+[
+  {
+    "id": "peer-review-process",
+    "title": "Peer Review Process",
+    "abstract": "Systematic evaluation of research work by independent experts to ensure quality and validity.",
+    "categories": [
+      {
+        "id": "review-stages",
+        "title": "Review Stages",
+        "items": [
+          {
+            "id": "initial-screening",
+            "name": "Initial Screening",
+            "deps": [
+              "pattern-recognition"
+            ]
+          },
+          {
+            "id": "peer-evaluation",
+            "name": "Peer Evaluation",
+            "deps": [
+              "initial-screening"
+            ]
+          },
+          {
+            "id": "decision-making",
+            "name": "Decision Making",
+            "deps": [
+              "peer-evaluation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "review-standards",
+        "title": "Review Standards",
+        "items": [
+          {
+            "id": "quality-criteria",
+            "name": "Quality Criteria",
+            "deps": [
+              "pattern-recognition"
+            ]
+          },
+          {
+            "id": "bias-mitigation",
+            "name": "Bias Mitigation",
+            "deps": [
+              "quality-criteria"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "review-roles",
+        "title": "Review Roles",
+        "items": [
+          {
+            "id": "editor-role",
+            "name": "Editor Role",
+            "deps": [
+              "bias-mitigation"
+            ]
+          },
+          {
+            "id": "reviewer-role",
+            "name": "Reviewer Role",
+            "deps": [
+              "editor-role"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "review-tools",
+        "title": "Review Tools",
+        "items": [
+          {
+            "id": "submission-system",
+            "name": "Submission System",
+            "deps": []
+          },
+          {
+            "id": "evaluation-framework",
+            "name": "Evaluation Framework",
+            "deps": [
+              "submission-system"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "review-outcomes",
+        "title": "Review Outcomes",
+        "items": [
+          {
+            "id": "acceptance-process",
+            "name": "Acceptance Process",
+            "deps": [
+              "evaluation-framework"
+            ]
+          },
+          {
+            "id": "rejection-handling",
+            "name": "Rejection Handling",
+            "deps": [
+              "acceptance-process"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "peer-review-process",
+      "specName": "root__scientific-method__peer-review-process",
+      "parentSpecName": "root__scientific-method",
+      "lineage": "root/scientific-method/peer-review-process",
+      "depth": 2,
+      "promptPath": "data/prompts/root__scientific-method/peer-review-process.txt"
+    }
+  }
+]

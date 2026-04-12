@@ -1,0 +1,88 @@
+[
+  {
+    "id": "hypothesis-formulation",
+    "title": "Hypothesis Formulation",
+    "abstract": "Systematic process of deriving testable predictions from empirical observations within the Renaissance anatomy study framework.",
+    "categories": [
+      {
+        "id": "research-design",
+        "title": "Research Design",
+        "items": [
+          {
+            "id": "hypothesis-generation",
+            "name": "Hypothesis Generation",
+            "deps": [
+              "empirical-observation"
+            ]
+          },
+          {
+            "id": "variable-definition",
+            "name": "Variable Definition",
+            "deps": [
+              "hypothesis-generation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "methodology",
+        "title": "Methodology",
+        "items": [
+          {
+            "id": "anatomical-observation",
+            "name": "Anatomical Observation",
+            "deps": [
+              "empirical-observation"
+            ]
+          },
+          {
+            "id": "experimental-framework",
+            "name": "Experimental Framework",
+            "deps": [
+              "anatomical-observation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "analysis",
+        "title": "Analysis",
+        "items": [
+          {
+            "id": "data-collection",
+            "name": "Data Collection",
+            "deps": [
+              "experimental-framework"
+            ]
+          },
+          {
+            "id": "statistical-validation",
+            "name": "Statistical Validation",
+            "deps": [
+              "data-collection"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "items": [
+          {
+            "id": "empirical-observation",
+            "name": "Empirical Observation",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "hypothesis-formulation",
+      "specName": "root__anatomy-study__hypothesis-formulation",
+      "parentSpecName": "root__anatomy-study",
+      "lineage": "root/anatomy-study/hypothesis-formulation",
+      "depth": 2,
+      "promptPath": "data/prompts/root__anatomy-study/hypothesis-formulation.txt"
+    }
+  }
+]

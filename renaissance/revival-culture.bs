@@ -1,0 +1,68 @@
+[
+  {
+    "id": "revival-culture",
+    "title": "Cultural Impact",
+    "abstract": "Analysis of cultural shifts and societal changes driven by artistic movements.",
+    "categories": [
+      {
+        "id": "cultural-phenomena",
+        "title": "Cultural Phenomena",
+        "items": [
+          {
+            "id": "social-shifts",
+            "name": "Social Shifts",
+            "deps": [
+              "artistic-revival"
+            ]
+          },
+          {
+            "id": "media-narratives",
+            "name": "Media Narratives",
+            "deps": [
+              "artistic-revival"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "movement-analysis",
+        "title": "Movement Analysis",
+        "items": [
+          {
+            "id": "revival-movement",
+            "name": "Revival Movement",
+            "deps": [
+              "artistic-revival"
+            ]
+          },
+          {
+            "id": "community-engagement",
+            "name": "Community Engagement",
+            "deps": [
+              "revival-movement"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-elements",
+        "title": "Foundational Elements",
+        "items": [
+          {
+            "id": "artistic-revival",
+            "name": "Artistic Revival",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "revival-culture",
+      "specName": "root__artistic-revival__revival-culture",
+      "parentSpecName": "root__artistic-revival",
+      "lineage": "root/artistic-revival/revival-culture",
+      "depth": 2,
+      "promptPath": "data/prompts/root__artistic-revival/revival-culture.txt"
+    }
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "id": "dramatic-writing",
+    "title": "Dramatic Writing",
+    "abstract": "The art of crafting compelling narratives through dialogue, conflict, and character development.",
+    "categories": [
+      {
+        "id": "narrative-structure",
+        "title": "Narrative Structure",
+        "items": [
+          {
+            "id": "plot-development",
+            "name": "Plot Development",
+            "deps": [
+              "character-arc"
+            ]
+          },
+          {
+            "id": "conflict-design",
+            "name": "Conflict Design",
+            "deps": [
+              "character-arc",
+              "setting-context"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "character-development",
+        "title": "Character Development",
+        "items": [
+          {
+            "id": "character-arc",
+            "name": "Character Arc",
+            "deps": [
+              "humanist-poetry"
+            ]
+          },
+          {
+            "id": "dialogue-writing",
+            "name": "Dialogue Writing",
+            "deps": [
+              "character-arc",
+              "setting-context"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "setting-context",
+        "title": "Setting Context",
+        "items": [
+          {
+            "id": "world-building",
+            "name": "World Building",
+            "deps": [
+              "humanist-poetry"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "style-technique",
+        "title": "Style & Technique",
+        "items": [
+          {
+            "id": "show-dont-tell",
+            "name": "Show Don't Tell",
+            "deps": [
+              "character-arc"
+            ]
+          },
+          {
+            "id": "pacing-control",
+            "name": "Pacing Control",
+            "deps": [
+              "plot-development",
+              "dialogue-writing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "humanist-poetry",
+        "title": "Humanist Poetry",
+        "items": [
+          {
+            "id": "emotional-depth",
+            "name": "Emotional Depth",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "foundation-writing",
+        "title": "Foundation Writing",
+        "items": [
+          {
+            "id": "clarity-principles",
+            "name": "Clarity Principles",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "dramatic-writing",
+      "specName": "root__humanism__dramatic-writing",
+      "parentSpecName": "root__humanism",
+      "lineage": "root/humanism/dramatic-writing",
+      "depth": 2,
+      "promptPath": "data/prompts/root__humanism/dramatic-writing.txt"
+    }
+  }
+]

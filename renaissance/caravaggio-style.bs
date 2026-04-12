@@ -1,0 +1,43 @@
+[
+  {
+    "id": "caravaggio-style",
+    "title": "Caravaggism",
+    "abstract": "A painting style characterized by dramatic use of light and shadow.",
+    "categories": [
+      {
+        "id": "style-technique",
+        "title": "Style & Technique",
+        "items": [
+          {
+            "id": "chiaroscuro",
+            "name": "Chiaroscuro",
+            "deps": []
+          },
+          {
+            "id": "tenebrism",
+            "name": "Tenebrism",
+            "deps": [
+              "chiaroscuro"
+            ]
+          },
+          {
+            "id": "caravaggio-style",
+            "name": "Caravaggism",
+            "deps": [
+              "chiaroscuro",
+              "tenebrism"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "caravaggio-style",
+      "specName": "root__chiaroscuro__caravaggio-style",
+      "parentSpecName": "root__chiaroscuro",
+      "lineage": "root/chiaroscuro/caravaggio-style",
+      "depth": 2,
+      "promptPath": "data/prompts/root__chiaroscuro/caravaggio-style.txt"
+    }
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "painting-technique",
+    "title": "Painting Technique",
+    "abstract": "Methods and practices for applying visual representation to canvas.",
+    "categories": [
+      {
+        "id": "composition-methods",
+        "title": "Composition Methods",
+        "items": [
+          {
+            "id": "vanishing-point-concept",
+            "name": "Vanishing Point Concept",
+            "deps": []
+          },
+          {
+            "id": "horizon-line-placement",
+            "name": "Horizon Line Placement",
+            "deps": [
+              "vanishing-point-concept"
+            ]
+          },
+          {
+            "id": "perspective-grid",
+            "name": "Perspective Grid",
+            "deps": [
+              "horizon-line-placement"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "brushwork-styles",
+        "title": "Brushwork Styles",
+        "items": [
+          {
+            "id": "impasto-application",
+            "name": "Impasto Application",
+            "deps": [
+              "perspective-grid"
+            ]
+          },
+          {
+            "id": "glazing-layering",
+            "name": "Glazing Layering",
+            "deps": [
+              "impasto-application"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "color-theory",
+        "title": "Color Theory",
+        "items": [
+          {
+            "id": "hue-mixing",
+            "name": "Hue Mixing",
+            "deps": [
+              "glazing-layering"
+            ]
+          },
+          {
+            "id": "value-scaling",
+            "name": "Value Scaling",
+            "deps": [
+              "hue-mixing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "material-foundation",
+        "title": "Material Foundation",
+        "items": [
+          {
+            "id": "canvas-preparation",
+            "name": "Canvas Preparation",
+            "deps": []
+          },
+          {
+            "id": "pigment-selection",
+            "name": "Pigment Selection",
+            "deps": [
+              "canvas-preparation"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "painting-technique",
+      "specName": "root__perspective__painting-technique",
+      "parentSpecName": "root__perspective",
+      "lineage": "root/perspective/painting-technique",
+      "depth": 2,
+      "promptPath": "data/prompts/root__perspective/painting-technique.txt"
+    }
+  }
+]

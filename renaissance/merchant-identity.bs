@@ -1,0 +1,79 @@
+[
+  {
+    "id": "merchant-identity",
+    "title": "Merchant Identity",
+    "abstract": "Defines the social and economic status of merchants within a patronage system.",
+    "categories": [
+      {
+        "id": "social-status",
+        "title": "Social Status",
+        "items": [
+          {
+            "id": "merchant-class",
+            "name": "Merchant Class",
+            "deps": [
+              "social-mobility"
+            ]
+          },
+          {
+            "id": "social-mobility",
+            "name": "Social Mobility",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "economic-identity",
+        "title": "Economic Identity",
+        "items": [
+          {
+            "id": "merchant-identity",
+            "name": "Merchant Identity",
+            "deps": [
+              "patronage-systems"
+            ]
+          },
+          {
+            "id": "patronage-systems",
+            "name": "Patronage Systems",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "legal-framework",
+        "title": "Legal Framework",
+        "items": [
+          {
+            "id": "merchant-regulations",
+            "name": "Merchant Regulations",
+            "deps": [
+              "patronage-systems"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "items": [
+          {
+            "id": "merchant-identity",
+            "name": "Merchant Identity",
+            "deps": [
+              "social-mobility"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "merchant-identity",
+      "specName": "root__merchant-class__merchant-identity",
+      "parentSpecName": "root__merchant-class",
+      "lineage": "root/merchant-class/merchant-identity",
+      "depth": 2,
+      "promptPath": "data/prompts/root__merchant-class/merchant-identity.txt"
+    }
+  }
+]

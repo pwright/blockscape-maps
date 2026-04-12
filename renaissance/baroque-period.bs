@@ -1,0 +1,67 @@
+[
+  {
+    "id": "baroque-period",
+    "title": "Baroque Period",
+    "abstract": "A period of European art characterized by dramatic lighting and emotional intensity.",
+    "categories": [
+      {
+        "id": "artistic-styles",
+        "title": "Artistic Styles",
+        "items": [
+          {
+            "id": "tenebrism",
+            "name": "Tenebrism",
+            "deps": [
+              "chiaroscuro"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "musical-traits",
+        "title": "Musical Traits",
+        "items": [
+          {
+            "id": "dramatic-expressiveness",
+            "name": "Dramatic Expressiveness",
+            "deps": [
+              "tenebrism"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "architectural-elements",
+        "title": "Architectural Elements",
+        "items": [
+          {
+            "id": "ornate-decorations",
+            "name": "Ornate Decorations",
+            "deps": [
+              "dramatic-expressiveness"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "source-maps",
+        "title": "Source Maps",
+        "items": [
+          {
+            "id": "chiaroscuro",
+            "name": "Chiaroscuro",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "baroque-period",
+      "specName": "root__chiaroscuro__baroque-period",
+      "parentSpecName": "root__chiaroscuro",
+      "lineage": "root/chiaroscuro/baroque-period",
+      "depth": 2,
+      "promptPath": "data/prompts/root__chiaroscuro/baroque-period.txt"
+    }
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "projective-geometry",
+    "title": "Projective Geometry",
+    "abstract": "Mathematical study of geometric properties invariant under projective transformations, foundational to perspective theory.",
+    "categories": [
+      {
+        "id": "perspective-theory",
+        "title": "Perspective Theory",
+        "items": [
+          {
+            "id": "vanishing-point",
+            "name": "Vanishing Point",
+            "deps": [
+              "projective-geometry"
+            ]
+          },
+          {
+            "id": "horizon-line",
+            "name": "Horizon Line",
+            "deps": [
+              "vanishing-point"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "projection-math",
+        "title": "Projection Mathematics",
+        "items": [
+          {
+            "id": "homogeneous-coordinates",
+            "name": "Homogeneous Coordinates",
+            "deps": [
+              "projective-geometry"
+            ]
+          },
+          {
+            "id": "cross-ratio",
+            "name": "Cross Ratio",
+            "deps": [
+              "homogeneous-coordinates"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "renaiissance-perspective",
+        "title": "Renaissance Perspective",
+        "items": [
+          {
+            "id": "linear-perspective",
+            "name": "Linear Perspective",
+            "deps": [
+              "vanishing-point",
+              "horizon-line"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-geometry",
+        "title": "Foundational Geometry",
+        "items": [
+          {
+            "id": "euclidean-space",
+            "name": "Euclidean Space",
+            "deps": []
+          },
+          {
+            "id": "affine-transformations",
+            "name": "Affine Transformations",
+            "deps": [
+              "euclidean-space"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "projective-geometry",
+      "specName": "root__perspective__projective-geometry",
+      "parentSpecName": "root__perspective",
+      "lineage": "root/perspective/projective-geometry",
+      "depth": 2,
+      "promptPath": "data/prompts/root__perspective/projective-geometry.txt"
+    }
+  }
+]

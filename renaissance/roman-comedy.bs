@@ -1,0 +1,91 @@
+[
+  {
+    "id": "renaissance-domain",
+    "title": "Renaissance History & Arts",
+    "abstract": "A domain exploring the evolution of dramatic forms from Greek tragedy to Roman comedy and their influence on Renaissance theater.",
+    "categories": [
+      {
+        "id": "dramatic-forms",
+        "title": "Dramatic Forms",
+        "items": [
+          {
+            "id": "roman-comedy",
+            "name": "Roman Comedy",
+            "deps": [
+              "greek-tragedy"
+            ]
+          },
+          {
+            "id": "greek-tragedy",
+            "name": "Greek Tragedy",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "theatrical-techniques",
+        "title": "Theatrical Techniques",
+        "items": [
+          {
+            "id": "comedy-structure",
+            "name": "Comedy Structure",
+            "deps": [
+              "roman-comedy"
+            ]
+          },
+          {
+            "id": "character-types",
+            "name": "Character Types",
+            "deps": [
+              "comedy-structure"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "literary-influences",
+        "title": "Literary Influences",
+        "items": [
+          {
+            "id": "renaissance-theater",
+            "name": "Renaissance Theater",
+            "deps": [
+              "roman-comedy"
+            ]
+          },
+          {
+            "id": "classical-reception",
+            "name": "Classical Reception",
+            "deps": [
+              "greek-tragedy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-context",
+        "title": "Historical Context",
+        "items": [
+          {
+            "id": "roman-society",
+            "name": "Roman Society",
+            "deps": []
+          },
+          {
+            "id": "greek-culture",
+            "name": "Greek Culture",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "roman-comedy",
+      "specName": "root__dramatic-form__roman-comedy",
+      "parentSpecName": "root__dramatic-form",
+      "lineage": "root/dramatic-form/roman-comedy",
+      "depth": 2,
+      "promptPath": "data/prompts/root__dramatic-form/roman-comedy.txt"
+    }
+  }
+]

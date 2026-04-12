@@ -1,0 +1,117 @@
+[
+  {
+    "id": "epic-poetry",
+    "title": "Epic Poetry",
+    "abstract": "A comprehensive study of epic poetry, tracing its origins and evolution through classical traditions.",
+    "categories": [
+      {
+        "id": "narrative-structure",
+        "title": "Narrative Structure",
+        "items": [
+          {
+            "id": "heroic-journey",
+            "name": "Heroic Journey",
+            "deps": [
+              "mythology-studies"
+            ]
+          },
+          {
+            "id": "epic-forms",
+            "name": "Epic Forms",
+            "deps": [
+              "heroic-journey",
+              "classical-texts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "thematic-elements",
+        "title": "Thematic Elements",
+        "items": [
+          {
+            "id": "moral-lessons",
+            "name": "Moral Lessons",
+            "deps": [
+              "heroic-journey"
+            ]
+          },
+          {
+            "id": "cultural-symbols",
+            "name": "Cultural Symbols",
+            "deps": [
+              "mythology-studies",
+              "classical-texts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "literary-analysis",
+        "title": "Literary Analysis",
+        "items": [
+          {
+            "id": "poetic-techniques",
+            "name": "Poetic Techniques",
+            "deps": [
+              "epic-forms"
+            ]
+          },
+          {
+            "id": "stylistic-comparison",
+            "name": "Stylistic Comparison",
+            "deps": [
+              "poetic-techniques",
+              "mythology-studies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-context",
+        "title": "Historical Context",
+        "items": [
+          {
+            "id": "ancient-societies",
+            "name": "Ancient Societies",
+            "deps": [
+              "mythology-studies"
+            ]
+          },
+          {
+            "id": "oral-tradition",
+            "name": "Oral Tradition",
+            "deps": [
+              "ancient-societies",
+              "classical-texts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-studies",
+        "title": "Foundational Studies",
+        "items": [
+          {
+            "id": "mythology-studies",
+            "name": "Mythology Studies",
+            "deps": []
+          },
+          {
+            "id": "classical-texts",
+            "name": "Classical Texts",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "epic-poetry",
+      "specName": "root__classical-texts__epic-poetry",
+      "parentSpecName": "root__classical-texts",
+      "lineage": "root/classical-texts/epic-poetry",
+      "depth": 2,
+      "promptPath": "data/prompts/root__classical-texts/epic-poetry.txt"
+    }
+  }
+]

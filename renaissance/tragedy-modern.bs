@@ -1,0 +1,95 @@
+[
+  {
+    "id": "tragedy-modern",
+    "title": "Modern Tragedy",
+    "abstract": "An exploration of tragic forms in modern literature and drama, tracing influences from the Renaissance period.",
+    "categories": [
+      {
+        "id": "narrative-structure",
+        "title": "Narrative Structure",
+        "items": [
+          {
+            "id": "plot-device",
+            "name": "Plot Device",
+            "deps": [
+              "character-arc"
+            ]
+          },
+          {
+            "id": "character-arc",
+            "name": "Character Arc",
+            "deps": [
+              "motif-symbolism"
+            ]
+          },
+          {
+            "id": "motif-symbolism",
+            "name": "Motif & Symbolism",
+            "deps": [
+              "thematic-framework"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "thematic-framework",
+        "title": "Thematic Framework",
+        "items": [
+          {
+            "id": "existential-quest",
+            "name": "Existential Quest",
+            "deps": [
+              "historical-context"
+            ]
+          },
+          {
+            "id": "historical-context",
+            "name": "Historical Context",
+            "deps": [
+              "renaissance-influence"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "renaissance-influence",
+        "title": "Renaissance Influence",
+        "items": [
+          {
+            "id": "tragedy-renaissance",
+            "name": "Tragedy Renaissance",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "literary-analysis",
+        "title": "Literary Analysis",
+        "items": [
+          {
+            "id": "textual-criticism",
+            "name": "Textual Criticism",
+            "deps": [
+              "narrative-structure"
+            ]
+          },
+          {
+            "id": "critical-theory",
+            "name": "Critical Theory",
+            "deps": [
+              "thematic-framework"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "tragedy-modern",
+      "specName": "root__dramatic-form__tragedy-modern",
+      "parentSpecName": "root__dramatic-form",
+      "lineage": "root/dramatic-form/tragedy-modern",
+      "depth": 2,
+      "promptPath": "data/prompts/root__dramatic-form/tragedy-modern.txt"
+    }
+  }
+]

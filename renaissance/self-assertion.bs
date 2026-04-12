@@ -1,0 +1,90 @@
+[
+  {
+    "id": "self-assertion",
+    "title": "Self-Assertion",
+    "abstract": "The practice of affirming one's own worth and agency within social contexts.",
+    "categories": [
+      {
+        "id": "cultural-context",
+        "title": "Cultural Context",
+        "items": [
+          {
+            "id": "renaissance-individualism",
+            "name": "Renaissance Individualism",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "cognitive-frameworks",
+        "title": "Cognitive Frameworks",
+        "items": [
+          {
+            "id": "self-assertion",
+            "name": "Self-Assertion",
+            "deps": [
+              "individual-mindset"
+            ]
+          },
+          {
+            "id": "identity-construction",
+            "name": "Identity Construction",
+            "deps": [
+              "self-assertion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "social-dynamics",
+        "title": "Social Dynamics",
+        "items": [
+          {
+            "id": "individual-mindset",
+            "name": "Individual Mindset",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "philosophical-roots",
+        "title": "Philosophical Roots",
+        "items": [
+          {
+            "id": "human-nature",
+            "name": "Human Nature",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "practical-applications",
+        "title": "Practical Applications",
+        "items": [
+          {
+            "id": "self-advocacy",
+            "name": "Self-Advocacy",
+            "deps": [
+              "identity-construction"
+            ]
+          },
+          {
+            "id": "personal-boundaries",
+            "name": "Personal Boundaries",
+            "deps": [
+              "self-assertion"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "self-assertion",
+      "specName": "root__individualism__self-assertion",
+      "parentSpecName": "root__individualism",
+      "lineage": "root/individualism/self-assertion",
+      "depth": 2,
+      "promptPath": "data/prompts/root__individualism/self-assertion.txt"
+    }
+  }
+]

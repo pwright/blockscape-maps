@@ -1,0 +1,203 @@
+[
+  {
+    "id": "root__absolutism__legal-frameworks",
+    "title": "Legal Frameworks",
+    "abstract": "Structures governing power and rights within absolutist states.",
+    "categories": [
+      {
+        "id": "jurisprudence",
+        "title": "Jurisprudence",
+        "items": [
+          {
+            "id": "statutes",
+            "name": "Statutes",
+            "deps": [
+              "administrative-systems"
+            ]
+          },
+          {
+            "id": "precedents",
+            "name": "Precedents",
+            "deps": [
+              "statutes"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "enforcement",
+        "title": "Enforcement",
+        "items": [
+          {
+            "id": "courts",
+            "name": "Courts",
+            "deps": [
+              "jurisprudence"
+            ]
+          },
+          {
+            "id": "police",
+            "name": "Police",
+            "deps": [
+              "courts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "administration",
+        "title": "Administration",
+        "items": [
+          {
+            "id": "bureaucracy",
+            "name": "Bureaucracy",
+            "deps": [
+              "administrative-systems"
+            ]
+          },
+          {
+            "id": "taxation",
+            "name": "Taxation",
+            "deps": [
+              "bureaucracy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "items": [
+          {
+            "id": "administrative-systems",
+            "name": "Administrative Systems",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "legal-frameworks",
+      "specName": "root__absolutism__legal-frameworks",
+      "parentSpecName": "root__absolutism",
+      "lineage": "root/absolutism/legal-frameworks",
+      "depth": 2,
+      "promptPath": "data/prompts/root__absolutism/legal-frameworks.txt"
+    }
+  },
+  {
+    "id": "root__merchant-class__legal-frameworks",
+    "title": "Legal Frameworks",
+    "abstract": "Structures governing commercial transactions, compliance, and regulatory adherence for merchants.",
+    "categories": [
+      {
+        "id": "compliance-regulations",
+        "title": "Compliance & Regulations",
+        "items": [
+          {
+            "id": "tax-compliance",
+            "name": "Tax Compliance",
+            "deps": [
+              "merchant-identification"
+            ]
+          },
+          {
+            "id": "licensing-requirements",
+            "name": "Licensing Requirements",
+            "deps": [
+              "merchant-identification"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "contract-management",
+        "title": "Contract Management",
+        "items": [
+          {
+            "id": "vendor-agreements",
+            "name": "Vendor Agreements",
+            "deps": [
+              "tax-compliance",
+              "merchant-identification"
+            ]
+          },
+          {
+            "id": "dispute-resolution",
+            "name": "Dispute Resolution",
+            "deps": [
+              "vendor-agreements"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-protection",
+        "title": "Data Protection & Privacy",
+        "items": [
+          {
+            "id": "customer-data-governance",
+            "name": "Customer Data Governance",
+            "deps": [
+              "merchant-identification"
+            ]
+          },
+          {
+            "id": "privacy-compliance",
+            "name": "Privacy Compliance",
+            "deps": [
+              "customer-data-governance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "audit-trails",
+        "title": "Audit & Reporting",
+        "items": [
+          {
+            "id": "transaction-logging",
+            "name": "Transaction Logging",
+            "deps": [
+              "merchant-identification"
+            ]
+          },
+          {
+            "id": "regulatory-reports",
+            "name": "Regulatory Reports",
+            "deps": [
+              "transaction-logging",
+              "tax-compliance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "merchant-identification",
+        "title": "Merchant Identification & Authentication",
+        "items": [
+          {
+            "id": "business-verification",
+            "name": "Business Verification",
+            "deps": []
+          },
+          {
+            "id": "identity-validation",
+            "name": "Identity Validation",
+            "deps": [
+              "business-verification"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "legal-frameworks",
+      "specName": "root__merchant-class__legal-frameworks",
+      "parentSpecName": "root__merchant-class",
+      "lineage": "root/merchant-class/legal-frameworks",
+      "depth": 2,
+      "promptPath": "data/prompts/root__merchant-class/legal-frameworks.txt"
+    }
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "literary-voice",
+    "title": "Literary Voice",
+    "abstract": "The unique stylistic and rhetorical characteristics that define an author's work, shaped by personal experience and cultural context.",
+    "categories": [
+      {
+        "id": "authorial-expression",
+        "title": "Authorial Expression",
+        "items": [
+          {
+            "id": "narrative-structure",
+            "name": "Narrative Structure",
+            "deps": [
+              "individual-mindset"
+            ]
+          },
+          {
+            "id": "stylistic-choice",
+            "name": "Stylistic Choice",
+            "deps": [
+              "narrative-structure"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cultural-context",
+        "title": "Cultural Context",
+        "items": [
+          {
+            "id": "renaissance-values",
+            "name": "Renaissance Values",
+            "deps": [
+              "individual-mindset"
+            ]
+          },
+          {
+            "id": "literary-tradition",
+            "name": "Literary Tradition",
+            "deps": [
+              "renaissance-values"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-elements",
+        "title": "Foundational Elements",
+        "items": [
+          {
+            "id": "individual-mindset",
+            "name": "Individual Mindset",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "literary-voice",
+      "specName": "root__individualism__literary-voice",
+      "parentSpecName": "root__individualism",
+      "lineage": "root/individualism/literary-voice",
+      "depth": 2,
+      "promptPath": "data/prompts/root__individualism/literary-voice.txt"
+    }
+  }
+]

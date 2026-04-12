@@ -1,0 +1,116 @@
+[
+  {
+    "id": "centralized-state",
+    "title": "Centralized State",
+    "abstract": "A political system where authority is concentrated in a single entity, historically exemplified by the Renaissance Absolutist model.",
+    "categories": [
+      {
+        "id": "political-structure",
+        "title": "Political Structure",
+        "items": [
+          {
+            "id": "monarch-authority",
+            "name": "Monarch Authority",
+            "deps": [
+              "legal-framework"
+            ]
+          },
+          {
+            "id": "bureaucratic-centralization",
+            "name": "Bureaucratic Centralization",
+            "deps": [
+              "administrative-systems",
+              "monarch-authority"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "legal-framework",
+        "title": "Legal Framework",
+        "items": [
+          {
+            "id": "absolute-sovereignty",
+            "name": "Absolute Sovereignty",
+            "deps": []
+          },
+          {
+            "id": "codified-laws",
+            "name": "Codified Laws",
+            "deps": [
+              "absolute-sovereignty"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "administrative-systems",
+        "title": "Administrative Systems",
+        "items": [
+          {
+            "id": "centralized-governance",
+            "name": "Centralized Governance",
+            "deps": [
+              "legal-framework"
+            ]
+          },
+          {
+            "id": "tax-collection",
+            "name": "Tax Collection",
+            "deps": [
+              "centralized-governance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "economic-control",
+        "title": "Economic Control",
+        "items": [
+          {
+            "id": "state-monopoly",
+            "name": "State Monopoly",
+            "deps": [
+              "tax-collection"
+            ]
+          },
+          {
+            "id": "mercantile-regulation",
+            "name": "Mercantile Regulation",
+            "deps": [
+              "state-monopoly"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "social-order",
+        "title": "Social Order",
+        "items": [
+          {
+            "id": "hierarchical-caste",
+            "name": "Hierarchical Caste",
+            "deps": [
+              "legal-framework"
+            ]
+          },
+          {
+            "id": "feudal-structure",
+            "name": "Feudal Structure",
+            "deps": [
+              "hierarchical-caste"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "centralized-state",
+      "specName": "root__absolutism__centralized-state",
+      "parentSpecName": "root__absolutism",
+      "lineage": "root/absolutism/centralized-state",
+      "depth": 2,
+      "promptPath": "data/prompts/root__absolutism/centralized-state.txt"
+    }
+  }
+]

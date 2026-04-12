@@ -1,0 +1,123 @@
+[
+  {
+    "id": "humanism-philosophy",
+    "title": "Philosophical Foundations",
+    "abstract": "Core principles and historical frameworks underpinning humanist thought.",
+    "categories": [
+      {
+        "id": "ethics-moral-framework",
+        "title": "Ethics & Moral Frameworks",
+        "items": [
+          {
+            "id": "virtue-ethics",
+            "name": "Virtue Ethics",
+            "deps": [
+              "human-nature"
+            ]
+          },
+          {
+            "id": "deontological-principles",
+            "name": "Deontological Principles",
+            "deps": [
+              "universal-rules"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "epistemology-methods",
+        "title": "Epistemology & Methods",
+        "items": [
+          {
+            "id": "rationalism",
+            "name": "Rationalism",
+            "deps": [
+              "logic-system"
+            ]
+          },
+          {
+            "id": "empiricism",
+            "name": "Empiricism",
+            "deps": [
+              "sensory-data"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "metaphysics-foundations",
+        "title": "Metaphysics & Ontology",
+        "items": [
+          {
+            "id": "substance-theory",
+            "name": "Substance Theory",
+            "deps": [
+              "human-nature"
+            ]
+          },
+          {
+            "id": "causality-models",
+            "name": "Causality Models",
+            "deps": [
+              "logic-system"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "artistic-revival-context",
+        "title": "Artistic Revival Context",
+        "items": [
+          {
+            "id": "renaissance-humanism",
+            "name": "Renaissance Humanism",
+            "deps": [
+              "human-nature"
+            ]
+          },
+          {
+            "id": "neoclassical-influence",
+            "name": "Neoclassical Influence",
+            "deps": [
+              "universal-rules"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundation-infrastructure",
+        "title": "Foundation Infrastructure",
+        "items": [
+          {
+            "id": "human-nature",
+            "name": "Human Nature",
+            "deps": []
+          },
+          {
+            "id": "universal-rules",
+            "name": "Universal Rules",
+            "deps": []
+          },
+          {
+            "id": "logic-system",
+            "name": "Logic System",
+            "deps": []
+          },
+          {
+            "id": "sensory-data",
+            "name": "Sensory Data",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "humanism-philosophy",
+      "specName": "root__artistic-revival__humanism-philosophy",
+      "parentSpecName": "root__artistic-revival",
+      "lineage": "root/artistic-revival/humanism-philosophy",
+      "depth": 2,
+      "promptPath": "data/prompts/root__artistic-revival/humanism-philosophy.txt"
+    }
+  }
+]

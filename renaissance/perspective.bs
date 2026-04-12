@@ -1,0 +1,116 @@
+[
+  {
+    "id": "renaissance-perspective",
+    "title": "Linear Perspective",
+    "abstract": "The mathematical and artistic technique of representing three-dimensional space on a two-dimensional surface, developed during the Renaissance.",
+    "categories": [
+      {
+        "id": "user-experience",
+        "title": "User Experience",
+        "items": [
+          {
+            "id": "viewer-interpretation",
+            "name": "Viewer Interpretation",
+            "deps": [
+              "spatial-reasoning"
+            ]
+          },
+          {
+            "id": "artistic-expression",
+            "name": "Artistic Expression",
+            "deps": [
+              "spatial-reasoning",
+              "historical-context"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "scientific-method",
+        "title": "Scientific Method",
+        "items": [
+          {
+            "id": "geometric-logic",
+            "name": "Geometric Logic",
+            "deps": [
+              "mathematical-foundations"
+            ]
+          },
+          {
+            "id": "optical-theory",
+            "name": "Optical Theory",
+            "deps": [
+              "geometric-logic",
+              "mathematical-foundations"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-context",
+        "title": "Historical Context",
+        "items": [
+          {
+            "id": "renaissance-era",
+            "name": "Renaissance Era",
+            "deps": []
+          },
+          {
+            "id": "cultural-shifts",
+            "name": "Cultural Shifts",
+            "deps": [
+              "renaissance-era"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mathematical-foundations",
+        "title": "Mathematical Foundations",
+        "items": [
+          {
+            "id": "projective-geometry",
+            "name": "Projective Geometry",
+            "deps": []
+          },
+          {
+            "id": "vanishing-point-concept",
+            "name": "Vanishing Point Concept",
+            "deps": [
+              "projective-geometry"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "artistic-practice",
+        "title": "Artistic Practice",
+        "items": [
+          {
+            "id": "painting-technique",
+            "name": "Painting Technique",
+            "deps": [
+              "vanishing-point-concept"
+            ]
+          },
+          {
+            "id": "sculpture-application",
+            "name": "Sculpture Application",
+            "deps": [
+              "vanishing-point-concept",
+              "painting-technique"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "perspective",
+      "specName": "root__perspective",
+      "parentSpecName": "root",
+      "lineage": "root/perspective",
+      "depth": 1,
+      "promptPath": "data/prompts/root/perspective.txt"
+    }
+  }
+]

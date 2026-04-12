@@ -1,0 +1,93 @@
+[
+  {
+    "id": "personal-identity",
+    "title": "Personal Identity",
+    "abstract": "Exploration of self-concept and individual expression through artistic lenses.",
+    "categories": [
+      {
+        "id": "self-perception",
+        "title": "Self Perception",
+        "items": [
+          {
+            "id": "identity-core",
+            "name": "Identity Core",
+            "deps": []
+          },
+          {
+            "id": "narrative-self",
+            "name": "Narrative Self",
+            "deps": [
+              "identity-core"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "artistic-expression",
+        "title": "Artistic Expression",
+        "items": [
+          {
+            "id": "creative-output",
+            "name": "Creative Output",
+            "deps": [
+              "narrative-self"
+            ]
+          },
+          {
+            "id": "style-formation",
+            "name": "Style Formation",
+            "deps": [
+              "creative-output"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "social-context",
+        "title": "Social Context",
+        "items": [
+          {
+            "id": "public-presence",
+            "name": "Public Presence",
+            "deps": [
+              "style-formation"
+            ]
+          },
+          {
+            "id": "reputation-building",
+            "name": "Reputation Building",
+            "deps": [
+              "public-presence"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-influence",
+        "title": "Historical Influence",
+        "items": [
+          {
+            "id": "renaissance-values",
+            "name": "Renaissance Values",
+            "deps": []
+          },
+          {
+            "id": "individualism-legacy",
+            "name": "Individualism Legacy",
+            "deps": [
+              "renaissance-values"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "personal-identity",
+      "specName": "root__individualism__personal-identity",
+      "parentSpecName": "root__individualism",
+      "lineage": "root/individualism/personal-identity",
+      "depth": 2,
+      "promptPath": "data/prompts/root__individualism/personal-identity.txt"
+    }
+  }
+]

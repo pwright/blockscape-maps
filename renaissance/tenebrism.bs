@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tenebrism-domain",
+    "title": "Tenebrism Domain",
+    "abstract": "A domain exploring the dramatic use of light and shadow in art, rooted in Caravaggio's style.",
+    "categories": [
+      {
+        "id": "artistic-technique",
+        "title": "Artistic Technique",
+        "items": [
+          {
+            "id": "tenebrism",
+            "name": "Tenebrism",
+            "deps": [
+              "caravaggio-style"
+            ]
+          },
+          {
+            "id": "chiaroscuro",
+            "name": "Chiaroscuro",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "visual-elements",
+        "title": "Visual Elements",
+        "items": [
+          {
+            "id": "high-contrast",
+            "name": "High Contrast",
+            "deps": [
+              "tenebrism"
+            ]
+          },
+          {
+            "id": "deep-shadow",
+            "name": "Deep Shadow",
+            "deps": [
+              "chiaroscuro"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "tenebrism",
+      "specName": "root__chiaroscuro__tenebrism",
+      "parentSpecName": "root__chiaroscuro",
+      "lineage": "root/chiaroscuro/tenebrism",
+      "depth": 2,
+      "promptPath": "data/prompts/root__chiaroscuro/tenebrism.txt"
+    }
+  }
+]

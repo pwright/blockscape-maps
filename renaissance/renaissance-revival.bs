@@ -1,0 +1,93 @@
+[
+  {
+    "id": "renaissance-revival",
+    "title": "Renaissance Revival",
+    "abstract": "A cultural movement reinterpreting Renaissance aesthetics through modern lenses, bridging historical techniques with contemporary expression.",
+    "categories": [
+      {
+        "id": "aesthetic-principles",
+        "title": "Aesthetic Principles",
+        "items": [
+          {
+            "id": "classical-proportion",
+            "name": "Classical Proportion",
+            "deps": [
+              "baroque-period"
+            ]
+          },
+          {
+            "id": "linear-perspective",
+            "name": "Linear Perspective",
+            "deps": [
+              "chiaroscuro"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "technical-methods",
+        "title": "Technical Methods",
+        "items": [
+          {
+            "id": "oil-painting",
+            "name": "Oil Painting",
+            "deps": [
+              "classical-proportion"
+            ]
+          },
+          {
+            "id": "chiaroscuro-lighting",
+            "name": "Chiaroscuro Lighting",
+            "deps": [
+              "linear-perspective"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-context",
+        "title": "Historical Context",
+        "items": [
+          {
+            "id": "renaissance-period",
+            "name": "Renaissance Period",
+            "deps": [
+              "baroque-period"
+            ]
+          },
+          {
+            "id": "modern-reception",
+            "name": "Modern Reception",
+            "deps": [
+              "oil-painting"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-techniques",
+        "title": "Foundational Techniques",
+        "items": [
+          {
+            "id": "baroque-period",
+            "name": "Baroque Period",
+            "deps": []
+          },
+          {
+            "id": "chiaroscuro",
+            "name": "Chiaroscuro",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "renaissance-revival",
+      "specName": "root__chiaroscuro__renaissance-revival",
+      "parentSpecName": "root__chiaroscuro",
+      "lineage": "root/chiaroscuro/renaissance-revival",
+      "depth": 2,
+      "promptPath": "data/prompts/root__chiaroscuro/renaissance-revival.txt"
+    }
+  }
+]

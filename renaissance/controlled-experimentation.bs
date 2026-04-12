@@ -1,0 +1,95 @@
+[
+  {
+    "id": "scientific-method",
+    "title": "Scientific Method",
+    "abstract": "A systematic approach to acquiring knowledge through observation and experimentation.",
+    "categories": [
+      {
+        "id": "observation-and-hypothesis",
+        "title": "Observation and Hypothesis",
+        "items": [
+          {
+            "id": "systematic-observation",
+            "name": "Systematic Observation",
+            "deps": []
+          },
+          {
+            "id": "hypothesis-formulation",
+            "name": "Hypothesis Formulation",
+            "deps": [
+              "systematic-observation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "experimental-design",
+        "title": "Experimental Design",
+        "items": [
+          {
+            "id": "variable-control",
+            "name": "Variable Control",
+            "deps": [
+              "hypothesis-formulation"
+            ]
+          },
+          {
+            "id": "sample-selection",
+            "name": "Sample Selection",
+            "deps": [
+              "variable-control"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-analysis",
+        "title": "Data Analysis",
+        "items": [
+          {
+            "id": "statistical-validation",
+            "name": "Statistical Validation",
+            "deps": [
+              "sample-selection"
+            ]
+          },
+          {
+            "id": "result-interpretation",
+            "name": "Result Interpretation",
+            "deps": [
+              "statistical-validation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "controlled-experimentation",
+        "title": "Controlled Experimentation",
+        "items": [
+          {
+            "id": "empirical-data-collection",
+            "name": "Empirical Data Collection",
+            "deps": [
+              "result-interpretation"
+            ]
+          },
+          {
+            "id": "peer-review-process",
+            "name": "Peer Review Process",
+            "deps": [
+              "empirical-data-collection"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "controlled-experimentation",
+      "specName": "root__scientific-method__controlled-experimentation",
+      "parentSpecName": "root__scientific-method",
+      "lineage": "root/scientific-method/controlled-experimentation",
+      "depth": 2,
+      "promptPath": "data/prompts/root__scientific-method/controlled-experimentation.txt"
+    }
+  }
+]

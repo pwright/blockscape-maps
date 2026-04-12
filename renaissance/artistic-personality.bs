@@ -1,0 +1,87 @@
+[
+  {
+    "id": "renaissance-individualism",
+    "title": "Individualism in the Renaissance",
+    "abstract": "Exploration of self-assertion and artistic expression within historical context",
+    "categories": [
+      {
+        "id": "artistic-expression",
+        "title": "Artistic Expression",
+        "items": [
+          {
+            "id": "painting-style",
+            "name": "Painting Style",
+            "deps": [
+              "self-assertion"
+            ]
+          },
+          {
+            "id": "sculpture-form",
+            "name": "Sculpture Form",
+            "deps": [
+              "self-assertion"
+            ]
+          },
+          {
+            "id": "literary-voice",
+            "name": "Literary Voice",
+            "deps": [
+              "self-assertion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "self-assertion",
+        "title": "Self-Assertion",
+        "items": [
+          {
+            "id": "personal-identity",
+            "name": "Personal Identity",
+            "deps": []
+          },
+          {
+            "id": "creative-confidence",
+            "name": "Creative Confidence",
+            "deps": [
+              "personal-identity"
+            ]
+          },
+          {
+            "id": "public-presence",
+            "name": "Public Presence",
+            "deps": [
+              "creative-confidence"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-context",
+        "title": "Historical Context",
+        "items": [
+          {
+            "id": "renaissance-values",
+            "name": "Renaissance Values",
+            "deps": []
+          },
+          {
+            "id": "individualism-roots",
+            "name": "Individualism Roots",
+            "deps": [
+              "renaissance-values"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "artistic-personality",
+      "specName": "root__individualism__artistic-personality",
+      "parentSpecName": "root__individualism",
+      "lineage": "root/individualism/artistic-personality",
+      "depth": 2,
+      "promptPath": "data/prompts/root__individualism/artistic-personality.txt"
+    }
+  }
+]

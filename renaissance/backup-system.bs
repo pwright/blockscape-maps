@@ -1,0 +1,95 @@
+[
+  {
+    "id": "backup-system",
+    "title": "Backup System",
+    "abstract": "Comprehensive backup infrastructure for banking data persistence and disaster recovery.",
+    "categories": [
+      {
+        "id": "user-backup-services",
+        "title": "User Backup Services",
+        "items": [
+          {
+            "id": "customer-data-backup",
+            "name": "Customer Data Backup",
+            "deps": [
+              "transaction-logs"
+            ]
+          },
+          {
+            "id": "audit-trail-backup",
+            "name": "Audit Trail Backup",
+            "deps": [
+              "transaction-logs"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-pipeline-services",
+        "title": "Data Pipeline Services",
+        "items": [
+          {
+            "id": "transaction-logs",
+            "name": "Transaction Logs",
+            "deps": [
+              "db-cluster"
+            ]
+          },
+          {
+            "id": "reporting-data-backup",
+            "name": "Reporting Data Backup",
+            "deps": [
+              "transaction-logs"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "storage-services",
+        "title": "Storage Services",
+        "items": [
+          {
+            "id": "object-storage-backup",
+            "name": "Object Storage Backup",
+            "deps": [
+              "db-cluster"
+            ]
+          },
+          {
+            "id": "cold-storage-backup",
+            "name": "Cold Storage Backup",
+            "deps": [
+              "object-storage-backup"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure-services",
+        "title": "Infrastructure Services",
+        "items": [
+          {
+            "id": "db-cluster",
+            "name": "Database Cluster",
+            "deps": []
+          },
+          {
+            "id": "network-backup",
+            "name": "Network Backup",
+            "deps": [
+              "db-cluster"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "backup-system",
+      "specName": "root__banking-systems__backup-system",
+      "parentSpecName": "root__banking-systems",
+      "lineage": "root/banking-systems/backup-system",
+      "depth": 2,
+      "promptPath": "data/prompts/root__banking-systems/backup-system.txt"
+    }
+  }
+]

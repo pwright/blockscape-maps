@@ -1,0 +1,95 @@
+[
+  {
+    "id": "renaissance-anatomy",
+    "title": "Renaissance Anatomy Study",
+    "abstract": "A structured domain for studying human anatomy through the lens of Renaissance art and scientific observation.",
+    "categories": [
+      {
+        "id": "observation-practice",
+        "title": "Observation & Practice",
+        "items": [
+          {
+            "id": "dissection-technique",
+            "name": "Dissection Technique",
+            "deps": [
+              "scientific-method"
+            ]
+          },
+          {
+            "id": "anatomical-sketching",
+            "name": "Anatomical Sketching",
+            "deps": [
+              "dissection-technique"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "theoretical-framework",
+        "title": "Theoretical Framework",
+        "items": [
+          {
+            "id": "vital-force-concept",
+            "name": "Vital Force Concept",
+            "deps": [
+              "scientific-method"
+            ]
+          },
+          {
+            "id": "humoral-balance",
+            "name": "Humoral Balance",
+            "deps": [
+              "vital-force-concept"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "artistic-application",
+        "title": "Artistic Application",
+        "items": [
+          {
+            "id": "muscle-rendering",
+            "name": "Muscle Rendering",
+            "deps": [
+              "anatomical-sketching"
+            ]
+          },
+          {
+            "id": "facial-expression",
+            "name": "Facial Expression Study",
+            "deps": [
+              "muscle-rendering"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "scientific-method",
+        "title": "Scientific Method",
+        "items": [
+          {
+            "id": "empirical-observation",
+            "name": "Empirical Observation",
+            "deps": []
+          },
+          {
+            "id": "hypothesis-formulation",
+            "name": "Hypothesis Formulation",
+            "deps": [
+              "empirical-observation"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "anatomy-study",
+      "specName": "root__anatomy-study",
+      "parentSpecName": "root",
+      "lineage": "root/anatomy-study",
+      "depth": 1,
+      "promptPath": "data/prompts/root/anatomy-study.txt"
+    }
+  }
+]

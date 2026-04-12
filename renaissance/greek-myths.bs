@@ -1,0 +1,133 @@
+[
+  {
+    "id": "greek-myths",
+    "title": "Greek Myths",
+    "abstract": "A collection of ancient Greek mythological narratives and their cultural impact.",
+    "categories": [
+      {
+        "id": "narrative-structure",
+        "title": "Narrative Structure",
+        "items": [
+          {
+            "id": "hero-journey",
+            "name": "Hero's Journey",
+            "deps": [
+              "ancient-religion"
+            ]
+          },
+          {
+            "id": "tragic-arc",
+            "name": "Tragic Arc",
+            "deps": [
+              "ancient-religion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "character-types",
+        "title": "Character Types",
+        "items": [
+          {
+            "id": "hero-protagonist",
+            "name": "Hero Protagonist",
+            "deps": [
+              "ancient-religion"
+            ]
+          },
+          {
+            "id": "tragic-heroine",
+            "name": "Tragic Heroine",
+            "deps": [
+              "ancient-religion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "thematic-elements",
+        "title": "Thematic Elements",
+        "items": [
+          {
+            "id": "fate-and-destiny",
+            "name": "Fate and Destiny",
+            "deps": [
+              "ancient-religion"
+            ]
+          },
+          {
+            "id": "divine-intervention",
+            "name": "Divine Intervention",
+            "deps": [
+              "ancient-religion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cultural-impact",
+        "title": "Cultural Impact",
+        "items": [
+          {
+            "id": "literary-influence",
+            "name": "Literary Influence",
+            "deps": [
+              "ancient-religion"
+            ]
+          },
+          {
+            "id": "artistic-representation",
+            "name": "Artistic Representation",
+            "deps": [
+              "ancient-religion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "source-materials",
+        "title": "Source Materials",
+        "items": [
+          {
+            "id": "epic-poetry",
+            "name": "Epic Poetry",
+            "deps": [
+              "classical-texts"
+            ]
+          },
+          {
+            "id": "oral-tradition",
+            "name": "Oral Tradition",
+            "deps": [
+              "classical-texts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ancient-religion",
+        "title": "Ancient Religion",
+        "items": [
+          {
+            "id": "gods-and-goddesses",
+            "name": "Gods and Goddesses",
+            "deps": []
+          },
+          {
+            "id": "mythological-beings",
+            "name": "Mythological Beings",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "greek-myths",
+      "specName": "root__classical-texts__greek-myths",
+      "parentSpecName": "root__classical-texts",
+      "lineage": "root/classical-texts/greek-myths",
+      "depth": 2,
+      "promptPath": "data/prompts/root__classical-texts/greek-myths.txt"
+    }
+  }
+]

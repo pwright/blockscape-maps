@@ -1,0 +1,117 @@
+[
+  {
+    "id": "road-networks",
+    "title": "Road Networks",
+    "abstract": "A comprehensive system for managing and analyzing road networks, including highways, local roads, and intersections.",
+    "categories": [
+      {
+        "id": "highway-system",
+        "title": "Highway System",
+        "items": [
+          {
+            "id": "interstate-highways",
+            "name": "Interstate Highways",
+            "deps": [
+              "local-road-networks"
+            ]
+          },
+          {
+            "id": "freeway-system",
+            "name": "Freeway System",
+            "deps": [
+              "interstate-highways"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "local-road-networks",
+        "title": "Local Road Network",
+        "items": [
+          {
+            "id": "city-streets",
+            "name": "City Streets",
+            "deps": [
+              "road-intersections"
+            ]
+          },
+          {
+            "id": "suburban-roads",
+            "name": "Suburban Roads",
+            "deps": [
+              "city-streets"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "road-intersections",
+        "title": "Road Intersections",
+        "items": [
+          {
+            "id": "junction-points",
+            "name": "Junction Points",
+            "deps": [
+              "traffic-signals"
+            ]
+          },
+          {
+            "id": "roundabouts",
+            "name": "Roundabouts",
+            "deps": [
+              "junction-points"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "traffic-management",
+        "title": "Traffic Management",
+        "items": [
+          {
+            "id": "traffic-signals",
+            "name": "Traffic Signals",
+            "deps": [
+              "city-guilds"
+            ]
+          },
+          {
+            "id": "road-safety",
+            "name": "Road Safety",
+            "deps": [
+              "traffic-signals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure-support",
+        "title": "Infrastructure Support",
+        "items": [
+          {
+            "id": "road-maintenance",
+            "name": "Road Maintenance",
+            "deps": [
+              "traffic-management"
+            ]
+          },
+          {
+            "id": "navigation-systems",
+            "name": "Navigation Systems",
+            "deps": [
+              "road-maintenance"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "road-networks",
+      "specName": "root__city-states__road-networks",
+      "parentSpecName": "root__city-states",
+      "lineage": "root/city-states/road-networks",
+      "depth": 2,
+      "promptPath": "data/prompts/root__city-states/road-networks.txt"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "patronage-systems",
+    "title": "Patronage Systems",
+    "abstract": "Economic and social structures where wealthier individuals or institutions provide financial support to artists, creators, or cultural producers in exchange for goods, services, or recognition.",
+    "categories": [
+      {
+        "id": "c1-patronage-models",
+        "title": "Patronage Models",
+        "items": [
+          {
+            "id": "m1-direct-sponsorship",
+            "name": "Direct Sponsorship",
+            "deps": [
+              "m2-art-production"
+            ]
+          },
+          {
+            "id": "m2-art-production",
+            "name": "Art Production",
+            "deps": [
+              "m3-materials-supply",
+              "m4-distribution-networks"
+            ]
+          },
+          {
+            "id": "m3-materials-supply",
+            "name": "Materials Supply",
+            "deps": []
+          },
+          {
+            "id": "m4-distribution-networks",
+            "name": "Distribution Networks",
+            "deps": [
+              "m5-transportation-infrastructure"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "patronage-systems",
+      "specName": "root__merchant-class__patronage-systems",
+      "parentSpecName": "root__merchant-class",
+      "lineage": "root/merchant-class/patronage-systems",
+      "depth": 2,
+      "promptPath": "data/prompts/root__merchant-class/patronage-systems.txt"
+    }
+  }
+]

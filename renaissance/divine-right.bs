@@ -1,0 +1,75 @@
+[
+  {
+    "id": "divine-right",
+    "title": "Divine Right",
+    "abstract": "The political doctrine asserting that a monarch's authority is derived directly from God, making them accountable only to divine will.",
+    "categories": [
+      {
+        "id": "theological-basis",
+        "title": "Theological Foundation",
+        "items": [
+          {
+            "id": "god-sacred-will",
+            "name": "Divine Will",
+            "deps": []
+          },
+          {
+            "id": "sacred-sovereignty",
+            "name": "Sacred Sovereignty",
+            "deps": [
+              "god-sacred-will"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "political-structure",
+        "title": "Political Structure",
+        "items": [
+          {
+            "id": "absolutist-monarchy",
+            "name": "Absolutist Monarchy",
+            "deps": [
+              "sacred-sovereignty"
+            ]
+          },
+          {
+            "id": "divine-right-doctrine",
+            "name": "Divine Right Doctrine",
+            "deps": [
+              "absolutist-monarchy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-context",
+        "title": "Historical Context",
+        "items": [
+          {
+            "id": "renaissance-absolutism",
+            "name": "Absolutism in the Renaissance",
+            "deps": [
+              "divine-right-doctrine"
+            ]
+          },
+          {
+            "id": "absolutist-reformers",
+            "name": "Absolutist Reformers",
+            "deps": [
+              "renaissance-absolutism"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "divine-right",
+      "specName": "root__absolutism__divine-right",
+      "parentSpecName": "root__absolutism",
+      "lineage": "root/absolutism/divine-right",
+      "depth": 2,
+      "promptPath": "data/prompts/root__absolutism/divine-right.txt"
+    }
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "art-patronage",
+    "title": "Art Patronage",
+    "abstract": "Mechanisms and institutions that fund, support, and influence artistic production within urban environments.",
+    "categories": [
+      {
+        "id": "patron-networks",
+        "title": "Patron Networks",
+        "items": [
+          {
+            "id": "guild-artists",
+            "name": "Guild Artists",
+            "deps": [
+              "city-guilds"
+            ]
+          },
+          {
+            "id": "private-collectors",
+            "name": "Private Collectors",
+            "deps": [
+              "guild-artists"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "funding-models",
+        "title": "Funding Models",
+        "items": [
+          {
+            "id": "endowment-funds",
+            "name": "Endowment Funds",
+            "deps": [
+              "private-collectors"
+            ]
+          },
+          {
+            "id": "commission-systems",
+            "name": "Commission Systems",
+            "deps": [
+              "guild-artists",
+              "endowment-funds"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "artistic-production",
+        "title": "Artistic Production",
+        "items": [
+          {
+            "id": "public-works",
+            "name": "Public Works",
+            "deps": [
+              "commission-systems"
+            ]
+          },
+          {
+            "id": "private-galleries",
+            "name": "Private Galleries",
+            "deps": [
+              "endowment-funds"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cultural-institutions",
+        "title": "Cultural Institutions",
+        "items": [
+          {
+            "id": "museums",
+            "name": "Museums",
+            "deps": [
+              "private-galleries"
+            ]
+          },
+          {
+            "id": "academies",
+            "name": "Academies",
+            "deps": [
+              "guild-artists",
+              "museums"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "city-guilds",
+        "title": "City Guilds",
+        "items": [
+          {
+            "id": "merchant-bodies",
+            "name": "Merchant Bodies",
+            "deps": []
+          },
+          {
+            "id": "craft-unions",
+            "name": "Craft Unions",
+            "deps": [
+              "merchant-bodies"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "art-patronage",
+      "specName": "root__city-states__art-patronage",
+      "parentSpecName": "root__city-states",
+      "lineage": "root/city-states/art-patronage",
+      "depth": 2,
+      "promptPath": "data/prompts/root__city-states/art-patronage.txt"
+    }
+  }
+]

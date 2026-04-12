@@ -1,0 +1,75 @@
+[
+  {
+    "id": "geometric-logic",
+    "title": "Geometric Logic",
+    "abstract": "The study of spatial reasoning and mathematical principles governing geometric forms.",
+    "categories": [
+      {
+        "id": "spatial-reasoning",
+        "title": "Spatial Reasoning",
+        "items": [
+          {
+            "id": "projection-principles",
+            "name": "Projection Principles",
+            "deps": [
+              "mathematical-foundations"
+            ]
+          },
+          {
+            "id": "perspective-construction",
+            "name": "Perspective Construction",
+            "deps": [
+              "projection-principles"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "geometric-forms",
+        "title": "Geometric Forms",
+        "items": [
+          {
+            "id": "polyhedra-analysis",
+            "name": "Polyhedra Analysis",
+            "deps": [
+              "projection-principles"
+            ]
+          },
+          {
+            "id": "surface-properties",
+            "name": "Surface Properties",
+            "deps": [
+              "polyhedra-analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mathematical-foundations",
+        "title": "Mathematical Foundations",
+        "items": [
+          {
+            "id": "axiomatic-systems",
+            "name": "Axiomatic Systems",
+            "deps": []
+          },
+          {
+            "id": "euclidean-geometry",
+            "name": "Euclidean Geometry",
+            "deps": [
+              "axiomatic-systems"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "geometric-logic",
+      "specName": "root__perspective__geometric-logic",
+      "parentSpecName": "root__perspective",
+      "lineage": "root/perspective/geometric-logic",
+      "depth": 2,
+      "promptPath": "data/prompts/root__perspective/geometric-logic.txt"
+    }
+  }
+]

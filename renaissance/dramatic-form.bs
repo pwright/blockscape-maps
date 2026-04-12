@@ -1,0 +1,100 @@
+[
+  {
+    "id": "renaissance-domain",
+    "title": "Renaissance History & Arts",
+    "abstract": "A domain exploring the dramatic forms of the Renaissance period, tracing their evolution from classical influences to modern theatrical expressions.",
+    "categories": [
+      {
+        "id": "dramatic-forms",
+        "title": "Dramatic Forms",
+        "items": [
+          {
+            "id": "tragedy-renaissance",
+            "name": "Renaissance Tragedy",
+            "deps": [
+              "classical-texts"
+            ]
+          },
+          {
+            "id": "comedy-renaissance",
+            "name": "Renaissance Comedy",
+            "deps": [
+              "classical-texts"
+            ]
+          },
+          {
+            "id": "tragedy-modern",
+            "name": "Modern Tragedy",
+            "deps": [
+              "tragedy-renaissance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "classical-texts",
+        "title": "Classical Texts",
+        "items": [
+          {
+            "id": "greek-tragedy",
+            "name": "Greek Tragedy",
+            "deps": []
+          },
+          {
+            "id": "roman-comedy",
+            "name": "Roman Comedy",
+            "deps": [
+              "greek-tragedy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "theatrical-practices",
+        "title": "Theatrical Practices",
+        "items": [
+          {
+            "id": "stage-design-renaissance",
+            "name": "Renaissance Stage Design",
+            "deps": [
+              "tragedy-renaissance"
+            ]
+          },
+          {
+            "id": "acting-methods",
+            "name": "Acting Methods",
+            "deps": [
+              "theatrical-practices"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-context",
+        "title": "Historical Context",
+        "items": [
+          {
+            "id": "renaissance-period",
+            "name": "Renaissance Period",
+            "deps": []
+          },
+          {
+            "id": "political-influence",
+            "name": "Political Influence",
+            "deps": [
+              "renaissance-period"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "dramatic-form",
+      "specName": "root__dramatic-form",
+      "parentSpecName": "root",
+      "lineage": "root/dramatic-form",
+      "depth": 1,
+      "promptPath": "data/prompts/root/dramatic-form.txt"
+    }
+  }
+]

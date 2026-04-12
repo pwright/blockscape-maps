@@ -1,0 +1,63 @@
+[
+  {
+    "id": "reasoning",
+    "title": "Reasoning",
+    "abstract": "The cognitive process of logical thought, problem-solving, and decision-making.",
+    "categories": [
+      {
+        "id": "cognitive-processes",
+        "title": "Cognitive Processes",
+        "items": [
+          {
+            "id": "inference",
+            "name": "Inference",
+            "deps": [
+              "logic",
+              "memory"
+            ]
+          },
+          {
+            "id": "deduction",
+            "name": "Deduction",
+            "deps": [
+              "inference"
+            ]
+          },
+          {
+            "id": "abduction",
+            "name": "Abduction",
+            "deps": [
+              "inference"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "logical-frameworks",
+        "title": "Logical Frameworks",
+        "items": [
+          {
+            "id": "logic",
+            "name": "Logic",
+            "deps": []
+          },
+          {
+            "id": "formal-systems",
+            "name": "Formal Systems",
+            "deps": [
+              "logic"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "reasoning",
+      "specName": "root__humanism__reasoning",
+      "parentSpecName": "root__humanism",
+      "lineage": "root/humanism/reasoning",
+      "depth": 2,
+      "promptPath": "data/prompts/root__humanism/reasoning.txt"
+    }
+  }
+]

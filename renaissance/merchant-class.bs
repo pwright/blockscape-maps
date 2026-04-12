@@ -1,0 +1,238 @@
+[
+  {
+    "id": "root__merchant-class",
+    "title": "Merchant Class",
+    "abstract": "Analysis of the merchant class in Renaissance Europe, focusing on economic power, social mobility, and cultural influence.",
+    "categories": [
+      {
+        "id": "merchant-wealth",
+        "title": "Economic Foundations",
+        "items": [
+          {
+            "id": "trade-networks",
+            "name": "Trade Networks",
+            "deps": [
+              "logistics-systems"
+            ]
+          },
+          {
+            "id": "banking-institutions",
+            "name": "Banking Institutions",
+            "deps": [
+              "legal-frameworks"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "merchant-politics",
+        "title": "Political Influence",
+        "items": [
+          {
+            "id": "city-guilds",
+            "name": "City Guilds",
+            "deps": [
+              "legal-frameworks"
+            ]
+          },
+          {
+            "id": "diplomacy-merchants",
+            "name": "Merchant Diplomacy",
+            "deps": [
+              "trade-networks",
+              "city-guilds"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "merchant-culture",
+        "title": "Cultural Expression",
+        "items": [
+          {
+            "id": "patronage-systems",
+            "name": "Patronage Systems",
+            "deps": [
+              "art-production"
+            ]
+          },
+          {
+            "id": "merchant-identity",
+            "name": "Merchant Identity",
+            "deps": [
+              "social-mobility",
+              "patronage-systems"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "merchant-infrastructure",
+        "title": "Infrastructure & Support",
+        "items": [
+          {
+            "id": "logistics-systems",
+            "name": "Logistics Systems",
+            "deps": []
+          },
+          {
+            "id": "legal-frameworks",
+            "name": "Legal Frameworks",
+            "deps": []
+          },
+          {
+            "id": "art-production",
+            "name": "Art Production",
+            "deps": [
+              "patronage-systems"
+            ]
+          },
+          {
+            "id": "social-mobility",
+            "name": "Social Mobility",
+            "deps": [
+              "legal-frameworks",
+              "trade-networks"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "merchant-class",
+      "specName": "root__merchant-class",
+      "parentSpecName": "root",
+      "lineage": "root/merchant-class",
+      "depth": 1,
+      "promptPath": "data/prompts/root/merchant-class.txt"
+    }
+  },
+  {
+    "id": "root__absolutism__merchant-class",
+    "title": "Merchant Class",
+    "abstract": "Analysis of merchant class formation, power dynamics, and economic influence in the Renaissance period.",
+    "categories": [
+      {
+        "id": "merchant-identity",
+        "title": "Social Identity & Status",
+        "items": [
+          {
+            "id": "wealth-acquisition",
+            "name": "Wealth Accumulation",
+            "deps": [
+              "banking-systems"
+            ]
+          },
+          {
+            "id": "social-mobility",
+            "name": "Social Mobility",
+            "deps": [
+              "legal-frameworks",
+              "political-networks"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "economic-power",
+        "title": "Economic Power & Influence",
+        "items": [
+          {
+            "id": "trade-routes",
+            "name": "Trade Routes",
+            "deps": [
+              "infrastructure-networks"
+            ]
+          },
+          {
+            "id": "financial-instruments",
+            "name": "Financial Instruments",
+            "deps": [
+              "banking-systems",
+              "legal-frameworks"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "political-integration",
+        "title": "Political Integration",
+        "items": [
+          {
+            "id": "court-favor",
+            "name": "Court Favor",
+            "deps": [
+              "political-networks"
+            ]
+          },
+          {
+            "id": "patronage-systems",
+            "name": "Patronage Systems",
+            "deps": [
+              "court-favor",
+              "artistic-production"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cultural-influence",
+        "title": "Cultural Influence",
+        "items": [
+          {
+            "id": "artistic-production",
+            "name": "Artistic Production",
+            "deps": [
+              "patronage-systems"
+            ]
+          },
+          {
+            "id": "literary-works",
+            "name": "Literary Works",
+            "deps": [
+              "artistic-production",
+              "financial-instruments"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "institutional-frameworks",
+        "title": "Institutional Frameworks",
+        "items": [
+          {
+            "id": "banking-systems",
+            "name": "Banking Systems",
+            "deps": []
+          },
+          {
+            "id": "legal-frameworks",
+            "name": "Legal Frameworks",
+            "deps": [
+              "banking-systems"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure-networks",
+        "title": "Infrastructure Networks",
+        "items": [
+          {
+            "id": "trade-routes",
+            "name": "Trade Routes",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "merchant-class",
+      "specName": "root__absolutism__merchant-class",
+      "parentSpecName": "root__absolutism",
+      "lineage": "root/absolutism/merchant-class",
+      "depth": 2,
+      "promptPath": "data/prompts/root__absolutism/merchant-class.txt"
+    }
+  }
+]

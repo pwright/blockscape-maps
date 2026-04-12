@@ -1,0 +1,111 @@
+[
+  {
+    "id": "stage-design-renaissance",
+    "title": "Renaissance Stage Design",
+    "abstract": "Design principles and spatial arrangements for theatrical performances during the Renaissance period.",
+    "categories": [
+      {
+        "id": "performance-context",
+        "title": "Performance Context",
+        "items": [
+          {
+            "id": "tragedy-renaissance",
+            "name": "Renaissance Tragedy",
+            "deps": []
+          },
+          {
+            "id": "comedy-renaissance",
+            "name": "Renaissance Comedy",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "spatial-design",
+        "title": "Spatial Design",
+        "items": [
+          {
+            "id": "proscenium-renaissance",
+            "name": "Proscenium Arch",
+            "deps": [
+              "tragedy-renaissance"
+            ]
+          },
+          {
+            "id": "thrust-stage-renaissance",
+            "name": "Thrust Stage",
+            "deps": [
+              "comedy-renaissance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lighting-design",
+        "title": "Lighting Design",
+        "items": [
+          {
+            "id": "natural-lighting-renaissance",
+            "name": "Natural Lighting",
+            "deps": [
+              "proscenium-renaissance"
+            ]
+          },
+          {
+            "id": "firelighting-renaissance",
+            "name": "Fire Lighting",
+            "deps": [
+              "thrust-stage-renaissance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "set-design",
+        "title": "Set Design",
+        "items": [
+          {
+            "id": "illusionist-scenery-renaissance",
+            "name": "Illusionist Scenery",
+            "deps": [
+              "natural-lighting-renaissance"
+            ]
+          },
+          {
+            "id": "perspective-painting-renaissance",
+            "name": "Perspective Painting",
+            "deps": [
+              "firelighting-renaissance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "material-foundation",
+        "title": "Material Foundation",
+        "items": [
+          {
+            "id": "wood-construction-renaissance",
+            "name": "Wood Construction",
+            "deps": []
+          },
+          {
+            "id": "canvas-textile-renaissance",
+            "name": "Canvas Textile",
+            "deps": [
+              "wood-construction-renaissance"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "stage-design-renaissance",
+      "specName": "root__dramatic-form__stage-design-renaissance",
+      "parentSpecName": "root__dramatic-form",
+      "lineage": "root/dramatic-form/stage-design-renaissance",
+      "depth": 2,
+      "promptPath": "data/prompts/root__dramatic-form/stage-design-renaissance.txt"
+    }
+  }
+]

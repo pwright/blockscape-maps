@@ -1,0 +1,108 @@
+[
+  {
+    "id": "renaissance-art",
+    "title": "Renaissance Art",
+    "abstract": "A comprehensive exploration of Renaissance artistic movements, techniques, and cultural impact.",
+    "categories": [
+      {
+        "id": "artistic-movements",
+        "title": "Artistic Movements",
+        "items": [
+          {
+            "id": "florentine-school",
+            "name": "Florentine School",
+            "deps": [
+              "human-dignity"
+            ]
+          },
+          {
+            "id": "venetian-painting",
+            "name": "Venetian Painting",
+            "deps": [
+              "florentine-school"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "techniques-materials",
+        "title": "Techniques and Materials",
+        "items": [
+          {
+            "id": "oil-painting",
+            "name": "Oil Painting",
+            "deps": [
+              "human-dignity"
+            ]
+          },
+          {
+            "id": "chiaroscuro",
+            "name": "Chiaroscuro Technique",
+            "deps": [
+              "oil-painting"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "key-artists",
+        "title": "Key Artists",
+        "items": [
+          {
+            "id": "leonardo-da-vinci",
+            "name": "Leonardo da Vinci",
+            "deps": [
+              "human-dignity"
+            ]
+          },
+          {
+            "id": "michelangelo-buonarroti",
+            "name": "Michelangelo Buonarroti",
+            "deps": [
+              "leonardo-da-vinci"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cultural-impact",
+        "title": "Cultural Impact",
+        "items": [
+          {
+            "id": "renaissance-reform",
+            "name": "Renaissance Reform",
+            "deps": [
+              "human-dignity"
+            ]
+          },
+          {
+            "id": "artistic-philosophy",
+            "name": "Artistic Philosophy",
+            "deps": [
+              "renaissance-reform"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundation-concepts",
+        "title": "Foundation Concepts",
+        "items": [
+          {
+            "id": "human-dignity",
+            "name": "Human Dignity",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "renaissance-art",
+      "specName": "root__humanism__renaissance-art",
+      "parentSpecName": "root__humanism",
+      "lineage": "root/humanism/renaissance-art",
+      "depth": 2,
+      "promptPath": "data/prompts/root__humanism/renaissance-art.txt"
+    }
+  }
+]

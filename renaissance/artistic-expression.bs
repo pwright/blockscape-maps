@@ -1,0 +1,80 @@
+[
+  {
+    "id": "artistic-expression",
+    "title": "Artistic Expression",
+    "abstract": "The study of visual communication through creative means, encompassing techniques and theories from historical periods to modern innovation.",
+    "categories": [
+      {
+        "id": "creative-output",
+        "title": "Creative Output",
+        "items": [
+          {
+            "id": "visual-art",
+            "name": "Visual Art",
+            "deps": [
+              "spatial-reasoning"
+            ]
+          },
+          {
+            "id": "literary-creation",
+            "name": "Literary Creation",
+            "deps": [
+              "historical-context"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "technical-foundation",
+        "title": "Technical Foundation",
+        "items": [
+          {
+            "id": "spatial-reasoning",
+            "name": "Spatial Reasoning",
+            "deps": [
+              "geometric-principles"
+            ]
+          },
+          {
+            "id": "historical-context",
+            "name": "Historical Context",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "theoretical-framework",
+        "title": "Theoretical Framework",
+        "items": [
+          {
+            "id": "artistic-theory",
+            "name": "Artistic Theory",
+            "deps": [
+              "spatial-reasoning",
+              "historical-context"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-concepts",
+        "title": "Foundational Concepts",
+        "items": [
+          {
+            "id": "geometric-principles",
+            "name": "Geometric Principles",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "artistic-expression",
+      "specName": "root__perspective__artistic-expression",
+      "parentSpecName": "root__perspective",
+      "lineage": "root/perspective/artistic-expression",
+      "depth": 2,
+      "promptPath": "data/prompts/root__perspective/artistic-expression.txt"
+    }
+  }
+]

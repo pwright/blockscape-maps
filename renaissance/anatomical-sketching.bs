@@ -1,0 +1,95 @@
+[
+  {
+    "id": "anatomical-sketching",
+    "title": "Anatomical Sketching",
+    "abstract": "A method for creating detailed drawings of human and animal structures through observation and technique.",
+    "categories": [
+      {
+        "id": "observation-practice",
+        "title": "Observation Practice",
+        "items": [
+          {
+            "id": "proportional-analysis",
+            "name": "Proportional Analysis",
+            "deps": [
+              "dissection-technique"
+            ]
+          },
+          {
+            "id": "perspective-mastery",
+            "name": "Perspective Mastery",
+            "deps": [
+              "anatomical-sketching"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "drawing-tools",
+        "title": "Drawing Tools",
+        "items": [
+          {
+            "id": "light-shading",
+            "name": "Light Shading",
+            "deps": [
+              "proportional-analysis"
+            ]
+          },
+          {
+            "id": "line-weight",
+            "name": "Line Weight",
+            "deps": [
+              "perspective-mastery"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dissection-technique",
+        "title": "Dissection Technique",
+        "items": [
+          {
+            "id": "cadaver-prep",
+            "name": "Cadaver Preparation",
+            "deps": []
+          },
+          {
+            "id": "muscle-isolation",
+            "name": "Muscle Isolation",
+            "deps": [
+              "cadaver-prep"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "anatomical-sketching",
+        "title": "Anatomical Sketching",
+        "items": [
+          {
+            "id": "bone-structure",
+            "name": "Bone Structure",
+            "deps": [
+              "muscle-isolation"
+            ]
+          },
+          {
+            "id": "soft-tissue",
+            "name": "Soft Tissue",
+            "deps": [
+              "bone-structure"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "anatomical-sketching",
+      "specName": "root__anatomy-study__anatomical-sketching",
+      "parentSpecName": "root__anatomy-study",
+      "lineage": "root/anatomy-study/anatomical-sketching",
+      "depth": 2,
+      "promptPath": "data/prompts/root__anatomy-study/anatomical-sketching.txt"
+    }
+  }
+]

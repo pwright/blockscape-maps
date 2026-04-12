@@ -1,0 +1,109 @@
+[
+  {
+    "id": "chiaroscuro-principles",
+    "title": "Chiaroscuro Principles",
+    "abstract": "The study of light and shadow in art, focusing on the interplay between illumination and darkness to create depth and drama.",
+    "categories": [
+      {
+        "id": "chiaroscuro-techniques",
+        "title": "Techniques",
+        "items": [
+          {
+            "id": "carving-darkness",
+            "name": "Carving Darkness",
+            "deps": [
+              "lighting-design"
+            ]
+          },
+          {
+            "id": "high-contrast",
+            "name": "High Contrast",
+            "deps": [
+              "lighting-design",
+              "color-theory"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chiaroscuro-lighting",
+        "title": "Lighting Design",
+        "items": [
+          {
+            "id": "lighting-design",
+            "name": "Lighting Design",
+            "deps": [
+              "artistic-revival"
+            ]
+          },
+          {
+            "id": "shadow-casting",
+            "name": "Shadow Casting",
+            "deps": [
+              "lighting-design"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chiaroscuro-color",
+        "title": "Color Theory",
+        "items": [
+          {
+            "id": "color-theory",
+            "name": "Color Theory",
+            "deps": [
+              "artistic-revival"
+            ]
+          },
+          {
+            "id": "complementary-colors",
+            "name": "Complementary Colors",
+            "deps": [
+              "color-theory"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chiaroscuro-composition",
+        "title": "Composition",
+        "items": [
+          {
+            "id": "composition",
+            "name": "Composition",
+            "deps": [
+              "artistic-revival"
+            ]
+          },
+          {
+            "id": "triangular-forms",
+            "name": "Triangular Forms",
+            "deps": [
+              "composition"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chiaroscuro-history",
+        "title": "History",
+        "items": [
+          {
+            "id": "artistic-revival",
+            "name": "Artistic Revival",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "chiaroscuro-principles",
+      "specName": "root__chiaroscuro__chiaroscuro-principles",
+      "parentSpecName": "root__chiaroscuro",
+      "lineage": "root/chiaroscuro/chiaroscuro-principles",
+      "depth": 2,
+      "promptPath": "data/prompts/root__chiaroscuro/chiaroscuro-principles.txt"
+    }
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "id": "historical-correlation",
+    "title": "Historical Correlation",
+    "abstract": "Analysis of patterns and relationships across historical periods using empirical evidence.",
+    "categories": [
+      {
+        "id": "research-framework",
+        "title": "Research Framework",
+        "items": [
+          {
+            "id": "historical-correlation",
+            "name": "Historical Correlation",
+            "deps": [
+              "scientific-method"
+            ]
+          },
+          {
+            "id": "scientific-method",
+            "name": "Scientific Method",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "data-collection",
+        "title": "Data Collection",
+        "items": [
+          {
+            "id": "artifact-examination",
+            "name": "Artifact Examination",
+            "deps": [
+              "historical-correlation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "source-validation",
+        "title": "Source Validation",
+        "items": [
+          {
+            "id": "renaissance-empiricism",
+            "name": "Empiricism in the Renaissance",
+            "deps": [
+              "artifact-examination"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "analysis-tools",
+        "title": "Analysis Tools",
+        "items": [
+          {
+            "id": "pattern-recognition",
+            "name": "Pattern Recognition",
+            "deps": [
+              "scientific-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "documentation",
+        "title": "Documentation",
+        "items": [
+          {
+            "id": "research-reporting",
+            "name": "Research Reporting",
+            "deps": [
+              "pattern-recognition"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "items": [
+          {
+            "id": "data-storage",
+            "name": "Data Storage",
+            "deps": []
+          },
+          {
+            "id": "analysis-engine",
+            "name": "Analysis Engine",
+            "deps": [
+              "data-storage"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "historical-correlation",
+      "specName": "root__empiricism__historical-correlation",
+      "parentSpecName": "root__empiricism",
+      "lineage": "root/empiricism/historical-correlation",
+      "depth": 2,
+      "promptPath": "data/prompts/root__empiricism/historical-correlation.txt"
+    }
+  }
+]

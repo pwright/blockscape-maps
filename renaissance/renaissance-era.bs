@@ -1,0 +1,114 @@
+[
+  {
+    "id": "renaissance-era",
+    "title": "Renaissance Era",
+    "abstract": "A period of artistic and intellectual rebirth characterized by the development of linear perspective, humanism, and classical revival.",
+    "categories": [
+      {
+        "id": "artistic-techniques",
+        "title": "Artistic Techniques",
+        "items": [
+          {
+            "id": "linear-perspective",
+            "name": "Linear Perspective",
+            "deps": []
+          },
+          {
+            "id": "chiaroscuro",
+            "name": "Chiaroscuro",
+            "deps": [
+              "linear-perspective"
+            ]
+          },
+          {
+            "id": "anatomical-study",
+            "name": "Anatomical Study",
+            "deps": [
+              "linear-perspective"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "philosophical-movements",
+        "title": "Philosophical Movements",
+        "items": [
+          {
+            "id": "humanism",
+            "name": "Humanism",
+            "deps": []
+          },
+          {
+            "id": "neoplatonism",
+            "name": "Neoplatonism",
+            "deps": [
+              "humanism"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "architectural-studies",
+        "title": "Architectural Studies",
+        "items": [
+          {
+            "id": "classical-rules",
+            "name": "Classical Rules",
+            "deps": []
+          },
+          {
+            "id": "proportional-systems",
+            "name": "Proportional Systems",
+            "deps": [
+              "classical-rules"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "literary-influences",
+        "title": "Literary Influences",
+        "items": [
+          {
+            "id": "dante-divine-comedy",
+            "name": "Dante's Divine Comedy",
+            "deps": []
+          },
+          {
+            "id": "boccaccio-decimameron",
+            "name": "Boccaccio's Decameron",
+            "deps": [
+              "dante-divine-comedy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-contexts",
+        "title": "Historical Contexts",
+        "items": [
+          {
+            "id": "fall-of-rome",
+            "name": "Fall of Rome",
+            "deps": []
+          },
+          {
+            "id": "medieval-revival",
+            "name": "Medieval Revival",
+            "deps": [
+              "fall-of-rome"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "renaissance-era",
+      "specName": "root__perspective__renaissance-era",
+      "parentSpecName": "root__perspective",
+      "lineage": "root/perspective/renaissance-era",
+      "depth": 2,
+      "promptPath": "data/prompts/root__perspective/renaissance-era.txt"
+    }
+  }
+]

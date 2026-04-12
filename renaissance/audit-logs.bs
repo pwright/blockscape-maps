@@ -1,0 +1,89 @@
+[
+  {
+    "id": "audit-logs",
+    "title": "Audit Logs",
+    "abstract": "Comprehensive logging and tracking of financial transactions and system activities within the banking ecosystem.",
+    "categories": [
+      {
+        "id": "compliance-governance",
+        "title": "Compliance & Governance",
+        "items": [
+          {
+            "id": "audit-logs",
+            "name": "Audit Logs",
+            "deps": [
+              "transaction-tracking",
+              "security-monitoring"
+            ]
+          },
+          {
+            "id": "regulatory-reporting",
+            "name": "Regulatory Reporting",
+            "deps": [
+              "audit-logs",
+              "data-compression"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "transaction-tracking",
+        "title": "Transaction Tracking",
+        "items": [
+          {
+            "id": "transaction-tracking",
+            "name": "Transaction Tracking",
+            "deps": [
+              "encryption-layer"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "security-monitoring",
+        "title": "Security Monitoring",
+        "items": [
+          {
+            "id": "security-monitoring",
+            "name": "Security Monitoring",
+            "deps": [
+              "encryption-layer"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-compression",
+        "title": "Data Compression",
+        "items": [
+          {
+            "id": "data-compression",
+            "name": "Data Compression",
+            "deps": [
+              "encryption-layer"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "encryption-layer",
+        "title": "Encryption Layer",
+        "items": [
+          {
+            "id": "encryption-layer",
+            "name": "Encryption Layer",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "audit-logs",
+      "specName": "root__banking-systems__audit-logs",
+      "parentSpecName": "root__banking-systems",
+      "lineage": "root/banking-systems/audit-logs",
+      "depth": 2,
+      "promptPath": "data/prompts/root__banking-systems/audit-logs.txt"
+    }
+  }
+]

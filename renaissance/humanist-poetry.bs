@@ -1,0 +1,194 @@
+[
+  {
+    "id": "root__humanism__humanist-poetry",
+    "title": "Humanist Poetry",
+    "abstract": "A domain exploring classical and humanist poetic traditions, focusing on textual analysis, historical context, and literary theory.",
+    "categories": [
+      {
+        "id": "literary-analysis",
+        "title": "Literary Analysis",
+        "items": [
+          {
+            "id": "close-reading",
+            "name": "Close Reading",
+            "deps": [
+              "textual-criticism"
+            ]
+          },
+          {
+            "id": "contextual-study",
+            "name": "Contextual Study",
+            "deps": [
+              "historical-periods",
+              "classical-study"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "historical-periods",
+        "title": "Historical Periods",
+        "items": [
+          {
+            "id": "renaissance-literature",
+            "name": "Renaissance Literature",
+            "deps": [
+              "classical-study"
+            ]
+          },
+          {
+            "id": "neoclassicism",
+            "name": "Neoclassicism",
+            "deps": [
+              "renaissance-literature"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "textual-criticism",
+        "title": "Textual Criticism",
+        "items": [
+          {
+            "id": "manuscript-study",
+            "name": "Manuscript Study",
+            "deps": [
+              "classical-study"
+            ]
+          },
+          {
+            "id": "variant-analysis",
+            "name": "Variant Analysis",
+            "deps": [
+              "manuscript-study"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "classical-study",
+        "title": "Classical Study",
+        "items": [
+          {
+            "id": "ancient-texts",
+            "name": "Ancient Texts",
+            "deps": []
+          },
+          {
+            "id": "philosophy-connection",
+            "name": "Philosophy Connection",
+            "deps": [
+              "ancient-texts"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "humanist-poetry",
+      "specName": "root__humanism__humanist-poetry",
+      "parentSpecName": "root__humanism",
+      "lineage": "root/humanism/humanist-poetry",
+      "depth": 2,
+      "promptPath": "data/prompts/root__humanism/humanist-poetry.txt"
+    }
+  },
+  {
+    "id": "root__vernacular-writing__humanist-poetry",
+    "title": "Humanist Poetry",
+    "abstract": "A domain exploring humanist poetic traditions, focusing on vernacular translation and Renaissance literary forms.",
+    "categories": [
+      {
+        "id": "poetic-forms",
+        "title": "Poetic Forms",
+        "items": [
+          {
+            "id": "sonnet-structure",
+            "name": "Sonnet Structure",
+            "deps": [
+              "rhyme-scheme"
+            ]
+          },
+          {
+            "id": "verse-meters",
+            "name": "Verse Meters",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "thematic-content",
+        "title": "Thematic Content",
+        "items": [
+          {
+            "id": "humanist-values",
+            "name": "Humanist Values",
+            "deps": [
+              "vernacular-translation"
+            ]
+          },
+          {
+            "id": "renaissance-mythology",
+            "name": "Renaissance Mythology",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "linguistic-tools",
+        "title": "Linguistic Tools",
+        "items": [
+          {
+            "id": "vernacular-translation",
+            "name": "Vernacular Translation",
+            "deps": [
+              "source-text-analysis"
+            ]
+          },
+          {
+            "id": "metaphor-decoding",
+            "name": "Metaphor Decoding",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "historical-context",
+        "title": "Historical Context",
+        "items": [
+          {
+            "id": "renaissance-writing",
+            "name": "Renaissance Writing",
+            "deps": [
+              "source-text-analysis"
+            ]
+          },
+          {
+            "id": "cultural-influences",
+            "name": "Cultural Influences",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "foundational-elements",
+        "title": "Foundational Elements",
+        "items": [
+          {
+            "id": "source-text-analysis",
+            "name": "Source Text Analysis",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "humanist-poetry",
+      "specName": "root__vernacular-writing__humanist-poetry",
+      "parentSpecName": "root__vernacular-writing",
+      "lineage": "root/vernacular-writing/humanist-poetry",
+      "depth": 2,
+      "promptPath": "data/prompts/root__vernacular-writing/humanist-poetry.txt"
+    }
+  }
+]

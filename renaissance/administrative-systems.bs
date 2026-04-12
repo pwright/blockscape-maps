@@ -1,0 +1,81 @@
+[
+  {
+    "id": "administrative-systems",
+    "title": "Administrative Systems",
+    "abstract": "Centralized governance structures and bureaucratic mechanisms in the Renaissance.",
+    "categories": [
+      {
+        "id": "governance-framework",
+        "title": "Governance Framework",
+        "items": [
+          {
+            "id": "central-bureaucracy",
+            "name": "Central Bureaucracy",
+            "deps": [
+              "state-mechanisms"
+            ]
+          },
+          {
+            "id": "legal-codes",
+            "name": "Legal Codes",
+            "deps": [
+              "administrative-regulations"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "administrative-regulations",
+        "title": "Administrative Regulations",
+        "items": [
+          {
+            "id": "tax-collection",
+            "name": "Tax Collection",
+            "deps": [
+              "state-mechanisms"
+            ]
+          },
+          {
+            "id": "judicial-administration",
+            "name": "Judicial Administration",
+            "deps": [
+              "legal-codes"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "state-mechanisms",
+        "title": "State Mechanisms",
+        "items": [
+          {
+            "id": "centralized-state",
+            "name": "Centralized State",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "infrastructure-support",
+        "title": "Infrastructure Support",
+        "items": [
+          {
+            "id": "record-keeping",
+            "name": "Record Keeping",
+            "deps": [
+              "centralized-state"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "administrative-systems",
+      "specName": "root__absolutism__administrative-systems",
+      "parentSpecName": "root__absolutism",
+      "lineage": "root/absolutism/administrative-systems",
+      "depth": 2,
+      "promptPath": "data/prompts/root__absolutism/administrative-systems.txt"
+    }
+  }
+]

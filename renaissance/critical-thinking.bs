@@ -1,0 +1,153 @@
+[
+  {
+    "id": "root__humanism__critical-thinking",
+    "title": "Critical Thinking",
+    "abstract": "The practice of analyzing information to form a judgment, rooted in the humanist tradition.",
+    "categories": [
+      {
+        "id": "cognitive-skills",
+        "title": "Cognitive Skills",
+        "items": [
+          {
+            "id": "reasoning",
+            "name": "Reasoning",
+            "deps": [
+              "logic",
+              "observation"
+            ]
+          },
+          {
+            "id": "analysis",
+            "name": "Analysis",
+            "deps": [
+              "reasoning",
+              "synthesis"
+            ]
+          },
+          {
+            "id": "synthesis",
+            "name": "Synthesis",
+            "deps": [
+              "analysis",
+              "evaluation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "epistemic-values",
+        "title": "Epistemic Values",
+        "items": [
+          {
+            "id": "objectivity",
+            "name": "Objectivity",
+            "deps": [
+              "reasoning"
+            ]
+          },
+          {
+            "id": "skepticism",
+            "name": "Skepticism",
+            "deps": [
+              "objectivity"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "critical-thinking",
+      "specName": "root__humanism__critical-thinking",
+      "parentSpecName": "root__humanism",
+      "lineage": "root/humanism/critical-thinking",
+      "depth": 2,
+      "promptPath": "data/prompts/root__humanism/critical-thinking.txt"
+    }
+  },
+  {
+    "id": "root__scientific-method__critical-thinking",
+    "title": "Critical Thinking",
+    "abstract": "The systematic evaluation of information to form a reasoned judgment.",
+    "categories": [
+      {
+        "id": "cognitive-skills",
+        "title": "Cognitive Skills",
+        "items": [
+          {
+            "id": "logical-reasoning",
+            "name": "Logical Reasoning",
+            "deps": [
+              "rational-empiricism"
+            ]
+          },
+          {
+            "id": "bias-detection",
+            "name": "Bias Detection",
+            "deps": [
+              "logical-reasoning"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "methodological-frameworks",
+        "title": "Methodological Frameworks",
+        "items": [
+          {
+            "id": "scientific-method",
+            "name": "Scientific Method",
+            "deps": [
+              "rational-empiricism"
+            ]
+          },
+          {
+            "id": "evidence-evaluation",
+            "name": "Evidence Evaluation",
+            "deps": [
+              "scientific-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "application-domains",
+        "title": "Application Domains",
+        "items": [
+          {
+            "id": "academic-research",
+            "name": "Academic Research",
+            "deps": [
+              "evidence-evaluation"
+            ]
+          },
+          {
+            "id": "policy-analysis",
+            "name": "Policy Analysis",
+            "deps": [
+              "evidence-evaluation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foundational-principles",
+        "title": "Foundational Principles",
+        "items": [
+          {
+            "id": "rational-empiricism",
+            "name": "Rational Empiricism",
+            "deps": []
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "critical-thinking",
+      "specName": "root__scientific-method__critical-thinking",
+      "parentSpecName": "root__scientific-method",
+      "lineage": "root/scientific-method/critical-thinking",
+      "depth": 2,
+      "promptPath": "data/prompts/root__scientific-method/critical-thinking.txt"
+    }
+  }
+]

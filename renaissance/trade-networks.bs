@@ -1,0 +1,192 @@
+[
+  {
+    "id": "root__absolutism__trade-networks",
+    "title": "Trade Networks",
+    "abstract": "Analysis of commercial exchange systems and merchant dynamics within the context of Renaissance absolutist states.",
+    "categories": [
+      {
+        "id": "merchant-class",
+        "title": "Merchant Class",
+        "items": [
+          {
+            "id": "banker-families",
+            "name": "Banker Families",
+            "deps": [
+              "trade-networks"
+            ]
+          },
+          {
+            "id": "guild-regulations",
+            "name": "Guild Regulations",
+            "deps": [
+              "merchant-class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trade-routes",
+        "title": "Trade Routes",
+        "items": [
+          {
+            "id": "caravan-systems",
+            "name": "Caravan Systems",
+            "deps": [
+              "merchant-class"
+            ]
+          },
+          {
+            "id": "port-infrastructure",
+            "name": "Port Infrastructure",
+            "deps": [
+              "trade-routes"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "financial-systems",
+        "title": "Financial Systems",
+        "items": [
+          {
+            "id": "credit-mechanisms",
+            "name": "Credit Mechanisms",
+            "deps": [
+              "banker-families"
+            ]
+          },
+          {
+            "id": "tax-collection",
+            "name": "Tax Collection",
+            "deps": [
+              "financial-systems"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "political-structure",
+        "title": "Political Structure",
+        "items": [
+          {
+            "id": "absolutist-councils",
+            "name": "Absolutist Councils",
+            "deps": [
+              "financial-systems"
+            ]
+          },
+          {
+            "id": "diplomatic-alliances",
+            "name": "Diplomatic Alliances",
+            "deps": [
+              "political-structure"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "trade-networks",
+      "specName": "root__absolutism__trade-networks",
+      "parentSpecName": "root__absolutism",
+      "lineage": "root/absolutism/trade-networks",
+      "depth": 2,
+      "promptPath": "data/prompts/root__absolutism/trade-networks.txt"
+    }
+  },
+  {
+    "id": "root__merchant-class__trade-networks",
+    "title": "Trade Networks",
+    "abstract": "A domain modeling the flow of goods and services between merchants, markets, and infrastructure.",
+    "categories": [
+      {
+        "id": "marketplaces",
+        "title": "Marketplaces",
+        "items": [
+          {
+            "id": "bazaar-node",
+            "name": "Bazaar Node",
+            "deps": [
+              "logistics-systems"
+            ]
+          },
+          {
+            "id": "auction-platform",
+            "name": "Auction Platform",
+            "deps": [
+              "bazaar-node",
+              "merchant-class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "merchants",
+        "title": "Merchants",
+        "items": [
+          {
+            "id": "merchant-class",
+            "name": "Merchant Class",
+            "deps": []
+          },
+          {
+            "id": "merchant-registry",
+            "name": "Merchant Registry",
+            "deps": [
+              "merchant-class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "logistics",
+        "title": "Logistics",
+        "items": [
+          {
+            "id": "transport-route",
+            "name": "Transport Route",
+            "deps": [
+              "merchant-class"
+            ]
+          },
+          {
+            "id": "warehouse-network",
+            "name": "Warehouse Network",
+            "deps": [
+              "transport-route"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "items": [
+          {
+            "id": "payment-gateway",
+            "name": "Payment Gateway",
+            "deps": [
+              "merchant-class"
+            ]
+          },
+          {
+            "id": "data-hub",
+            "name": "Data Hub",
+            "deps": [
+              "payment-gateway",
+              "warehouse-network"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "trade-networks",
+      "specName": "root__merchant-class__trade-networks",
+      "parentSpecName": "root__merchant-class",
+      "lineage": "root/merchant-class/trade-networks",
+      "depth": 2,
+      "promptPath": "data/prompts/root__merchant-class/trade-networks.txt"
+    }
+  }
+]

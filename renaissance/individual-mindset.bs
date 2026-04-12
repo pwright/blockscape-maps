@@ -1,0 +1,55 @@
+[
+  {
+    "id": "renaissance-individualism",
+    "title": "Individualism in the Renaissance",
+    "abstract": "Exploration of individual mindset formation through humanist principles during the Renaissance period.",
+    "categories": [
+      {
+        "id": "humanist-values",
+        "title": "Humanist Values",
+        "items": [
+          {
+            "id": "personal-autonomy",
+            "name": "Personal Autonomy",
+            "deps": [
+              "individual-mindset"
+            ]
+          },
+          {
+            "id": "self-worth",
+            "name": "Self-Worth",
+            "deps": [
+              "humanist-values"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "renaissance-context",
+        "title": "Renaissance Context",
+        "items": [
+          {
+            "id": "humanism",
+            "name": "Humanism",
+            "deps": []
+          },
+          {
+            "id": "individual-mindset",
+            "name": "Individual Mindset",
+            "deps": [
+              "humanism"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "individual-mindset",
+      "specName": "root__individualism__individual-mindset",
+      "parentSpecName": "root__individualism",
+      "lineage": "root/individualism/individual-mindset",
+      "depth": 2,
+      "promptPath": "data/prompts/root__individualism/individual-mindset.txt"
+    }
+  }
+]

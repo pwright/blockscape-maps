@@ -1,0 +1,108 @@
+[
+  {
+    "id": "renaissance-individualism",
+    "title": "Individualism in the Renaissance",
+    "abstract": "The emergence of individual thought and self-assertion during the Renaissance period, rooted in humanist philosophy.",
+    "categories": [
+      {
+        "id": "humanist-foundations",
+        "title": "Humanist Foundations",
+        "items": [
+          {
+            "id": "humanism",
+            "name": "Humanism",
+            "deps": [],
+            "external": "?load=humanism.bs"
+          }
+        ]
+      },
+      {
+        "id": "philosophical-shifts",
+        "title": "Philosophical Shifts",
+        "items": [
+          {
+            "id": "individual-mindset",
+            "name": "Individual Mindset",
+            "deps": [
+              "humanism"
+            ]
+          },
+          {
+            "id": "self-assertion",
+            "name": "Self-Assertion",
+            "deps": [
+              "individual-mindset"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cultural-expressions",
+        "title": "Cultural Expressions",
+        "items": [
+          {
+            "id": "artistic-personality",
+            "name": "Artistic Personality",
+            "deps": [
+              "self-assertion"
+            ]
+          },
+          {
+            "id": "literary-voice",
+            "name": "Literary Voice",
+            "deps": [
+              "individual-mindset"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "social-dynamics",
+        "title": "Social Dynamics",
+        "items": [
+          {
+            "id": "personal-identity",
+            "name": "Personal Identity",
+            "deps": [
+              "artistic-personality"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "institutional-frameworks",
+        "title": "Institutional Frameworks",
+        "items": [
+          {
+            "id": "individual-rights",
+            "name": "Individual Rights",
+            "deps": [
+              "personal-identity"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "modern-influence",
+        "title": "Modern Influence",
+        "items": [
+          {
+            "id": "contemporary-values",
+            "name": "Contemporary Values",
+            "deps": [
+              "individual-rights"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "individualism",
+      "specName": "root__individualism",
+      "parentSpecName": "root",
+      "lineage": "root/individualism",
+      "depth": 1,
+      "promptPath": "data/prompts/root/individualism.txt"
+    }
+  }
+]

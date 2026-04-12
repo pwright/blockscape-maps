@@ -1,0 +1,73 @@
+[
+  {
+    "id": "diplomacy-merchants",
+    "title": "Merchant Diplomacy",
+    "abstract": "Strategic alliances and trade negotiations between merchant entities.",
+    "categories": [
+      {
+        "id": "merchant-alliances",
+        "title": "Alliance Management",
+        "items": [
+          {
+            "id": "trade-treaty",
+            "name": "Trade Treaties",
+            "deps": [
+              "city-guilds"
+            ]
+          },
+          {
+            "id": "diplomatic-messenger",
+            "name": "Diplomatic Messengers",
+            "deps": [
+              "trade-treaty"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "merchant-networks",
+        "title": "Network Infrastructure",
+        "items": [
+          {
+            "id": "city-guilds",
+            "name": "City Guilds",
+            "deps": [
+              "trade-networks"
+            ]
+          },
+          {
+            "id": "trade-networks",
+            "name": "Trade Networks",
+            "deps": []
+          }
+        ]
+      },
+      {
+        "id": "merchant-foundation",
+        "title": "Foundation Systems",
+        "items": [
+          {
+            "id": "currency-system",
+            "name": "Currency System",
+            "deps": []
+          },
+          {
+            "id": "logistics-hub",
+            "name": "Logistics Hub",
+            "deps": [
+              "currency-system"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "diplomacy-merchants",
+      "specName": "root__merchant-class__diplomacy-merchants",
+      "parentSpecName": "root__merchant-class",
+      "lineage": "root/merchant-class/diplomacy-merchants",
+      "depth": 2,
+      "promptPath": "data/prompts/root__merchant-class/diplomacy-merchants.txt"
+    }
+  }
+]

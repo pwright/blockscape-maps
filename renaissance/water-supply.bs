@@ -1,0 +1,135 @@
+[
+  {
+    "id": "water-supply",
+    "title": "Water Supply",
+    "abstract": "Comprehensive water management infrastructure for urban environments.",
+    "categories": [
+      {
+        "id": "residential-water",
+        "title": "Residential Water Access",
+        "items": [
+          {
+            "id": "household-taps",
+            "name": "Household Taps",
+            "deps": [
+              "water-pipeline"
+            ]
+          },
+          {
+            "id": "reservoirs",
+            "name": "Residential Reservoirs",
+            "deps": [
+              "water-storage"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "industrial-water",
+        "title": "Industrial Water Access",
+        "items": [
+          {
+            "id": "factory-pumps",
+            "name": "Factory Pumps",
+            "deps": [
+              "water-treatment"
+            ]
+          },
+          {
+            "id": "industrial-storage",
+            "name": "Industrial Storage Tanks",
+            "deps": [
+              "water-pipeline"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "agricultural-water",
+        "title": "Agricultural Water Access",
+        "items": [
+          {
+            "id": "irrigation-systems",
+            "name": "Irrigation Systems",
+            "deps": [
+              "water-pipeline"
+            ]
+          },
+          {
+            "id": "farm-storage",
+            "name": "Farm Storage Tanks",
+            "deps": [
+              "water-treatment"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "water-treatment",
+        "title": "Water Treatment Infrastructure",
+        "items": [
+          {
+            "id": "filtration-plants",
+            "name": "Filtration Plants",
+            "deps": [
+              "water-pipeline"
+            ]
+          },
+          {
+            "id": "purification-units",
+            "name": "Purification Units",
+            "deps": [
+              "water-treatment"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "water-storage",
+        "title": "Water Storage Infrastructure",
+        "items": [
+          {
+            "id": "reservoirs",
+            "name": "Reservoirs",
+            "deps": [
+              "water-pipeline"
+            ]
+          },
+          {
+            "id": "storage-tanks",
+            "name": "Storage Tanks",
+            "deps": [
+              "water-pipeline"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "water-pipeline",
+        "title": "Water Pipeline Network",
+        "items": [
+          {
+            "id": "main-lines",
+            "name": "Main Lines",
+            "deps": []
+          },
+          {
+            "id": "distribution-networks",
+            "name": "Distribution Networks",
+            "deps": [
+              "main-lines"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "water-supply",
+      "specName": "root__city-states__water-supply",
+      "parentSpecName": "root__city-states",
+      "lineage": "root/city-states/water-supply",
+      "depth": 2,
+      "promptPath": "data/prompts/root__city-states/water-supply.txt"
+    }
+  }
+]

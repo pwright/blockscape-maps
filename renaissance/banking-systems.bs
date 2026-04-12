@@ -1,0 +1,116 @@
+[
+  {
+    "id": "banking-systems",
+    "title": "Banking Systems",
+    "abstract": "Financial infrastructure and transaction processing systems",
+    "categories": [
+      {
+        "id": "payment-processing",
+        "title": "Payment Processing",
+        "items": [
+          {
+            "id": "transaction-queue",
+            "name": "Transaction Queue",
+            "deps": [
+              "ledger-storage"
+            ]
+          },
+          {
+            "id": "gateway-api",
+            "name": "Gateway API",
+            "deps": [
+              "transaction-queue",
+              "merchant-class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "account-management",
+        "title": "Account Management",
+        "items": [
+          {
+            "id": "user-auth",
+            "name": "User Authentication",
+            "deps": [
+              "security-framework"
+            ]
+          },
+          {
+            "id": "balance-calc",
+            "name": "Balance Calculator",
+            "deps": [
+              "ledger-storage",
+              "transaction-queue"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "merchant-class",
+        "title": "Merchant Class",
+        "items": [
+          {
+            "id": "merchant-onboarding",
+            "name": "Merchant Onboarding",
+            "deps": [
+              "user-auth"
+            ]
+          },
+          {
+            "id": "payment-routes",
+            "name": "Payment Routes",
+            "deps": [
+              "gateway-api",
+              "transaction-queue"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ledger-storage",
+        "title": "Ledger Storage",
+        "items": [
+          {
+            "id": "db-cluster",
+            "name": "Database Cluster",
+            "deps": []
+          },
+          {
+            "id": "backup-system",
+            "name": "Backup System",
+            "deps": [
+              "db-cluster"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "security-framework",
+        "title": "Security Framework",
+        "items": [
+          {
+            "id": "encryption-layer",
+            "name": "Encryption Layer",
+            "deps": []
+          },
+          {
+            "id": "audit-logs",
+            "name": "Audit Logs",
+            "deps": [
+              "encryption-layer"
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "itemId": "banking-systems",
+      "specName": "root__banking-systems",
+      "parentSpecName": "root",
+      "lineage": "root/banking-systems",
+      "depth": 1,
+      "promptPath": "data/prompts/root/banking-systems.txt"
+    }
+  }
+]
