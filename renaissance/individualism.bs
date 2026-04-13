@@ -12,7 +12,7 @@
             "id": "humanism",
             "name": "Humanism",
             "deps": [],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fhumanism.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fhumanism.bs"
           }
         ]
       },
@@ -26,7 +26,7 @@
             "deps": [
               "humanism"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Findividual-mindset.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Findividual-mindset.bs"
           },
           {
             "id": "self-assertion",
@@ -34,7 +34,7 @@
             "deps": [
               "individual-mindset"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fself-assertion.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fself-assertion.bs"
           }
         ]
       },
@@ -48,7 +48,7 @@
             "deps": [
               "self-assertion"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fartistic-personality.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fartistic-personality.bs"
           },
           {
             "id": "literary-voice",
@@ -56,7 +56,7 @@
             "deps": [
               "individual-mindset"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fliterary-voice.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fliterary-voice.bs"
           }
         ]
       },
@@ -70,7 +70,7 @@
             "deps": [
               "artistic-personality"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fpersonal-identity.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fpersonal-identity.bs"
           }
         ]
       },
@@ -84,7 +84,7 @@
             "deps": [
               "personal-identity"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Findividual-rights.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Findividual-rights.bs"
           }
         ]
       },
@@ -98,7 +98,7 @@
             "deps": [
               "individual-rights"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcontemporary-values.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcontemporary-values.bs"
           }
         ]
       }

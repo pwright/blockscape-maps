@@ -14,7 +14,7 @@
             "deps": [
               "vernacular-translation"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fhumanist-poetry.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fhumanist-poetry.bs"
           },
           {
             "id": "prose-writing",
@@ -30,7 +30,7 @@
               "humanist-poetry",
               "vernacular-translation"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fdramatic-literature.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fdramatic-literature.bs"
           }
         ]
       },
@@ -51,7 +51,7 @@
             "deps": [
               "vernacular-translation"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fdialect-analysis.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fdialect-analysis.bs"
           }
         ]
       },
@@ -63,7 +63,7 @@
             "id": "humanism",
             "name": "Humanism",
             "deps": [],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fhumanism.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fhumanism.bs"
           }
         ]
       },

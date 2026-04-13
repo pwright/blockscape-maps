@@ -102,7 +102,7 @@
             ]
           }
         ],
-        "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcontrolled-experimentation.bs"
+        "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcontrolled-experimentation.bs"
       },
       {
         "id": "scientific-method",
@@ -119,10 +119,10 @@
             "deps": [
               "observation-collection"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fhypothesis-formulation.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fhypothesis-formulation.bs"
           }
         ],
-        "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fscientific-method.bs"
+        "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fscientific-method.bs"
       }
     ],
     "meta": {

@@ -14,7 +14,7 @@
             "deps": [
               "chiaroscuro"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcaravaggio-style.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fcaravaggio-style.bs"
           },
           {
             "id": "tenebrism",
@@ -22,7 +22,7 @@
             "deps": [
               "caravaggio-style"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Ftenebrism.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Ftenebrism.bs"
           }
         ]
       },
@@ -36,7 +36,7 @@
             "deps": [
               "tenebrism"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fbaroque-period.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fbaroque-period.bs"
           },
           {
             "id": "renaissance-revival",
@@ -44,7 +44,7 @@
             "deps": [
               "baroque-period"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Frenaissance-revival.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Frenaissance-revival.bs"
           }
         ]
       },
@@ -58,7 +58,7 @@
             "deps": [
               "renaissance-revival"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Frenaissance-arts.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Frenaissance-arts.bs"
           },
           {
             "id": "artistic-revival",
@@ -66,7 +66,7 @@
             "deps": [
               "renaissance-arts"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fartistic-revival.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fartistic-revival.bs"
           }
         ]
       },
@@ -80,7 +80,7 @@
             "deps": [
               "artistic-revival"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fchiaroscuro-principles.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Fchiaroscuro-principles.bs"
           },
           {
             "id": "light-dark-contrast",
@@ -88,7 +88,7 @@
             "deps": [
               "chiaroscuro-principles"
             ],
-            "external": "https://pwright.github.io/blockscape/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Flight-dark-contrast.bs"
+            "external": "?load=https%3A%2F%2Fraw.githubusercontent.com%2Fpwright%2Fblockscape-maps%2Frefs%2Fheads%2Fmain%2Frenaissance%2Flight-dark-contrast.bs"
           }
         ]
       }

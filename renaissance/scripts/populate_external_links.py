@@ -6,7 +6,7 @@ from urllib.parse import parse_qs, quote, unquote, urlparse
 
 
 ROOT = Path(__file__).resolve().parent.parent
-VIEWER_BASE = "https://pwright.github.io/blockscape/?load="
+VIEWER_BASE = "?load="
 RAW_BASE = (
     "https://raw.githubusercontent.com/pwright/"
     "blockscape-maps/refs/heads/main/renaissance/"
